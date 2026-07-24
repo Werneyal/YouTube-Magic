@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
+import { adaptationModels, type AdaptationModelId } from "../../../lib/adaptation-models";
+import { MarkdownDocument } from "../../../components/markdown-document";
 import { VideoCard } from "../../../components/video-card";
 import type { VideoCardData } from "../../../lib/video-types";
 
@@ -15,6 +17,12 @@ export default function VideoPage() {
   const params = useParams<{ videoId: string }>();
   const [video, setVideo] = useState<SavedVideo | null>(null);
   const [status, setStatus] = useState<LoadStatus>("loading");
+  const [model, setModel] = useState<AdaptationModelId>(
+    adaptationModels[0].id,
+  );
+  const [document, setDocument] = useState("");
+  const [adaptationError, setAdaptationError] = useState("");
+  const [isAdapting, setIsAdapting] = useState(false);
 
   useEffect(() => {
     let isCurrent = true;
@@ -44,6 +52,41 @@ export default function VideoPage() {
       isCurrent = false;
     };
   }, [params.videoId]);
+
+  async function adaptTranscript() {
+    if (!video || video.transcript.status !== "available") return;
+
+    setAdaptationError("");
+    setDocument("");
+    setIsAdapting(true);
+
+    try {
+      const response = await fetch("/api/adapt", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          title: video.title,
+          transcript: video.transcript.text,
+          model,
+        }),
+      });
+      const payload = await response.json();
+      if (!response.ok) {
+        throw new Error(
+          payload?.error?.message ?? "Não foi possível adaptar a transcrição.",
+        );
+      }
+      setDocument(payload.document as string);
+    } catch (error) {
+      setAdaptationError(
+        error instanceof Error
+          ? error.message
+          : "Não foi possível adaptar a transcrição.",
+      );
+    } finally {
+      setIsAdapting(false);
+    }
+  }
 
   return (
     <main className="video-detail-page">
@@ -104,6 +147,65 @@ export default function VideoPage() {
         {status === "ready" && video && (
           <>
             <VideoCard video={video} />
+            <section className="adaptation-panel" aria-labelledby="adaptation-title">
+              <div>
+                <span>Documento técnico</span>
+                <h2 id="adaptation-title">Adaptar transcrição</h2>
+                <p>
+                  Organize a transcrição em um documento técnico completo,
+                  preservando o conteúdo relevante do vídeo.
+                </p>
+              </div>
+              <div className="adaptation-controls">
+                <label>
+                  <span>Modelo do OpenRouter</span>
+                  <select
+                    value={model}
+                    onChange={(event) =>
+                      setModel(event.target.value as AdaptationModelId)
+                    }
+                    disabled={isAdapting}
+                  >
+                    {adaptationModels.map((option) => (
+                      <option key={option.id} value={option.id}>
+                        {option.label} — {option.description}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <button
+                  className="adapt-button"
+                  type="button"
+                  onClick={() => void adaptTranscript()}
+                  disabled={
+                    isAdapting || video.transcript.status !== "available"
+                  }
+                >
+                  {isAdapting ? "Adaptando…" : "Adaptar"}
+                  {!isAdapting && <span aria-hidden="true">↗</span>}
+                </button>
+              </div>
+              {video.transcript.status !== "available" && (
+                <p className="adaptation-note">
+                  A adaptação requer uma transcrição disponível.
+                </p>
+              )}
+            </section>
+            <div className="adaptation-status" aria-live="polite">
+              {adaptationError && <p>{adaptationError}</p>}
+              {isAdapting && (
+                <p>O modelo está estruturando o documento técnico…</p>
+              )}
+            </div>
+            {document && (
+              <section className="adapted-document" aria-labelledby="document-title">
+                <div className="adapted-document-heading">
+                  <span>Resultado da adaptação</span>
+                  <h2 id="document-title">Documento técnico</h2>
+                </div>
+                <MarkdownDocument content={document} />
+              </section>
+            )}
             <section className="video-detail-next" aria-label="Próximas análises">
               <span>Em evolução</span>
               <h2>Novas análises serão reunidas aqui</h2>
