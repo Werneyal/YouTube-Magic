@@ -38,7 +38,7 @@ interface Env {
 
 const COLLECTION_COOKIE = "video_em_foco_collection";
 const ONE_YEAR_IN_SECONDS = 60 * 60 * 24 * 365;
-const KNOWLEDGE_SEED_VERSION = "knowledge_seed_ai_people_2026_07_24";
+const KNOWLEDGE_SEED_VERSION = "knowledge_seed_fix_malformed_toolify_card_2026_07_24";
 
 type SavedVideoRow = {
   video_data: string;
@@ -145,6 +145,9 @@ async function initializeKnowledgeDatabase(db: D1Database) {
   );
 
   await db.batch([
+    db
+      .prepare("DELETE FROM knowledge_entities WHERE id = ?")
+      .bind("tool-toolify--e5-b0-8f-e6-bf-83-e7-b8-ae-quick-summary"),
     ...inserts,
     db
       .prepare(

@@ -3150,22 +3150,6 @@
   }
 },
 {
-  "id": "tool-toolify--e5-b0-8f-e6-bf-83-e7-b8-ae-quick-summary",
-  "dictionary": "ferramentas",
-  "name": "%E5%B0%8F%E6%BF%83%E7%B8%AE Quick Summary",
-  "aliases": [],
-  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
-  "tags": [
-    "IA",
-    "ferramenta"
-  ],
-  "details": {
-    "category": "Ferramenta de IA",
-    "website": "https://www.toolify.ai/tool/%E5%B0%8F%E6%BF%83%E7%B8%AE-quick-summary",
-    "source": "https://www.toolify.ai/most-used"
-  }
-},
-{
   "id": "tool-toolify-yicopy-browser-extension",
   "dictionary": "ferramentas",
   "name": "Yicopy Browser Extension",
