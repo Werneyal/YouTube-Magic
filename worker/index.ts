@@ -38,7 +38,7 @@ interface Env {
 
 const COLLECTION_COOKIE = "video_em_foco_collection";
 const ONE_YEAR_IN_SECONDS = 60 * 60 * 24 * 365;
-const KNOWLEDGE_SEED_VERSION = "knowledge_seed_ai_papers_2026_07_24";
+const KNOWLEDGE_SEED_VERSION = "knowledge_seed_ai_startups_2026_07_24";
 
 type SavedVideoRow = {
   video_data: string;

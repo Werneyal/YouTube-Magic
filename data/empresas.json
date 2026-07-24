@@ -161,4 +161,275 @@
     "tags": ["dados", "MLOps", "enterprise"],
     "details": { "website": "https://www.databricks.com/product/machine-learning" }
   }
+,
+  {
+    "id": "company-scale-ai",
+    "dictionary": "empresas",
+    "name": "Scale AI",
+    "aliases": ["ScaleAI"],
+    "description": "Startup de dados, rotulagem e avaliação para treinar e validar sistemas de inteligência artificial.",
+    "tags": ["dados", "avaliação", "enterprise"],
+    "details": { "website": "https://scale.com", "category": "Infraestrutura de dados", "source": "https://www.forbes.com/sites/forbes-spotlights/2025/04/10/forbes-announces-seventh-annual-ai-50-list-featuring-the-most-prominent-ai-startups-in-the-world/" }
+  },
+  {
+    "id": "company-runway",
+    "dictionary": "empresas",
+    "name": "Runway",
+    "aliases": ["Runway AI"],
+    "description": "Empresa de pesquisa e produtos de geração e edição de vídeo com inteligência artificial.",
+    "tags": ["vídeo", "IA generativa", "criatividade"],
+    "details": { "website": "https://runwayml.com", "category": "Mídia generativa", "source": "https://www.forbes.com/sites/forbes-spotlights/2025/04/10/forbes-announces-seventh-annual-ai-50-list-featuring-the-most-prominent-ai-startups-in-the-world/" }
+  },
+  {
+    "id": "company-harvey",
+    "dictionary": "empresas",
+    "name": "Harvey",
+    "aliases": ["Harvey AI"],
+    "description": "Startup de IA jurídica que oferece pesquisa, análise e automação para profissionais do direito.",
+    "tags": ["legaltech", "enterprise", "agentes"],
+    "details": { "website": "https://www.harvey.ai", "category": "IA jurídica", "source": "https://www.forbes.com/sites/forbes-spotlights/2025/04/10/forbes-announces-seventh-annual-ai-50-list-featuring-the-most-prominent-ai-startups-in-the-world/" }
+  },
+  {
+    "id": "company-sierra",
+    "dictionary": "empresas",
+    "name": "Sierra",
+    "aliases": ["Sierra AI"],
+    "description": "Plataforma de agentes conversacionais para atendimento e operações de clientes.",
+    "tags": ["atendimento", "agentes", "enterprise"],
+    "details": { "website": "https://sierra.ai", "category": "Agentes empresariais", "source": "https://www.forbes.com/sites/forbes-spotlights/2025/04/10/forbes-announces-seventh-annual-ai-50-list-featuring-the-most-prominent-ai-startups-in-the-world/" }
+  },
+  {
+    "id": "company-glean",
+    "dictionary": "empresas",
+    "name": "Glean",
+    "aliases": ["Glean AI"],
+    "description": "Plataforma de busca, conhecimento e assistentes de IA para empresas.",
+    "tags": ["busca", "enterprise", "conhecimento"],
+    "details": { "website": "https://www.glean.com", "category": "IA empresarial", "source": "https://www.glean.com/resources/guides/glean-year-in-review-2025" }
+  },
+  {
+    "id": "company-anysphere",
+    "dictionary": "empresas",
+    "name": "Anysphere",
+    "aliases": ["Cursor company"],
+    "description": "Startup de pesquisa aplicada responsável pelo Cursor, ambiente de desenvolvimento com IA.",
+    "tags": ["desenvolvimento", "agentes", "código"],
+    "details": { "website": "https://www.cursor.com", "category": "Ferramentas para desenvolvedores", "source": "https://www.cursor.com/blog/series-b" }
+  },
+  {
+    "id": "company-poolside",
+    "dictionary": "empresas",
+    "name": "Poolside",
+    "aliases": ["Poolside AI"],
+    "description": "Startup que desenvolve modelos e assistentes especializados em engenharia de software.",
+    "tags": ["código", "modelos de linguagem", "agentes"],
+    "details": { "website": "https://poolside.ai", "category": "IA para programação", "source": "https://www.bvp.com/assets/uploads/2024/09/AI-Bessemer-Book-Everything-Everywhere-All-AI-2024.pdf" }
+  },
+  {
+    "id": "company-together-ai",
+    "dictionary": "empresas",
+    "name": "Together AI",
+    "aliases": ["Together"],
+    "description": "Plataforma de infraestrutura, treinamento e inferência para modelos abertos de IA.",
+    "tags": ["infraestrutura", "pesos abertos", "nuvem"],
+    "details": { "website": "https://www.together.ai", "category": "Infraestrutura de IA", "source": "https://www.forbes.com/sites/forbes-spotlights/2025/04/10/forbes-announces-seventh-annual-ai-50-list-featuring-the-most-prominent-ai-startups-in-the-world/" }
+  },
+  {
+    "id": "company-lambda",
+    "dictionary": "empresas",
+    "name": "Lambda",
+    "aliases": ["Lambda Labs"],
+    "description": "Provedora de computação acelerada e nuvem especializada em treinamento e inferência de IA.",
+    "tags": ["GPU", "nuvem", "infraestrutura"],
+    "details": { "website": "https://lambda.ai", "category": "Computação para IA", "source": "https://lambda.ai/blog/lambda-raises-480m-to-expand-ai-cloud-platform" }
+  },
+  {
+    "id": "company-cerebras",
+    "dictionary": "empresas",
+    "name": "Cerebras Systems",
+    "aliases": ["Cerebras"],
+    "description": "Empresa de hardware e infraestrutura de IA conhecida por processadores wafer-scale para treinamento e inferência.",
+    "tags": ["hardware", "chips", "infraestrutura"],
+    "details": { "website": "https://www.cerebras.ai", "category": "Hardware para IA" }
+  },
+  {
+    "id": "company-figure-ai",
+    "dictionary": "empresas",
+    "name": "Figure AI",
+    "aliases": ["Figure"],
+    "description": "Startup de robótica que combina modelos de IA, percepção e controle para robôs humanoides.",
+    "tags": ["robótica", "agentes", "visão computacional"],
+    "details": { "website": "https://www.figure.ai", "category": "Robótica" }
+  },
+  {
+    "id": "company-physical-intelligence",
+    "dictionary": "empresas",
+    "name": "Physical Intelligence",
+    "aliases": ["π AI"],
+    "description": "Laboratório que desenvolve modelos gerais para controlar robôs em diferentes tarefas e ambientes.",
+    "tags": ["robótica", "modelos fundacionais", "agentes"],
+    "details": { "website": "https://www.physicalintelligence.company", "category": "Robótica" }
+  },
+  {
+    "id": "company-abridge",
+    "dictionary": "empresas",
+    "name": "Abridge",
+    "aliases": ["Abridge AI"],
+    "description": "Startup de saúde que converte conversas clínicas em documentação estruturada com IA.",
+    "tags": ["saúde", "voz", "enterprise"],
+    "details": { "website": "https://www.abridge.com", "category": "IA para saúde" }
+  },
+  {
+    "id": "company-hippocratic-ai",
+    "dictionary": "empresas",
+    "name": "Hippocratic AI",
+    "aliases": ["Hippocratic"],
+    "description": "Empresa que desenvolve agentes de IA focados em tarefas de saúde com orientação de segurança.",
+    "tags": ["saúde", "agentes", "segurança"],
+    "details": { "website": "https://www.hippocraticai.com", "category": "IA para saúde" }
+  },
+  {
+    "id": "company-ambience-healthcare",
+    "dictionary": "empresas",
+    "name": "Ambience Healthcare",
+    "aliases": ["Ambience"],
+    "description": "Plataforma de documentação clínica e fluxos administrativos baseados em IA.",
+    "tags": ["saúde", "documentação", "enterprise"],
+    "details": { "website": "https://www.ambiencehealthcare.com", "category": "IA para saúde" }
+  },
+  {
+    "id": "company-vapi",
+    "dictionary": "empresas",
+    "name": "Vapi",
+    "aliases": ["Vapi AI"],
+    "description": "Infraestrutura para criar, testar e operar agentes de voz em aplicações e contact centers.",
+    "tags": ["voz", "agentes", "API"],
+    "details": { "website": "https://vapi.ai", "category": "Agentes de voz" }
+  },
+  {
+    "id": "company-retell-ai",
+    "dictionary": "empresas",
+    "name": "Retell AI",
+    "aliases": ["Retell"],
+    "description": "Plataforma de agentes telefônicos com voz natural, integração de ferramentas e observabilidade.",
+    "tags": ["voz", "agentes", "API"],
+    "details": { "website": "https://www.retellai.com", "category": "Agentes de voz" }
+  },
+  {
+    "id": "company-luma-ai",
+    "dictionary": "empresas",
+    "name": "Luma AI",
+    "aliases": ["Luma"],
+    "description": "Startup de modelos generativos para vídeo, imagem e representação 3D.",
+    "tags": ["vídeo", "3D", "IA generativa"],
+    "details": { "website": "https://lumalabs.ai", "category": "Mídia generativa" }
+  },
+  {
+    "id": "company-ideogram",
+    "dictionary": "empresas",
+    "name": "Ideogram",
+    "aliases": ["Ideogram AI"],
+    "description": "Empresa de geração de imagens com IA, com foco em qualidade visual e renderização de texto.",
+    "tags": ["imagem", "IA generativa", "criatividade"],
+    "details": { "website": "https://ideogram.ai", "category": "Mídia generativa" }
+  },
+  {
+    "id": "company-pika",
+    "dictionary": "empresas",
+    "name": "Pika",
+    "aliases": ["Pika Labs"],
+    "description": "Startup de criação e edição de vídeos generativos a partir de texto e imagens.",
+    "tags": ["vídeo", "IA generativa", "criatividade"],
+    "details": { "website": "https://pika.art", "category": "Mídia generativa" }
+  },
+  {
+    "id": "company-thinking-machines-lab",
+    "dictionary": "empresas",
+    "name": "Thinking Machines Lab",
+    "aliases": ["Thinking Machines"],
+    "description": "Laboratório de pesquisa focado em sistemas de IA adaptáveis, colaborativos e úteis.",
+    "tags": ["pesquisa", "modelos fundacionais", "agentes"],
+    "details": { "website": "https://thinkingmachines.ai", "category": "Laboratório de IA", "source": "https://www.forbes.com/sites/forbes-spotlights/2025/04/10/forbes-announces-seventh-annual-ai-50-list-featuring-the-most-prominent-ai-startups-in-the-world/" }
+  },
+  {
+    "id": "company-world-labs",
+    "dictionary": "empresas",
+    "name": "World Labs",
+    "aliases": ["World Labs AI"],
+    "description": "Startup que pesquisa modelos de inteligência espacial capazes de compreender e gerar mundos 3D.",
+    "tags": ["3D", "visão computacional", "robótica"],
+    "details": { "website": "https://www.worldlabs.ai", "category": "Inteligência espacial" }
+  },
+  {
+    "id": "company-sakana-ai",
+    "dictionary": "empresas",
+    "name": "Sakana AI",
+    "aliases": ["Sakana"],
+    "description": "Laboratório japonês que explora modelos eficientes, evolução de arquiteturas e sistemas inspirados na natureza.",
+    "tags": ["pesquisa", "modelos de linguagem", "Japão"],
+    "details": { "website": "https://sakana.ai", "category": "Laboratório de IA" }
+  },
+  {
+    "id": "company-cradle",
+    "dictionary": "empresas",
+    "name": "Cradle",
+    "aliases": ["Cradle Bio"],
+    "description": "Startup de biologia computacional que usa IA generativa para projetar e otimizar proteínas.",
+    "tags": ["biotecnologia", "descoberta científica", "IA generativa"],
+    "details": { "website": "https://www.cradle.bio", "category": "IA para ciência" }
+  },
+  {
+    "id": "company-groq",
+    "dictionary": "empresas",
+    "name": "Groq",
+    "aliases": ["Groq AI"],
+    "description": "Empresa de chips e serviço de inferência de baixa latência para modelos de IA.",
+    "tags": ["hardware", "inferência", "infraestrutura"],
+    "details": { "website": "https://groq.com", "category": "Computação para IA" }
+  },
+  {
+    "id": "company-fireworks-ai",
+    "dictionary": "empresas",
+    "name": "Fireworks AI",
+    "aliases": ["Fireworks"],
+    "description": "Plataforma para servir, ajustar e executar modelos generativos com foco em velocidade e controle.",
+    "tags": ["inferência", "modelos abertos", "API"],
+    "details": { "website": "https://fireworks.ai", "category": "Infraestrutura de IA" }
+  },
+  {
+    "id": "company-modal",
+    "dictionary": "empresas",
+    "name": "Modal",
+    "aliases": ["Modal Labs"],
+    "description": "Infraestrutura serverless para executar workloads de IA, treinamento e inferência sob demanda.",
+    "tags": ["nuvem", "MLOps", "infraestrutura"],
+    "details": { "website": "https://modal.com", "category": "Infraestrutura de IA" }
+  },
+  {
+    "id": "company-baseten",
+    "dictionary": "empresas",
+    "name": "Baseten",
+    "aliases": ["Baseten AI"],
+    "description": "Plataforma para colocar modelos de machine learning em produção com APIs, observabilidade e escala.",
+    "tags": ["MLOps", "inferência", "enterprise"],
+    "details": { "website": "https://www.baseten.co", "category": "MLOps" }
+  },
+  {
+    "id": "company-replit",
+    "dictionary": "empresas",
+    "name": "Replit",
+    "aliases": ["Replit AI"],
+    "description": "Plataforma de desenvolvimento colaborativo que usa agentes de IA para criar e publicar aplicações.",
+    "tags": ["desenvolvimento", "agentes", "educação"],
+    "details": { "website": "https://replit.com", "category": "Ferramentas para desenvolvedores" }
+  },
+  {
+    "id": "company-cognition",
+    "dictionary": "empresas",
+    "name": "Cognition",
+    "aliases": ["Cognition AI", "Devin"],
+    "description": "Startup responsável pelo Devin, agente de IA voltado para tarefas de engenharia de software.",
+    "tags": ["desenvolvimento", "agentes", "código"],
+    "details": { "website": "https://www.cognition.ai", "category": "IA para programação", "source": "https://www.bvp.com/assets/uploads/2024/09/AI-Bessemer-Book-Everything-Everywhere-All-AI-2024.pdf" }
+  }
 ]
