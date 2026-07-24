@@ -1,6 +1,7 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useCallback, useEffect, useState } from "react";
+import { decodeHtmlEntities } from "../lib/html-entities";
 import type { VideoCardData } from "../lib/video-types";
 
 const EXAMPLE_URL = "https://www.youtube.com/watch?v=474wZZHoWN4";
@@ -91,7 +92,7 @@ function ResultCard({ video }: { video: VideoCardData }) {
           </div>
           <div className="scroll-content transcript-content">
             {video.transcript.status === "available"
-              ? video.transcript.text
+              ? decodeHtmlEntities(video.transcript.text)
               : video.transcript.reason}
           </div>
         </section>
@@ -100,14 +101,129 @@ function ResultCard({ video }: { video: VideoCardData }) {
   );
 }
 
+type SavedVideo = VideoCardData & {
+  savedAt: string;
+};
+
+function Collection({
+  videos,
+  isLoading,
+  onOpen,
+  onDelete,
+}: {
+  videos: SavedVideo[];
+  isLoading: boolean;
+  onOpen: (video: SavedVideo) => void;
+  onDelete: (videoId: string) => void;
+}) {
+  return (
+    <section className="collection" aria-labelledby="collection-title">
+      <div className="collection-heading">
+        <div>
+          <span>Arquivo pessoal</span>
+          <h2 id="collection-title">Sua coleção de vídeos</h2>
+        </div>
+        <p>{videos.length} {videos.length === 1 ? "vídeo salvo" : "vídeos salvos"}</p>
+      </div>
+
+      {isLoading ? (
+        <p className="collection-empty">Carregando sua coleção…</p>
+      ) : videos.length === 0 ? (
+        <p className="collection-empty">
+          Os vídeos analisados aparecerão aqui para você consultar depois.
+        </p>
+      ) : (
+        <div className="collection-grid">
+          {videos.map((savedVideo) => (
+            <article className="collection-card" key={savedVideo.videoId}>
+              <button
+                className="collection-card-open"
+                type="button"
+                onClick={() => onOpen(savedVideo)}
+                aria-label={`Visualizar todos os detalhes de ${savedVideo.title}`}
+              >
+                <span className="collection-card-media">
+                  <img
+                    src={savedVideo.thumbnailUrl}
+                    alt={`Thumbnail do vídeo ${savedVideo.title}`}
+                  />
+                  <span className="collection-card-status">
+                    {savedVideo.transcript.status === "available"
+                      ? "Transcrição disponível"
+                      : "Sem transcrição"}
+                  </span>
+                </span>
+
+                <span className="collection-card-body">
+                  <span className="collection-card-channel">
+                    <span aria-hidden="true" />
+                    {savedVideo.channelName}
+                  </span>
+                  <strong>{savedVideo.title}</strong>
+
+                  <span className="collection-card-stats">
+                    <span>
+                      <small>Visualizações</small>
+                      <b>{formatCount(savedVideo.viewCount)}</b>
+                    </span>
+                    <span>
+                      <small>Publicado</small>
+                      <b>{formatDate(savedVideo.publishedAt)}</b>
+                    </span>
+                  </span>
+
+                  <span className="collection-card-action">
+                    Ver descrição e transcrição
+                    <span aria-hidden="true">→</span>
+                  </span>
+                </span>
+              </button>
+              <button
+                className="collection-delete"
+                type="button"
+                onClick={() => onDelete(savedVideo.videoId)}
+                aria-label={`Excluir ${savedVideo.title} da coleção`}
+              >
+                <span aria-hidden="true">×</span>
+                Excluir
+              </button>
+            </article>
+          ))}
+        </div>
+      )}
+    </section>
+  );
+}
+
 export default function Home() {
   const [url, setUrl] = useState("");
   const [video, setVideo] = useState<VideoCardData | null>(null);
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [savedVideos, setSavedVideos] = useState<SavedVideo[]>([]);
+  const [isCollectionLoading, setIsCollectionLoading] = useState(true);
+
+  const refreshCollection = useCallback(async () => {
+    try {
+      const response = await fetch("/api/collection");
+      const payload = await response.json();
+      if (!response.ok) throw new Error();
+      setSavedVideos(payload.videos as SavedVideo[]);
+    } catch {
+      setError("Não foi possível carregar sua coleção de vídeos.");
+    } finally {
+      setIsCollectionLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    void refreshCollection();
+  }, [refreshCollection]);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    const submittedUrl = url.trim();
+    setUrl("");
     setError("");
     setIsLoading(true);
 
@@ -115,7 +231,7 @@ export default function Home() {
       const response = await fetch("/api/video", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ url }),
+        body: JSON.stringify({ url: submittedUrl }),
       });
       const payload = await response.json();
 
@@ -127,6 +243,7 @@ export default function Home() {
       }
 
       setVideo(payload as VideoCardData);
+      await refreshCollection();
     } catch (requestError) {
       setVideo(null);
       setError(
@@ -136,6 +253,16 @@ export default function Home() {
       );
     } finally {
       setIsLoading(false);
+    }
+  }
+
+  async function handleDelete(videoId: string) {
+    try {
+      const response = await fetch(`/api/collection/${videoId}`, { method: "DELETE" });
+      if (!response.ok) throw new Error();
+      setSavedVideos((current) => current.filter((item) => item.videoId !== videoId));
+    } catch {
+      setError("Não foi possível excluir este vídeo da coleção.");
     }
   }
 
@@ -229,7 +356,29 @@ export default function Home() {
         )}
       </div>
 
-      {video && <ResultCard video={video} />}
+      {video && (
+        <section className="selected-video" id="selected-video">
+          <div className="selected-video-heading">
+            <span>Vídeo selecionado</span>
+            <p>Descrição e transcrição completas</p>
+          </div>
+          <ResultCard video={video} />
+        </section>
+      )}
+
+      <Collection
+        videos={savedVideos}
+        isLoading={isCollectionLoading}
+        onOpen={(savedVideo) => {
+          setVideo(savedVideo);
+          window.requestAnimationFrame(() => {
+            document
+              .getElementById("selected-video")
+              ?.scrollIntoView({ behavior: "smooth", block: "start" });
+          });
+        }}
+        onDelete={handleDelete}
+      />
 
       <footer>
         <span>Vídeo em Foco</span>

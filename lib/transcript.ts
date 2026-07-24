@@ -3,6 +3,7 @@ import {
   listLanguages,
   toPlainText,
 } from "youtube-transcript-plus";
+import { decodeHtmlEntities } from "./html-entities";
 import type { TranscriptData } from "./video-types";
 
 const LANGUAGE_PRIORITY = ["pt-BR", "pt", "en"];
@@ -36,7 +37,7 @@ export async function getPublicTranscript(
       retryDelay: 500,
       signal: AbortSignal.timeout(15_000),
     });
-    const text = toPlainText(segments).trim();
+    const text = decodeHtmlEntities(toPlainText(segments)).trim();
 
     if (!text) {
       return {

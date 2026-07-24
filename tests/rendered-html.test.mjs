@@ -1,10 +1,21 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { decodeHtmlEntities } from "../lib/html-entities.ts";
 import {
   extractYouTubeVideoId,
   getVideoCardData,
   VideoServiceError,
 } from "../lib/youtube.ts";
+
+test("converte entidades HTML presentes na transcrição", () => {
+  assert.equal(
+    decodeHtmlEntities(
+      "I&#39;ll use &quot;Codex&quot; &amp; test &#x27;again&#x27;.",
+    ),
+    "I'll use \"Codex\" & test 'again'.",
+  );
+  assert.equal(decodeHtmlEntities("Duplo: &amp;#39;"), "Duplo: '");
+});
 
 async function render() {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
@@ -183,5 +194,6 @@ test("server-renderiza a página final", async () => {
   assert.match(html, /Tudo sobre um vídeo/);
   assert.match(html, /URL do vídeo/);
   assert.match(html, /Analisar vídeo/);
+  assert.match(html, /Sua coleção de vídeos/);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton/i);
 });

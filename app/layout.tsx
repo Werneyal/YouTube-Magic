@@ -19,13 +19,13 @@ export async function generateMetadata(): Promise<Metadata> {
       title: "Vídeo em Foco",
       description,
       type: "website",
-      images: [{ url: `${origin}/og.png`, width: 1792, height: 925 }],
+      images: [{ url: `${origin}/og-collection.png`, width: 1792, height: 925 }],
     },
     twitter: {
       card: "summary_large_image",
       title: "Vídeo em Foco",
       description,
-      images: [`${origin}/og.png`],
+      images: [`${origin}/og-collection.png`],
     },
   };
 }
