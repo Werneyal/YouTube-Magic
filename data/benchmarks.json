@@ -16,5 +16,185 @@
     "description": "Benchmark de conhecimento multidisciplinar.",
     "tags": ["conhecimento", "avaliação"],
     "details": { "category": "Conhecimento" }
+  },
+  {
+    "id": "benchmark-humaneval",
+    "dictionary": "benchmarks",
+    "name": "HumanEval",
+    "aliases": ["Human Eval", "HumanEval benchmark"],
+    "description": "Avalia a correção funcional de programas gerados a partir de docstrings.",
+    "tags": ["programação", "código", "avaliação"],
+    "details": { "category": "Programação", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-livecodebench-v6",
+    "dictionary": "benchmarks",
+    "name": "LiveCodeBench v6",
+    "aliases": ["Live CodeBench v6", "LCB v6"],
+    "description": "Avaliação contínua e resistente à contaminação para programação em modelos de linguagem.",
+    "tags": ["programação", "código", "contaminação"],
+    "details": { "category": "Programação", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-simpleqa",
+    "dictionary": "benchmarks",
+    "name": "SimpleQA",
+    "aliases": ["Simple QA", "SimpleQA benchmark"],
+    "description": "Mede a precisão factual de respostas curtas de modelos de linguagem.",
+    "tags": ["factualidade", "conhecimento", "avaliação"],
+    "details": { "category": "Conhecimento", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-browsecomp",
+    "dictionary": "benchmarks",
+    "name": "BrowseComp",
+    "aliases": ["Browse Comp", "BrowseComp benchmark"],
+    "description": "Testa agentes que precisam navegar persistentemente na web para encontrar informações difíceis.",
+    "tags": ["agentes", "busca", "web"],
+    "details": { "category": "Agentes", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-swe-bench-pro",
+    "dictionary": "benchmarks",
+    "name": "SWE-Bench Pro",
+    "aliases": ["SWE Bench Pro", "SWE-bench Professional"],
+    "description": "Versão avançada do SWE-bench para tarefas complexas e prolongadas de engenharia de software.",
+    "tags": ["programação", "agentes", "engenharia de software"],
+    "details": { "category": "Programação", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-mbpp",
+    "dictionary": "benchmarks",
+    "name": "MBPP",
+    "aliases": ["Mostly Basic Python Problems", "MBPP benchmark"],
+    "description": "Conjunto de problemas básicos de Python para avaliar geração de código.",
+    "tags": ["programação", "Python", "código"],
+    "details": { "category": "Programação", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-terminal-bench",
+    "dictionary": "benchmarks",
+    "name": "Terminal-Bench",
+    "aliases": ["Terminal Bench", "TerminalBench"],
+    "description": "Avalia agentes de IA em ambientes reais de terminal e tarefas de ponta a ponta.",
+    "tags": ["agentes", "terminal", "programação"],
+    "details": { "category": "Agentes", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-bfcl-v3",
+    "dictionary": "benchmarks",
+    "name": "BFCL-v3",
+    "aliases": ["Berkeley Function Calling Leaderboard v3", "BFCL 3"],
+    "description": "Avalia a capacidade de modelos de executar chamadas de funções e ferramentas.",
+    "tags": ["ferramentas", "agentes", "function calling"],
+    "details": { "category": "Uso de ferramentas", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-arc-agi-2",
+    "dictionary": "benchmarks",
+    "name": "ARC-AGI v2",
+    "aliases": ["ARC-AGI-2", "ARC AGI 2"],
+    "description": "Mede raciocínio abstrato e resolução de problemas por transformações em grades visuais.",
+    "tags": ["raciocínio", "abstração", "visão"],
+    "details": { "category": "Raciocínio", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-gpqa",
+    "dictionary": "benchmarks",
+    "name": "GPQA",
+    "aliases": ["Graduate-Level Google-Proof Q&A", "GPQA benchmark"],
+    "description": "Avalia raciocínio em perguntas científicas difíceis elaboradas por especialistas.",
+    "tags": ["ciência", "raciocínio", "conhecimento"],
+    "details": { "category": "Conhecimento", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-mmmu",
+    "dictionary": "benchmarks",
+    "name": "MMMU",
+    "aliases": ["Massive Multi-discipline Multimodal Understanding", "MMMU benchmark"],
+    "description": "Avalia compreensão multimodal multidisciplinar em problemas de nível universitário.",
+    "tags": ["multimodal", "visão", "conhecimento"],
+    "details": { "category": "Multimodal", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-osworld",
+    "dictionary": "benchmarks",
+    "name": "OSWorld",
+    "aliases": ["OS World", "OSWorld benchmark"],
+    "description": "Testa agentes multimodais em tarefas reais de computador, desktop e web.",
+    "tags": ["agentes", "multimodal", "computador"],
+    "details": { "category": "Multimodal", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-video-mme",
+    "dictionary": "benchmarks",
+    "name": "Video-MME",
+    "aliases": ["Video MME", "VideoMME"],
+    "description": "Avalia compreensão de vídeo por modelos multimodais em diferentes domínios e durações.",
+    "tags": ["vídeo", "multimodal", "visão"],
+    "details": { "category": "Multimodal", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-chartqa",
+    "dictionary": "benchmarks",
+    "name": "ChartQA",
+    "aliases": ["Chart QA", "ChartQA benchmark"],
+    "description": "Mede perguntas e respostas sobre gráficos, combinando compreensão visual e raciocínio numérico.",
+    "tags": ["multimodal", "gráficos", "raciocínio"],
+    "details": { "category": "Multimodal", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-c-eval",
+    "dictionary": "benchmarks",
+    "name": "C-Eval",
+    "aliases": ["C Eval", "C-Eval benchmark"],
+    "description": "Suite de avaliação em chinês para conhecimento e raciocínio de modelos fundamentais.",
+    "tags": ["conhecimento", "chinês", "raciocínio"],
+    "details": { "category": "Conhecimento", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-aider",
+    "dictionary": "benchmarks",
+    "name": "Aider",
+    "aliases": ["Aider benchmark", "Aider Polyglot"],
+    "description": "Benchmark de edição de código baseado em exercícios práticos de programação.",
+    "tags": ["programação", "código", "edição"],
+    "details": { "category": "Programação", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-alpacaeval-2",
+    "dictionary": "benchmarks",
+    "name": "AlpacaEval 2.0",
+    "aliases": ["Alpaca Eval 2", "AlpacaEval"],
+    "description": "Avaliador automático de seguimento de instruções com controle do efeito do comprimento da resposta.",
+    "tags": ["instruções", "avaliação", "preferência"],
+    "details": { "category": "Linguagem", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-bigcodebench",
+    "dictionary": "benchmarks",
+    "name": "BigCodeBench",
+    "aliases": ["Big Code Bench", "BigCodeBench benchmark"],
+    "description": "Avalia programação prática e uso de múltiplas chamadas de funções em bibliotecas reais.",
+    "tags": ["programação", "ferramentas", "código"],
+    "details": { "category": "Programação", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-paperbench",
+    "dictionary": "benchmarks",
+    "name": "PaperBench",
+    "aliases": ["Paper Bench", "PaperBench benchmark"],
+    "description": "Avalia agentes que reproduzem resultados e implementações de artigos científicos.",
+    "tags": ["agentes", "pesquisa", "ciência"],
+    "details": { "category": "Agentes", "source": "https://llm-stats.com/benchmarks" }
+  },
+  {
+    "id": "benchmark-tau-bench",
+    "dictionary": "benchmarks",
+    "name": "τ-bench",
+    "aliases": ["Tau-bench", "TAU bench"],
+    "description": "Avalia a interação entre agente, usuário e ferramentas em domínios reais de atendimento.",
+    "tags": ["agentes", "ferramentas", "atendimento"],
+    "details": { "category": "Uso de ferramentas", "source": "https://llm-stats.com/benchmarks" }
   }
 ]
