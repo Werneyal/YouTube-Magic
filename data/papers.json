@@ -17,4 +17,275 @@
     "tags": ["alinhamento", "segurança"],
     "details": { "company": "Anthropic", "category": "Alinhamento" }
   }
+,
+  {
+    "id": "paper-alexnet-imagenet",
+    "dictionary": "papers",
+    "name": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "aliases": ["AlexNet"],
+    "description": "Trabalho que popularizou redes convolucionais profundas em visão computacional com grande ganho no ImageNet.",
+    "tags": ["visão computacional", "redes convolucionais"],
+    "details": { "authors": "Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton", "year": 2012, "category": "Visão computacional", "source": "https://arxiv.org/abs/1404.5997" }
+  },
+  {
+    "id": "paper-dropout",
+    "dictionary": "papers",
+    "name": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "aliases": ["Dropout paper"],
+    "description": "Introduziu o dropout como técnica de regularização para reduzir overfitting em redes neurais.",
+    "tags": ["regularização", "deep learning"],
+    "details": { "authors": "Nitish Srivastava et al.", "year": 2014, "category": "Treinamento", "source": "https://jmlr.org/papers/v15/srivastava14a.html" }
+  },
+  {
+    "id": "paper-adam-optimization",
+    "dictionary": "papers",
+    "name": "Adam: A Method for Stochastic Optimization",
+    "aliases": ["Adam optimizer"],
+    "description": "Apresentou o otimizador Adam, hoje amplamente usado para treinar modelos de aprendizado profundo.",
+    "tags": ["otimização", "treinamento"],
+    "details": { "authors": "Diederik Kingma, Jimmy Ba", "year": 2014, "category": "Otimização", "source": "https://arxiv.org/abs/1412.6980" }
+  },
+  {
+    "id": "paper-batch-normalization",
+    "dictionary": "papers",
+    "name": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+    "aliases": ["Batch Normalization"],
+    "description": "Propôs normalizar ativações por minibatch para acelerar e estabilizar o treinamento de redes profundas.",
+    "tags": ["normalização", "treinamento"],
+    "details": { "authors": "Sergey Ioffe, Christian Szegedy", "year": 2015, "category": "Treinamento", "source": "https://arxiv.org/abs/1502.03167" }
+  },
+  {
+    "id": "paper-resnet",
+    "dictionary": "papers",
+    "name": "Deep Residual Learning for Image Recognition",
+    "aliases": ["ResNet paper"],
+    "description": "Introduziu conexões residuais, permitindo treinar redes muito mais profundas com alta qualidade.",
+    "tags": ["visão computacional", "arquitetura"],
+    "details": { "authors": "Kaiming He et al.", "year": 2015, "category": "Visão computacional", "source": "https://arxiv.org/abs/1512.03385" }
+  },
+  {
+    "id": "paper-generative-adversarial-nets",
+    "dictionary": "papers",
+    "name": "Generative Adversarial Nets",
+    "aliases": ["GAN paper", "Generative Adversarial Networks"],
+    "description": "Apresentou redes generativas adversárias, treinadas por competição entre gerador e discriminador.",
+    "tags": ["geração", "modelos generativos"],
+    "details": { "authors": "Ian Goodfellow et al.", "year": 2014, "category": "Modelos generativos", "source": "https://arxiv.org/abs/1406.2661" }
+  },
+  {
+    "id": "paper-vae",
+    "dictionary": "papers",
+    "name": "Auto-Encoding Variational Bayes",
+    "aliases": ["VAE paper", "Variational Autoencoder"],
+    "description": "Fundamentou os autoencoders variacionais como modelos probabilísticos generativos treináveis por gradiente.",
+    "tags": ["geração", "aprendizado não supervisionado"],
+    "details": { "authors": "Diederik Kingma, Max Welling", "year": 2013, "category": "Modelos generativos", "source": "https://arxiv.org/abs/1312.6114" }
+  },
+  {
+    "id": "paper-word2vec",
+    "dictionary": "papers",
+    "name": "Distributed Representations of Words and Phrases and their Compositionality",
+    "aliases": ["word2vec"],
+    "description": "Apresentou representações vetoriais eficientes de palavras e expressões com relações semânticas úteis.",
+    "tags": ["linguagem", "representações"],
+    "details": { "authors": "Tomas Mikolov et al.", "year": 2013, "category": "Processamento de linguagem", "source": "https://arxiv.org/abs/1310.4546" }
+  },
+  {
+    "id": "paper-seq2seq-learning",
+    "dictionary": "papers",
+    "name": "Sequence to Sequence Learning with Neural Networks",
+    "aliases": ["Seq2Seq paper"],
+    "description": "Estabeleceu a arquitetura encoder-decoder para transformar sequências de tamanhos diferentes.",
+    "tags": ["linguagem", "redes recorrentes"],
+    "details": { "authors": "Ilya Sutskever, Oriol Vinyals, Quoc Le", "year": 2014, "category": "Processamento de linguagem", "source": "https://arxiv.org/abs/1409.3215" }
+  },
+  {
+    "id": "paper-neural-machine-translation",
+    "dictionary": "papers",
+    "name": "Neural Machine Translation by Jointly Learning to Align and Translate",
+    "aliases": ["Bahdanau attention"],
+    "description": "Introduziu atenção aprendida para alinhar partes da sequência de entrada durante a tradução neural.",
+    "tags": ["atenção", "tradução"],
+    "details": { "authors": "Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio", "year": 2014, "category": "Processamento de linguagem", "source": "https://arxiv.org/abs/1409.0473" }
+  },
+  {
+    "id": "paper-playing-atari-deep-reinforcement-learning",
+    "dictionary": "papers",
+    "name": "Playing Atari with Deep Reinforcement Learning",
+    "aliases": ["DQN paper", "Deep Q-Network"],
+    "description": "Demonstrou que uma rede neural podia aprender políticas diretamente de pixels em vários jogos Atari.",
+    "tags": ["aprendizado por reforço", "agentes"],
+    "details": { "authors": "Volodymyr Mnih et al.", "year": 2013, "category": "Aprendizado por reforço", "source": "https://arxiv.org/abs/1312.5602" }
+  },
+  {
+    "id": "paper-proximal-policy-optimization",
+    "dictionary": "papers",
+    "name": "Proximal Policy Optimization Algorithms",
+    "aliases": ["PPO paper"],
+    "description": "Propôs uma família de algoritmos de política estável e simples para aprendizado por reforço.",
+    "tags": ["aprendizado por reforço", "otimização"],
+    "details": { "authors": "John Schulman et al.", "year": 2017, "category": "Aprendizado por reforço", "source": "https://arxiv.org/abs/1707.06347" }
+  },
+  {
+    "id": "paper-alphago",
+    "dictionary": "papers",
+    "name": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+    "aliases": ["AlphaGo paper"],
+    "description": "Combinou redes neurais e busca em árvore para alcançar desempenho de nível profissional no jogo Go.",
+    "tags": ["aprendizado por reforço", "jogos"],
+    "details": { "authors": "David Silver et al.", "year": 2016, "category": "Aprendizado por reforço", "source": "https://www.nature.com/articles/nature16961" }
+  },
+  {
+    "id": "paper-bert",
+    "dictionary": "papers",
+    "name": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "aliases": ["BERT paper"],
+    "description": "Popularizou o pré-treinamento bidirecional de representações linguísticas com Transformers.",
+    "tags": ["linguagem", "pré-treinamento"],
+    "details": { "authors": "Jacob Devlin et al.", "year": 2018, "category": "Processamento de linguagem", "source": "https://arxiv.org/abs/1810.04805" }
+  },
+  {
+    "id": "paper-gpt3",
+    "dictionary": "papers",
+    "name": "Language Models are Few-Shot Learners",
+    "aliases": ["GPT-3 paper"],
+    "description": "Mostrou a capacidade de modelos de linguagem muito grandes realizarem tarefas com poucos exemplos no prompt.",
+    "tags": ["modelos de linguagem", "few-shot"],
+    "details": { "authors": "Tom Brown et al.", "year": 2020, "category": "Modelos de linguagem", "source": "https://arxiv.org/abs/2005.14165" }
+  },
+  {
+    "id": "paper-instructgpt",
+    "dictionary": "papers",
+    "name": "Training Language Models to Follow Instructions with Human Feedback",
+    "aliases": ["InstructGPT paper", "RLHF paper"],
+    "description": "Demonstrou o uso de feedback humano e RLHF para alinhar modelos de linguagem às intenções do usuário.",
+    "tags": ["alinhamento", "modelos de linguagem"],
+    "details": { "authors": "Long Ouyang et al.", "year": 2022, "category": "Alinhamento", "source": "https://arxiv.org/abs/2203.02155" }
+  },
+  {
+    "id": "paper-clip",
+    "dictionary": "papers",
+    "name": "Learning Transferable Visual Models From Natural Language Supervision",
+    "aliases": ["CLIP paper"],
+    "description": "Aprendeu representações conjuntas de imagem e texto em grande escala a partir de descrições naturais.",
+    "tags": ["visão e linguagem", "aprendizado multimodal"],
+    "details": { "authors": "Alec Radford et al.", "year": 2021, "category": "Multimodal", "source": "https://arxiv.org/abs/2103.00020" }
+  },
+  {
+    "id": "paper-dall-e",
+    "dictionary": "papers",
+    "name": "Zero-Shot Text-to-Image Generation",
+    "aliases": ["DALL-E paper"],
+    "description": "Investigou geração de imagens condicionada por texto em um modelo autoregressivo de grande escala.",
+    "tags": ["visão e linguagem", "geração de imagens"],
+    "details": { "authors": "Aditya Ramesh et al.", "year": 2021, "category": "Multimodal", "source": "https://arxiv.org/abs/2102.12092" }
+  },
+  {
+    "id": "paper-denoising-diffusion-probabilistic-models",
+    "dictionary": "papers",
+    "name": "Denoising Diffusion Probabilistic Models",
+    "aliases": ["DDPM paper", "Diffusion probabilistic models"],
+    "description": "Estabeleceu uma formulação prática para gerar amostras de alta qualidade por processos de difusão e denoising.",
+    "tags": ["difusão", "modelos generativos"],
+    "details": { "authors": "Jonathan Ho, Ajay Jain, Pieter Abbeel", "year": 2020, "category": "Modelos generativos", "source": "https://arxiv.org/abs/2006.11239" }
+  },
+  {
+    "id": "paper-diffusion-models-beat-gans",
+    "dictionary": "papers",
+    "name": "Diffusion Models Beat GANs on Image Synthesis",
+    "aliases": ["Diffusion Models Beat GANs"],
+    "description": "Demonstrou que modelos de difusão poderiam superar GANs em qualidade e cobertura de imagens.",
+    "tags": ["difusão", "geração de imagens"],
+    "details": { "authors": "Prafulla Dhariwal, Alex Nichol", "year": 2021, "category": "Modelos generativos", "source": "https://arxiv.org/abs/2105.05233" }
+  },
+  {
+    "id": "paper-lora",
+    "dictionary": "papers",
+    "name": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "aliases": ["LoRA paper"],
+    "description": "Propôs adaptar modelos grandes treinando pequenas matrizes de baixa dimensão, reduzindo memória e custo.",
+    "tags": ["fine-tuning", "eficiência"],
+    "details": { "authors": "Edward Hu et al.", "year": 2021, "category": "Adaptação de modelos", "source": "https://arxiv.org/abs/2106.09685" }
+  },
+  {
+    "id": "paper-retrieval-augmented-generation",
+    "dictionary": "papers",
+    "name": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "aliases": ["RAG paper", "Retrieval Augmented Generation"],
+    "description": "Combinou recuperação de documentos com geração neural para responder tarefas que dependem de conhecimento externo.",
+    "tags": ["recuperação", "modelos de linguagem"],
+    "details": { "authors": "Patrick Lewis et al.", "year": 2020, "category": "Sistemas de linguagem", "source": "https://arxiv.org/abs/2005.11401" }
+  },
+  {
+    "id": "paper-scaling-laws-neural-language-models",
+    "dictionary": "papers",
+    "name": "Scaling Laws for Neural Language Models",
+    "aliases": ["Scaling Laws paper"],
+    "description": "Caracterizou como desempenho de modelos de linguagem varia com parâmetros, dados e computação.",
+    "tags": ["modelos de linguagem", "escalabilidade"],
+    "details": { "authors": "Jared Kaplan et al.", "year": 2020, "category": "Modelos de linguagem", "source": "https://arxiv.org/abs/2001.08361" }
+  },
+  {
+    "id": "paper-chinchilla-training-compute-optimal",
+    "dictionary": "papers",
+    "name": "Training Compute-Optimal Large Language Models",
+    "aliases": ["Chinchilla paper"],
+    "description": "Reavaliou a relação ótima entre tamanho do modelo e quantidade de dados para um orçamento computacional.",
+    "tags": ["modelos de linguagem", "escalabilidade"],
+    "details": { "authors": "Jordan Hoffmann et al.", "year": 2022, "category": "Modelos de linguagem", "source": "https://arxiv.org/abs/2203.15556" }
+  },
+  {
+    "id": "paper-switch-transformers",
+    "dictionary": "papers",
+    "name": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+    "aliases": ["Switch Transformer paper"],
+    "description": "Aplicou mistura esparsa de especialistas para escalar Transformers mantendo o custo computacional controlado.",
+    "tags": ["mixture of experts", "escalabilidade"],
+    "details": { "authors": "William Fedus, Barret Zoph, Noam Shazeer", "year": 2021, "category": "Arquitetura", "source": "https://arxiv.org/abs/2101.03961" }
+  },
+  {
+    "id": "paper-u-net",
+    "dictionary": "papers",
+    "name": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+    "aliases": ["U-Net paper"],
+    "description": "Criou uma arquitetura encoder-decoder com conexões de atalho que se tornou referência em segmentação de imagens.",
+    "tags": ["visão computacional", "segmentação"],
+    "details": { "authors": "Olaf Ronneberger, Philipp Fischer, Thomas Brox", "year": 2015, "category": "Visão computacional", "source": "https://arxiv.org/abs/1505.04597" }
+  },
+  {
+    "id": "paper-faster-r-cnn",
+    "dictionary": "papers",
+    "name": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+    "aliases": ["Faster R-CNN paper"],
+    "description": "Unificou propostas de regiões e classificação em uma rede eficiente para detecção de objetos.",
+    "tags": ["visão computacional", "detecção"],
+    "details": { "authors": "Shaoqing Ren et al.", "year": 2015, "category": "Visão computacional", "source": "https://arxiv.org/abs/1506.01497" }
+  },
+  {
+    "id": "paper-you-only-look-once",
+    "dictionary": "papers",
+    "name": "You Only Look Once: Unified, Real-Time Object Detection",
+    "aliases": ["YOLO paper"],
+    "description": "Apresentou detecção de objetos em uma única passagem pela rede, com foco em velocidade em tempo real.",
+    "tags": ["visão computacional", "detecção"],
+    "details": { "authors": "Joseph Redmon et al.", "year": 2016, "category": "Visão computacional", "source": "https://arxiv.org/abs/1506.02640" }
+  },
+  {
+    "id": "paper-swin-transformer",
+    "dictionary": "papers",
+    "name": "Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows",
+    "aliases": ["Swin Transformer paper"],
+    "description": "Adaptou Transformers para visão com janelas deslocadas e representação hierárquica eficiente.",
+    "tags": ["visão computacional", "transformers"],
+    "details": { "authors": "Ze Liu et al.", "year": 2021, "category": "Visão computacional", "source": "https://arxiv.org/abs/2103.14030" }
+  },
+  {
+    "id": "paper-segment-anything",
+    "dictionary": "papers",
+    "name": "Segment Anything",
+    "aliases": ["SAM paper", "Segment Anything Model"],
+    "description": "Apresentou um modelo fundacional para segmentação de imagens guiada por prompts e treinada em grande escala.",
+    "tags": ["visão computacional", "modelos fundacionais"],
+    "details": { "authors": "Alexander Kirillov et al.", "year": 2023, "category": "Visão computacional", "source": "https://arxiv.org/abs/2304.02643" }
+  }
 ]
