@@ -17,4 +17,185 @@
     "tags": ["conferência", "Microsoft"],
     "details": { "company": "Microsoft", "category": "Conferência" }
   }
+,
+  {
+    "id": "event-neurips",
+    "dictionary": "eventos",
+    "name": "NeurIPS",
+    "aliases": ["Conference on Neural Information Processing Systems", "NIPS"],
+    "description": "Uma das principais conferências internacionais de aprendizado de máquina, neurociência computacional e IA.",
+    "tags": ["conferência", "pesquisa", "machine learning"],
+    "details": { "category": "Conferência científica", "website": "https://neurips.cc", "recurrence": "anual" }
+  },
+  {
+    "id": "event-icml",
+    "dictionary": "eventos",
+    "name": "ICML",
+    "aliases": ["International Conference on Machine Learning"],
+    "description": "Conferência de referência para teoria, métodos e aplicações de aprendizado de máquina.",
+    "tags": ["conferência", "pesquisa", "machine learning"],
+    "details": { "category": "Conferência científica", "website": "https://icml.cc", "recurrence": "anual" }
+  },
+  {
+    "id": "event-iclr",
+    "dictionary": "eventos",
+    "name": "ICLR",
+    "aliases": ["International Conference on Learning Representations"],
+    "description": "Conferência dedicada a representações aprendidas, redes neurais e aprendizado profundo.",
+    "tags": ["conferência", "deep learning", "pesquisa"],
+    "details": { "category": "Conferência científica", "website": "https://iclr.cc", "recurrence": "anual" }
+  },
+  {
+    "id": "event-cvpr",
+    "dictionary": "eventos",
+    "name": "CVPR",
+    "aliases": ["Computer Vision and Pattern Recognition"],
+    "description": "Principal conferência de visão computacional, reconhecimento de padrões e percepção para IA.",
+    "tags": ["conferência", "visão computacional", "pesquisa"],
+    "details": { "category": "Conferência científica", "website": "https://cvpr.thecvf.com", "recurrence": "anual" }
+  },
+  {
+    "id": "event-acl",
+    "dictionary": "eventos",
+    "name": "ACL",
+    "aliases": ["Annual Meeting of the Association for Computational Linguistics"],
+    "description": "Conferência central de processamento de linguagem natural, linguística computacional e modelos de linguagem.",
+    "tags": ["conferência", "NLP", "linguagem"],
+    "details": { "category": "Conferência científica", "website": "https://www.aclweb.org/portal/acl", "recurrence": "anual" }
+  },
+  {
+    "id": "event-emnlp",
+    "dictionary": "eventos",
+    "name": "EMNLP",
+    "aliases": ["Empirical Methods in Natural Language Processing"],
+    "description": "Conferência internacional com foco em métodos empíricos para processamento de linguagem natural.",
+    "tags": ["conferência", "NLP", "linguagem"],
+    "details": { "category": "Conferência científica", "website": "https://2026.emnlp.org", "recurrence": "anual" }
+  },
+  {
+    "id": "event-aaai",
+    "dictionary": "eventos",
+    "name": "AAAI Conference on Artificial Intelligence",
+    "aliases": ["AAAI", "AAAI Conference"],
+    "description": "Conferência ampla que reúne pesquisa e aplicações em inteligência artificial.",
+    "tags": ["conferência", "pesquisa", "IA"],
+    "details": { "category": "Conferência científica", "website": "https://aaai.org/conference/aaai", "recurrence": "anual" }
+  },
+  {
+    "id": "event-ijcai",
+    "dictionary": "eventos",
+    "name": "IJCAI",
+    "aliases": ["International Joint Conference on Artificial Intelligence"],
+    "description": "Conferência internacional abrangente sobre fundamentos, métodos e aplicações de IA.",
+    "tags": ["conferência", "pesquisa", "IA"],
+    "details": { "category": "Conferência científica", "website": "https://www.ijcai.org", "recurrence": "anual" }
+  },
+  {
+    "id": "event-kdd",
+    "dictionary": "eventos",
+    "name": "KDD",
+    "aliases": ["ACM SIGKDD Conference", "Knowledge Discovery and Data Mining"],
+    "description": "Evento de referência em mineração de dados, descoberta de conhecimento e ciência de dados aplicada.",
+    "tags": ["conferência", "dados", "machine learning"],
+    "details": { "category": "Conferência científica", "website": "https://www.kdd.org/conferences", "recurrence": "anual" }
+  },
+  {
+    "id": "event-aistats",
+    "dictionary": "eventos",
+    "name": "AISTATS",
+    "aliases": ["International Conference on Artificial Intelligence and Statistics"],
+    "description": "Conferência que conecta fundamentos estatísticos com aprendizado de máquina e IA.",
+    "tags": ["conferência", "estatística", "pesquisa"],
+    "details": { "category": "Conferência científica", "website": "https://aistats.org", "recurrence": "anual" }
+  },
+  {
+    "id": "event-eccv",
+    "dictionary": "eventos",
+    "name": "ECCV",
+    "aliases": ["European Conference on Computer Vision"],
+    "description": "Conferência europeia de destaque em visão computacional e aprendizado visual.",
+    "tags": ["conferência", "visão computacional", "pesquisa"],
+    "details": { "category": "Conferência científica", "website": "https://eccv.ecva.net", "recurrence": "bienal" }
+  },
+  {
+    "id": "event-iccv",
+    "dictionary": "eventos",
+    "name": "ICCV",
+    "aliases": ["International Conference on Computer Vision"],
+    "description": "Conferência internacional de pesquisa em visão computacional, percepção e reconhecimento.",
+    "tags": ["conferência", "visão computacional", "pesquisa"],
+    "details": { "category": "Conferência científica", "website": "https://iccv.thecvf.com", "recurrence": "bienal" }
+  },
+  {
+    "id": "event-interspeech",
+    "dictionary": "eventos",
+    "name": "INTERSPEECH",
+    "aliases": ["Interspeech Conference"],
+    "description": "Maior conferência internacional sobre ciência e tecnologia da fala e linguagem falada.",
+    "tags": ["conferência", "voz", "áudio"],
+    "details": { "category": "Conferência científica", "website": "https://www.interspeech.com", "recurrence": "anual" }
+  },
+  {
+    "id": "event-mlsys",
+    "dictionary": "eventos",
+    "name": "MLSys",
+    "aliases": ["Conference on Machine Learning and Systems"],
+    "description": "Conferência sobre sistemas, hardware, compiladores e infraestrutura para aprendizado de máquina.",
+    "tags": ["conferência", "infraestrutura", "MLOps"],
+    "details": { "category": "Conferência científica", "website": "https://mlsys.org", "recurrence": "anual" }
+  },
+  {
+    "id": "event-nvidia-gtc",
+    "dictionary": "eventos",
+    "name": "NVIDIA GTC",
+    "aliases": ["GTC AI Conference"],
+    "description": "Conferência global sobre computação acelerada, IA generativa, robótica e data centers.",
+    "tags": ["conferência", "hardware", "IA generativa"],
+    "details": { "company": "NVIDIA", "category": "Conferência de tecnologia", "website": "https://www.nvidia.com/gtc", "date_2026": "16–19 de março de 2026, San Jose" }
+  },
+  {
+    "id": "event-aws-reinvent",
+    "dictionary": "eventos",
+    "name": "AWS re:Invent",
+    "aliases": ["AWS reInvent"],
+    "description": "Conferência anual da AWS sobre nuvem, dados, machine learning e inteligência artificial generativa.",
+    "tags": ["conferência", "nuvem", "enterprise"],
+    "details": { "company": "Amazon Web Services", "category": "Conferência de tecnologia", "website": "https://reinvent.awsevents.com", "recurrence": "anual" }
+  },
+  {
+    "id": "event-google-cloud-next",
+    "dictionary": "eventos",
+    "name": "Google Cloud Next",
+    "aliases": ["Cloud Next"],
+    "description": "Evento global do Google Cloud para desenvolvedores e empresas, com forte foco em dados e IA.",
+    "tags": ["conferência", "nuvem", "IA generativa"],
+    "details": { "company": "Google Cloud", "category": "Conferência de tecnologia", "website": "https://cloud.google.com/next", "recurrence": "anual" }
+  },
+  {
+    "id": "event-databricks-data-ai-summit",
+    "dictionary": "eventos",
+    "name": "Databricks Data + AI Summit",
+    "aliases": ["Data + AI Summit"],
+    "description": "Conferência sobre engenharia de dados, lakehouse, analytics e inteligência artificial empresarial.",
+    "tags": ["conferência", "dados", "enterprise"],
+    "details": { "company": "Databricks", "category": "Conferência de dados e IA", "website": "https://www.databricks.com/dataaisummit", "recurrence": "anual" }
+  },
+  {
+    "id": "event-web-summit-rio",
+    "dictionary": "eventos",
+    "name": "Web Summit Rio",
+    "aliases": ["Web Summit Rio AI Summit"],
+    "description": "Grande encontro de tecnologia e startups na América do Sul, com trilhas dedicadas a IA e inovação.",
+    "tags": ["evento", "startups", "IA", "Brasil"],
+    "details": { "category": "Conferência de tecnologia", "website": "https://rio.websummit.com", "date_2026": "8–11 de junho de 2026, Rio de Janeiro", "source": "https://rio.websummit.com/tracks/ai-summit/" }
+  },
+  {
+    "id": "event-south-summit-brazil",
+    "dictionary": "eventos",
+    "name": "South Summit Brazil",
+    "aliases": ["South Summit Brasil"],
+    "description": "Encontro de empreendedorismo, inovação e tecnologia que reúne startups, investidores e empresas.",
+    "tags": ["evento", "startups", "inovação", "Brasil"],
+    "details": { "category": "Empreendedorismo e tecnologia", "website": "https://www.southsummit.io/brazil", "date_2026": "25–27 de março de 2026, Porto Alegre", "source": "https://cincodias.elpais.com/companias/2026-03-20/south-summit-brazil-reune-a-500-expertos-en-emprendimiento-y-ia.html" }
+  }
 ]
