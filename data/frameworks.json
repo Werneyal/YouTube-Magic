@@ -1,0 +1,29 @@
+[
+  {
+    "id": "framework-langchain",
+    "dictionary": "frameworks",
+    "name": "LangChain",
+    "aliases": ["Lang Chain", "Leng Chain"],
+    "description": "Framework para aplicações baseadas em modelos de linguagem.",
+    "tags": ["desenvolvimento", "agentes"],
+    "details": { "category": "Framework", "website": "https://langchain.com" }
+  },
+  {
+    "id": "framework-llamaindex",
+    "dictionary": "frameworks",
+    "name": "LlamaIndex",
+    "aliases": ["Llama Index", "Lama Index"],
+    "description": "Framework para conectar modelos a fontes de dados.",
+    "tags": ["RAG", "dados"],
+    "details": { "category": "Framework", "website": "https://llamaindex.ai" }
+  },
+  {
+    "id": "framework-crewai",
+    "dictionary": "frameworks",
+    "name": "CrewAI",
+    "aliases": ["Crew AI", "Cru AI"],
+    "description": "Framework para orquestração de agentes.",
+    "tags": ["agentes"],
+    "details": { "category": "Framework", "website": "https://crewai.com" }
+  }
+]

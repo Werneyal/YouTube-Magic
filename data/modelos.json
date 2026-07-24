@@ -1,0 +1,29 @@
+[
+  {
+    "id": "model-gpt-5",
+    "dictionary": "modelos",
+    "name": "GPT-5",
+    "aliases": ["GPT 5", "G P T 5"],
+    "description": "Família de modelos de linguagem da OpenAI.",
+    "tags": ["LLM"],
+    "details": { "company": "OpenAI", "family": "GPT" }
+  },
+  {
+    "id": "model-claude-sonnet",
+    "dictionary": "modelos",
+    "name": "Claude Sonnet",
+    "aliases": ["Cloud Sonnet", "Claude Sonic"],
+    "description": "Modelo da família Claude.",
+    "tags": ["LLM"],
+    "details": { "company": "Anthropic", "family": "Claude" }
+  },
+  {
+    "id": "model-gemini",
+    "dictionary": "modelos",
+    "name": "Gemini",
+    "aliases": ["Geminy", "Gêmini"],
+    "description": "Família multimodal de modelos do Google.",
+    "tags": ["LLM", "multimodal"],
+    "details": { "company": "Google", "family": "Gemini" }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "startup-perplexity",
+    "dictionary": "startups",
+    "name": "Perplexity",
+    "aliases": ["Perplexity AI", "Perplexiti"],
+    "description": "Empresa de busca e respostas assistidas por IA.",
+    "tags": ["busca", "assistente"],
+    "details": { "category": "Busca", "website": "https://perplexity.ai" }
+  },
+  {
+    "id": "startup-mistral",
+    "dictionary": "startups",
+    "name": "Mistral AI",
+    "aliases": ["Mistral A I", "Mistral IA"],
+    "description": "Empresa europeia de modelos de inteligência artificial.",
+    "tags": ["modelos", "Europa"],
+    "details": { "category": "Modelos", "website": "https://mistral.ai" }
+  }
+]

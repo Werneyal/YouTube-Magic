@@ -1,0 +1,20 @@
+[
+  {
+    "id": "benchmark-swe-bench",
+    "dictionary": "benchmarks",
+    "name": "SWE-bench",
+    "aliases": ["SWE Bench", "Software Bench"],
+    "description": "Benchmark de resolução de problemas reais de engenharia de software.",
+    "tags": ["programação", "avaliação"],
+    "details": { "category": "Programação" }
+  },
+  {
+    "id": "benchmark-mmlu",
+    "dictionary": "benchmarks",
+    "name": "MMLU",
+    "aliases": ["M M L U"],
+    "description": "Benchmark de conhecimento multidisciplinar.",
+    "tags": ["conhecimento", "avaliação"],
+    "details": { "category": "Conhecimento" }
+  }
+]

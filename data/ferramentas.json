@@ -1,0 +1,38 @@
+[
+  {
+    "id": "tool-claude-code",
+    "dictionary": "ferramentas",
+    "name": "Claude Code",
+    "aliases": ["Cloud Code", "Clawed Code", "Claude Coded"],
+    "description": "Agente de programação da Anthropic executado no terminal.",
+    "tags": ["programação", "agente"],
+    "details": { "company": "Anthropic", "category": "Agente de programação", "website": "https://claude.com/product/claude-code" }
+  },
+  {
+    "id": "tool-chatgpt",
+    "dictionary": "ferramentas",
+    "name": "ChatGPT",
+    "aliases": ["Chat GPT", "Chat GBT"],
+    "description": "Assistente de inteligência artificial da OpenAI.",
+    "tags": ["assistente", "chat"],
+    "details": { "company": "OpenAI", "category": "Assistente de IA", "website": "https://chatgpt.com" }
+  },
+  {
+    "id": "tool-codex",
+    "dictionary": "ferramentas",
+    "name": "Codex",
+    "aliases": ["Code X", "Codex CLI"],
+    "description": "Agente da OpenAI para desenvolvimento de software.",
+    "tags": ["programação", "agente"],
+    "details": { "company": "OpenAI", "category": "Agente de programação" }
+  },
+  {
+    "id": "tool-notebooklm",
+    "dictionary": "ferramentas",
+    "name": "NotebookLM",
+    "aliases": ["Notebook LM", "Notebook L M"],
+    "description": "Ferramenta do Google para pesquisa e síntese baseada em fontes.",
+    "tags": ["pesquisa", "documentos"],
+    "details": { "company": "Google", "category": "Assistente de pesquisa", "website": "https://notebooklm.google.com" }
+  }
+]

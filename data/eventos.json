@@ -1,0 +1,20 @@
+[
+  {
+    "id": "event-google-io",
+    "dictionary": "eventos",
+    "name": "Google I/O",
+    "aliases": ["Google IO", "Google I O"],
+    "description": "Conferência anual para desenvolvedores do Google.",
+    "tags": ["conferência", "Google"],
+    "details": { "company": "Google", "category": "Conferência" }
+  },
+  {
+    "id": "event-microsoft-build",
+    "dictionary": "eventos",
+    "name": "Microsoft Build",
+    "aliases": ["MS Build"],
+    "description": "Conferência anual para desenvolvedores da Microsoft.",
+    "tags": ["conferência", "Microsoft"],
+    "details": { "company": "Microsoft", "category": "Conferência" }
+  }
+]

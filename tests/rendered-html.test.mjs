@@ -1,6 +1,14 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import {
+  normalizeKnowledgeTerm,
+} from "../lib/dictionaries.ts";
 import { decodeHtmlEntities } from "../lib/html-entities.ts";
+import {
+  findKnowledgeConflict,
+  KnowledgeValidationError,
+  sanitizeKnowledgeEntityInput,
+} from "../lib/knowledge-validation.ts";
 import {
   extractYouTubeVideoId,
   getVideoCardData,
@@ -15,6 +23,61 @@ test("converte entidades HTML presentes na transcrição", () => {
     "I'll use \"Codex\" & test 'again'.",
   );
   assert.equal(decodeHtmlEntities("Duplo: &amp;#39;"), "Duplo: '");
+});
+
+test("normaliza termos da Base de Conhecimento para comparação", () => {
+  assert.equal(normalizeKnowledgeTerm("  Cláude   Code "), "claude code");
+});
+
+test("valida entidades e remove aliases repetidos", () => {
+  const entity = sanitizeKnowledgeEntityInput({
+    name: "Claude Code",
+    aliases: ["Cloud Code", " cloud code ", "Claude Code"],
+    tags: ["Agente", "agente"],
+    details: { website: "https://claude.com" },
+  });
+
+  assert.deepEqual(entity.aliases, ["cloud code"]);
+  assert.deepEqual(entity.tags, ["agente"]);
+  assert.throws(
+    () =>
+      sanitizeKnowledgeEntityInput({
+        name: "Claude Code",
+        details: { website: "javascript:alert(1)" },
+      }),
+    KnowledgeValidationError,
+  );
+});
+
+test("detecta conflitos entre nomes e aliases conhecidos", () => {
+  const existing = {
+    id: "tool-claude-code",
+    dictionary: "ferramentas",
+    name: "Claude Code",
+    aliases: ["Cloud Code"],
+    description: "",
+    tags: [],
+    details: {},
+    createdAt: "",
+    updatedAt: "",
+  };
+
+  assert.match(
+    findKnowledgeConflict(
+      "ferramentas",
+      { name: "Cloud Code", aliases: [] },
+      [existing],
+    ),
+    /alias/,
+  );
+  assert.match(
+    findKnowledgeConflict(
+      "ferramentas",
+      { name: "Nova ferramenta", aliases: ["Claude Code"] },
+      [existing],
+    ),
+    /associado/,
+  );
 });
 
 async function render() {

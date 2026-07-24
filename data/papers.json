@@ -1,0 +1,20 @@
+[
+  {
+    "id": "paper-attention-is-all-you-need",
+    "dictionary": "papers",
+    "name": "Attention Is All You Need",
+    "aliases": ["Attention Is All You Need paper", "Transformer paper"],
+    "description": "Artigo que apresentou a arquitetura Transformer.",
+    "tags": ["transformers", "arquitetura"],
+    "details": { "category": "Arquitetura" }
+  },
+  {
+    "id": "paper-constitutional-ai",
+    "dictionary": "papers",
+    "name": "Constitutional AI",
+    "aliases": ["Constitutional A I"],
+    "description": "Trabalho sobre treinamento de assistentes com princípios explícitos.",
+    "tags": ["alinhamento", "segurança"],
+    "details": { "company": "Anthropic", "category": "Alinhamento" }
+  }
+]

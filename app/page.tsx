@@ -277,7 +277,12 @@ export default function Home() {
           </span>
           <span>Vídeo em Foco</span>
         </a>
-        <span className="header-note">Metadados + transcrição</span>
+        <nav className="site-nav" aria-label="Navegação principal">
+          <a className="active" href="#inicio" aria-current="page">
+            Vídeos
+          </a>
+          <a href="/knowledge-base">Base de Conhecimento</a>
+        </nav>
       </header>
 
       <section className="hero" id="inicio">

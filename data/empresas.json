@@ -1,0 +1,29 @@
+[
+  {
+    "id": "company-openai",
+    "dictionary": "empresas",
+    "name": "OpenAI",
+    "aliases": ["Open AI", "Open Eye"],
+    "description": "Empresa de pesquisa e produtos de inteligência artificial.",
+    "tags": ["laboratório", "IA generativa"],
+    "details": { "website": "https://openai.com" }
+  },
+  {
+    "id": "company-anthropic",
+    "dictionary": "empresas",
+    "name": "Anthropic",
+    "aliases": ["Antropic", "Anthropik"],
+    "description": "Empresa responsável pela família Claude.",
+    "tags": ["laboratório", "segurança"],
+    "details": { "website": "https://anthropic.com" }
+  },
+  {
+    "id": "company-deepmind",
+    "dictionary": "empresas",
+    "name": "Google DeepMind",
+    "aliases": ["Google Deep Mind", "Deep Mind"],
+    "description": "Laboratório de inteligência artificial do Google.",
+    "tags": ["laboratório", "pesquisa"],
+    "details": { "website": "https://deepmind.google" }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "person-sam-altman",
+    "dictionary": "pessoas",
+    "name": "Sam Altman",
+    "aliases": ["Same Altman", "Sam Altmann"],
+    "description": "Executivo e empreendedor do setor de tecnologia.",
+    "tags": ["executivo"],
+    "details": { "company": "OpenAI", "role": "CEO" }
+  },
+  {
+    "id": "person-dario-amodei",
+    "dictionary": "pessoas",
+    "name": "Dario Amodei",
+    "aliases": ["Dário Amodei", "Dario Amoday"],
+    "description": "Cofundador da Anthropic.",
+    "tags": ["fundador", "pesquisador"],
+    "details": { "company": "Anthropic", "role": "CEO" }
+  },
+  {
+    "id": "person-andrej-karpathy",
+    "dictionary": "pessoas",
+    "name": "Andrej Karpathy",
+    "aliases": ["Andre Karpathy", "André Karpathy"],
+    "description": "Pesquisador e educador em inteligência artificial.",
+    "tags": ["pesquisador", "educação"],
+    "details": { "role": "Pesquisador" }
+  }
+]
