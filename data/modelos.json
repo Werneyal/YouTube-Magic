@@ -259,5 +259,266 @@
       "family": "Mistral",
       "website": "https://openrouter.ai/mistralai/mistral-nemo"
     }
+  },
+  {
+    "id": "model-gpt-5-6-terra",
+    "dictionary": "modelos",
+    "name": "GPT-5.6 Terra",
+    "aliases": ["GPT 5.6 Terra", "G P T 5.6 Terra"],
+    "description": "Modelo equilibrado da série GPT-5.6 para código e raciocínio.",
+    "tags": ["LLM", "código", "raciocínio"],
+    "details": { "company": "OpenAI", "family": "GPT", "website": "https://openrouter.ai/openai/gpt-5.6-terra" }
+  },
+  {
+    "id": "model-claude-fable-5",
+    "dictionary": "modelos",
+    "name": "Claude Fable 5",
+    "aliases": ["Cloud Fable 5", "Claude Fabel 5"],
+    "description": "Modelo da Anthropic com alto desempenho em programação e raciocínio.",
+    "tags": ["LLM", "código", "raciocínio"],
+    "details": { "company": "Anthropic", "family": "Claude", "website": "https://openrouter.ai/anthropic/claude-fable-5" }
+  },
+  {
+    "id": "model-gpt-5-5",
+    "dictionary": "modelos",
+    "name": "GPT-5.5",
+    "aliases": ["GPT 5.5", "G P T 5.5"],
+    "description": "Modelo da série GPT-5.5 para programação e tarefas gerais.",
+    "tags": ["LLM", "código", "raciocínio"],
+    "details": { "company": "OpenAI", "family": "GPT", "website": "https://openrouter.ai/openai/gpt-5.5" }
+  },
+  {
+    "id": "model-claude-opus-4-7",
+    "dictionary": "modelos",
+    "name": "Claude Opus 4.7",
+    "aliases": ["Cloud Opus 4.7", "Claude Opus Four Point Seven"],
+    "description": "Modelo avançado da Anthropic para código, análise e agentes.",
+    "tags": ["LLM", "código", "raciocínio", "agentes"],
+    "details": { "company": "Anthropic", "family": "Claude Opus", "website": "https://openrouter.ai/anthropic/claude-opus-4.7" }
+  },
+  {
+    "id": "model-gpt-5-6-luna",
+    "dictionary": "modelos",
+    "name": "GPT-5.6 Luna",
+    "aliases": ["GPT 5.6 Luna", "G P T 5.6 Luna"],
+    "description": "Modelo rápido e eficiente da série GPT-5.6 para código e alto volume.",
+    "tags": ["LLM", "código", "baixa latência"],
+    "details": { "company": "OpenAI", "family": "GPT", "website": "https://openrouter.ai/openai/gpt-5.6-luna" }
+  },
+  {
+    "id": "model-muse-spark-1-1",
+    "dictionary": "modelos",
+    "name": "Muse Spark 1.1",
+    "aliases": ["Muse Spark", "Muse Espártico 1.1"],
+    "description": "Modelo multimodal da Meta para raciocínio e tarefas com agentes.",
+    "tags": ["LLM", "multimodal", "código", "agentes"],
+    "details": { "company": "Meta", "family": "Muse", "website": "https://openrouter.ai/meta/muse-spark-1.1" }
+  },
+  {
+    "id": "model-gpt-5-4",
+    "dictionary": "modelos",
+    "name": "GPT-5.4",
+    "aliases": ["GPT 5.4", "G P T 5.4"],
+    "description": "Modelo da OpenAI para programação, raciocínio e uso de ferramentas.",
+    "tags": ["LLM", "código", "raciocínio", "ferramentas"],
+    "details": { "company": "OpenAI", "family": "GPT", "website": "https://openrouter.ai/openai/gpt-5.4" }
+  },
+  {
+    "id": "model-gemini-3-5-flash",
+    "dictionary": "modelos",
+    "name": "Gemini 3.5 Flash",
+    "aliases": ["Gemini 3.5", "Geminy 3.5 Flash"],
+    "description": "Modelo rápido do Google com forte desempenho em código e raciocínio.",
+    "tags": ["LLM", "código", "multimodal"],
+    "details": { "company": "Google", "family": "Gemini", "website": "https://openrouter.ai/google/gemini-3.5-flash" }
+  },
+  {
+    "id": "model-gemini-3-6-flash",
+    "dictionary": "modelos",
+    "name": "Gemini 3.6 Flash",
+    "aliases": ["Gemini 3.6", "Geminy 3.6 Flash"],
+    "description": "Modelo multimodal do Google para programação e fluxos com agentes.",
+    "tags": ["LLM", "código", "multimodal", "agentes"],
+    "details": { "company": "Google", "family": "Gemini", "website": "https://openrouter.ai/google/gemini-3.6-flash" }
+  },
+  {
+    "id": "model-gemini-3-1-pro-preview",
+    "dictionary": "modelos",
+    "name": "Gemini 3.1 Pro Preview",
+    "aliases": ["Gemini 3.1 Pro", "Geminy 3.1 Pro Preview"],
+    "description": "Modelo multimodal de prévia do Google para código e raciocínio avançado.",
+    "tags": ["LLM", "código", "raciocínio", "multimodal"],
+    "details": { "company": "Google", "family": "Gemini", "website": "https://openrouter.ai/google/gemini-3.1-pro-preview" }
+  },
+  {
+    "id": "model-qwen-3-7-max",
+    "dictionary": "modelos",
+    "name": "Qwen3.7 Max",
+    "aliases": ["Qwen 3.7 Max", "Quen 3.7 Max"],
+    "description": "Modelo da família Qwen para programação, raciocínio e contexto longo.",
+    "tags": ["LLM", "código", "raciocínio", "contexto longo"],
+    "details": { "company": "Alibaba", "family": "Qwen", "website": "https://openrouter.ai/qwen/qwen3.7-max" }
+  },
+  {
+    "id": "model-claude-sonnet-4-6",
+    "dictionary": "modelos",
+    "name": "Claude Sonnet 4.6",
+    "aliases": ["Cloud Sonnet 4.6", "Claude Sonic 4.6"],
+    "description": "Modelo da Anthropic para programação, análise e tarefas gerais.",
+    "tags": ["LLM", "código", "raciocínio"],
+    "details": { "company": "Anthropic", "family": "Claude Sonnet", "website": "https://openrouter.ai/anthropic/claude-sonnet-4.6" }
+  },
+  {
+    "id": "model-kimi-k2-6",
+    "dictionary": "modelos",
+    "name": "Kimi K2.6",
+    "aliases": ["Kimi K 2.6", "Kimi Key 2.6"],
+    "description": "Modelo da Moonshot AI para programação e raciocínio de longa duração.",
+    "tags": ["LLM", "código", "raciocínio", "agentes"],
+    "details": { "company": "Moonshot AI", "family": "Kimi", "website": "https://openrouter.ai/moonshotai/kimi-k2.6" }
+  },
+  {
+    "id": "model-kimi-k2-7-code",
+    "dictionary": "modelos",
+    "name": "Kimi K2.7 Code",
+    "aliases": ["Kimi K 2.7 Code", "Kimi Coding 2.7"],
+    "description": "Modelo especializado da Moonshot AI para programação.",
+    "tags": ["LLM", "código", "agentes"],
+    "details": { "company": "Moonshot AI", "family": "Kimi", "website": "https://openrouter.ai/moonshotai/kimi-k2.7-code" }
+  },
+  {
+    "id": "model-mimo-v2-5-pro",
+    "dictionary": "modelos",
+    "name": "MiMo-V2.5-Pro",
+    "aliases": ["MiMo V2.5 Pro", "Mimo 2.5 Pro"],
+    "description": "Variante avançada da Xiaomi para programação e raciocínio.",
+    "tags": ["LLM", "código", "raciocínio"],
+    "details": { "company": "Xiaomi", "family": "MiMo", "website": "https://openrouter.ai/xiaomi/mimo-v2.5-pro" }
+  },
+  {
+    "id": "model-kat-coder-pro-v2",
+    "dictionary": "modelos",
+    "name": "KAT-Coder-Pro V2",
+    "aliases": ["Kat Coder Pro V2", "KAT Coder Pro 2"],
+    "description": "Modelo da Kwaipilot voltado a programação agentiva.",
+    "tags": ["LLM", "código", "agentes"],
+    "details": { "company": "Kwaipilot", "family": "KAT-Coder", "website": "https://openrouter.ai/kwaipilot/kat-coder-pro-v2" }
+  },
+  {
+    "id": "model-nex-n2-pro",
+    "dictionary": "modelos",
+    "name": "Nex-N2-Pro",
+    "aliases": ["Nex N2 Pro", "Nex N dois Pro"],
+    "description": "Modelo da Nex AGI com foco em programação e raciocínio.",
+    "tags": ["LLM", "código", "raciocínio"],
+    "details": { "company": "Nex AGI", "family": "Nex", "website": "https://openrouter.ai/nex-agi/nex-n2-pro" }
+  },
+  {
+    "id": "model-hy3-preview",
+    "dictionary": "modelos",
+    "name": "Hy3 Preview",
+    "aliases": ["HY3 Preview", "Hy Three Preview"],
+    "description": "Modelo de prévia da Tencent com foco em programação e raciocínio.",
+    "tags": ["LLM", "código", "raciocínio"],
+    "details": { "company": "Tencent", "family": "HY3", "website": "https://openrouter.ai/tencent/hy3-preview" }
+  },
+  {
+    "id": "model-gpt-5-4-mini",
+    "dictionary": "modelos",
+    "name": "GPT-5.4 Mini",
+    "aliases": ["GPT 5.4 Mini", "G P T 5.4 Mini"],
+    "description": "Modelo compacto da OpenAI para código e tarefas de menor latência.",
+    "tags": ["LLM", "código", "baixa latência"],
+    "details": { "company": "OpenAI", "family": "GPT", "website": "https://openrouter.ai/openai/gpt-5.4-mini" }
+  },
+  {
+    "id": "model-gpt-5-4-nano",
+    "dictionary": "modelos",
+    "name": "GPT-5.4 Nano",
+    "aliases": ["GPT 5.4 Nano", "G P T 5.4 Nano"],
+    "description": "Modelo econômico da OpenAI para código e tarefas rápidas.",
+    "tags": ["LLM", "código", "baixo custo"],
+    "details": { "company": "OpenAI", "family": "GPT", "website": "https://openrouter.ai/openai/gpt-5.4-nano" }
+  },
+  {
+    "id": "model-glm-5-1",
+    "dictionary": "modelos",
+    "name": "GLM 5.1",
+    "aliases": ["G L M 5.1", "GLM cinco ponto um"],
+    "description": "Modelo da Z.ai para programação e raciocínio.",
+    "tags": ["LLM", "código", "raciocínio"],
+    "details": { "company": "Z.ai", "family": "GLM", "website": "https://openrouter.ai/z-ai/glm-5.1" }
+  },
+  {
+    "id": "model-qwen-3-6-plus",
+    "dictionary": "modelos",
+    "name": "Qwen3.6 Plus",
+    "aliases": ["Qwen 3.6 Plus", "Quen 3.6 Plus"],
+    "description": "Modelo da família Qwen para programação e tarefas de contexto longo.",
+    "tags": ["LLM", "código", "contexto longo"],
+    "details": { "company": "Alibaba", "family": "Qwen", "website": "https://openrouter.ai/qwen/qwen3.6-plus" }
+  },
+  {
+    "id": "model-qwen-3-6-27b",
+    "dictionary": "modelos",
+    "name": "Qwen3.6 27B",
+    "aliases": ["Qwen 3.6 27B", "Quen 3.6 27B"],
+    "description": "Modelo Qwen de 27 bilhões de parâmetros para código e linguagem.",
+    "tags": ["LLM", "código", "pesos abertos"],
+    "details": { "company": "Alibaba", "family": "Qwen", "website": "https://openrouter.ai/qwen/qwen3.6-27b" }
+  },
+  {
+    "id": "model-minimax-m2-7",
+    "dictionary": "modelos",
+    "name": "MiniMax M2.7",
+    "aliases": ["Mini Max M2.7", "MiniMax M 2.7"],
+    "description": "Modelo da MiniMax para programação e fluxos agentivos.",
+    "tags": ["LLM", "código", "agentes"],
+    "details": { "company": "MiniMax", "family": "MiniMax", "website": "https://openrouter.ai/minimax/minimax-m2.7" }
+  },
+  {
+    "id": "model-claude-sonnet-4-5",
+    "dictionary": "modelos",
+    "name": "Claude Sonnet 4.5",
+    "aliases": ["Cloud Sonnet 4.5", "Claude Sonic 4.5"],
+    "description": "Modelo da Anthropic para programação, análise e tarefas gerais.",
+    "tags": ["LLM", "código", "raciocínio"],
+    "details": { "company": "Anthropic", "family": "Claude Sonnet", "website": "https://openrouter.ai/anthropic/claude-sonnet-4.5" }
+  },
+  {
+    "id": "model-inkling",
+    "dictionary": "modelos",
+    "name": "Inkling",
+    "aliases": ["Ink Link", "Thinking Machines Inkling"],
+    "description": "Modelo multimodal aberto da Thinking Machines para código e agentes.",
+    "tags": ["LLM", "multimodal", "código", "pesos abertos"],
+    "details": { "company": "Thinking Machines Lab", "family": "Inkling", "website": "https://openrouter.ai/thinkingmachines/inkling" }
+  },
+  {
+    "id": "model-grok-build-0-1",
+    "dictionary": "modelos",
+    "name": "Grok Build 0.1",
+    "aliases": ["Grok Build", "Groc Build 0.1"],
+    "description": "Modelo da xAI direcionado a programação e construção de aplicações.",
+    "tags": ["LLM", "código", "agentes"],
+    "details": { "company": "xAI", "family": "Grok", "website": "https://openrouter.ai/x-ai/grok-build-0.1" }
+  },
+  {
+    "id": "model-gpt-5-1",
+    "dictionary": "modelos",
+    "name": "GPT-5.1",
+    "aliases": ["GPT 5.1", "G P T 5.1"],
+    "description": "Modelo da OpenAI para programação, raciocínio e tarefas gerais.",
+    "tags": ["LLM", "código", "raciocínio"],
+    "details": { "company": "OpenAI", "family": "GPT", "website": "https://openrouter.ai/openai/gpt-5.1" }
+  },
+  {
+    "id": "model-gemini-3-5-flash-lite",
+    "dictionary": "modelos",
+    "name": "Gemini 3.5 Flash Lite",
+    "aliases": ["Gemini 3.5 Flash Lite", "Geminy 3.5 Lite"],
+    "description": "Variante leve do Gemini para código, classificação e tarefas rápidas.",
+    "tags": ["LLM", "código", "baixa latência"],
+    "details": { "company": "Google", "family": "Gemini", "website": "https://openrouter.ai/google/gemini-3.5-flash-lite" }
   }
 ]
