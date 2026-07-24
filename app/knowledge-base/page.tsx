@@ -71,6 +71,7 @@ export default function KnowledgeBasePage() {
   const [query, setQuery] = useState("");
   const [isLoading, setIsLoading] = useState(true);
   const [isSaving, setIsSaving] = useState(false);
+  const [isExportingAll, setIsExportingAll] = useState(false);
   const [editing, setEditing] = useState<KnowledgeEntity | null>(null);
   const [isEditorOpen, setIsEditorOpen] = useState(false);
   const [draft, setDraft] = useState<EntityDraft>(emptyDraft);
@@ -241,16 +242,53 @@ export default function KnowledgeBasePage() {
     }
   }
 
-  function exportDictionary() {
-    const content = JSON.stringify(entities, null, 2);
+  function downloadJson(content: string, filename: string) {
     const url = URL.createObjectURL(
       new Blob([content], { type: "application/json" }),
     );
     const link = document.createElement("a");
     link.href = url;
-    link.download = `${selected}.json`;
+    link.download = filename;
     link.click();
     URL.revokeObjectURL(url);
+  }
+
+  function exportDictionary() {
+    downloadJson(JSON.stringify(entities, null, 2), `${selected}.json`);
+  }
+
+  async function exportAllDictionaries() {
+    setError("");
+    setFeedback("");
+    setIsExportingAll(true);
+    try {
+      const entries = await Promise.all(
+        dictionariesConfig.map(async ({ key }) => {
+          const response = await fetch(`/api/dictionaries/${key}`, {
+            cache: "no-store",
+          });
+          const payload = await readJson(response);
+          return [key, payload.entities as KnowledgeEntity[]] as const;
+        }),
+      );
+      const grouped = Object.fromEntries(entries) as Record<
+        DictionaryKey,
+        KnowledgeEntity[]
+      >;
+      downloadJson(
+        JSON.stringify(grouped, null, 2),
+        "base-conhecimento.json",
+      );
+      setFeedback("Todas as bibliotecas foram exportadas.");
+    } catch (requestError) {
+      setError(
+        requestError instanceof Error
+          ? requestError.message
+          : "Não foi possível exportar todas as bibliotecas.",
+      );
+    } finally {
+      setIsExportingAll(false);
+    }
   }
 
   return (
@@ -345,9 +383,18 @@ export default function KnowledgeBasePage() {
                 className="secondary-action"
                 type="button"
                 onClick={exportDictionary}
-                disabled={!entities.length}
+                disabled={!entities.length || isExportingAll}
               >
                 Exportar JSON
+              </button>
+              <button
+                className="secondary-action"
+                type="button"
+                onClick={() => void exportAllDictionaries()}
+                disabled={isExportingAll || !summaries.length}
+                aria-busy={isExportingAll}
+              >
+                {isExportingAll ? "Exportando…" : "Exportar todas"}
               </button>
               <button
                 className="primary-action"
