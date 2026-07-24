@@ -25,5 +25,149 @@
     "description": "Framework para orquestração de agentes.",
     "tags": ["agentes"],
     "details": { "category": "Framework", "website": "https://crewai.com" }
+  },
+  {
+    "id": "framework-langgraph",
+    "dictionary": "frameworks",
+    "name": "LangGraph",
+    "aliases": ["Lang Graph", "LengGraph"],
+    "description": "Framework de baixo nível para criar e orquestrar agentes com estado.",
+    "tags": ["agentes", "orquestração", "workflows"],
+    "details": {
+      "category": "Framework de agentes",
+      "website": "https://docs.langchain.com/oss/python/langgraph/overview"
+    }
+  },
+  {
+    "id": "framework-haystack",
+    "dictionary": "frameworks",
+    "name": "Haystack",
+    "aliases": ["Hay Stack", "HeyStack"],
+    "description": "Framework aberto para agentes, pipelines RAG e busca multimodal.",
+    "tags": ["RAG", "agentes", "busca"],
+    "details": {
+      "category": "Framework de orquestração",
+      "website": "https://docs.haystack.deepset.ai/docs/intro"
+    }
+  },
+  {
+    "id": "framework-semantic-kernel",
+    "dictionary": "frameworks",
+    "name": "Semantic Kernel",
+    "aliases": ["Kernel Semântico", "Semantic Kernal"],
+    "description": "SDK da Microsoft para integrar modelos, plugins e agentes a aplicações.",
+    "tags": ["agentes", "plugins", "Microsoft"],
+    "details": {
+      "category": "SDK de agentes",
+      "website": "https://learn.microsoft.com/en-us/semantic-kernel/"
+    }
+  },
+  {
+    "id": "framework-autogen",
+    "dictionary": "frameworks",
+    "name": "AutoGen",
+    "aliases": ["Auto Gen", "AltoGen"],
+    "description": "Framework para construir agentes e sistemas multiagente orientados a eventos.",
+    "tags": ["agentes", "multiagente", "Microsoft"],
+    "details": {
+      "category": "Framework de agentes",
+      "website": "https://microsoft.github.io/autogen/stable/index.html"
+    }
+  },
+  {
+    "id": "framework-openai-agents-sdk",
+    "dictionary": "frameworks",
+    "name": "OpenAI Agents SDK",
+    "aliases": ["Open AI Agents SDK", "OpenAI Agent SDK"],
+    "description": "SDK para aplicações com agentes, ferramentas, handoffs e guardrails.",
+    "tags": ["agentes", "ferramentas", "OpenAI"],
+    "details": {
+      "category": "SDK de agentes",
+      "website": "https://openai.github.io/openai-agents-python/"
+    }
+  },
+  {
+    "id": "framework-dspy",
+    "dictionary": "frameworks",
+    "name": "DSPy",
+    "aliases": ["D S Py", "DS Pie"],
+    "description": "Framework para criar e otimizar programas modulares baseados em modelos de linguagem.",
+    "tags": ["LLM", "otimização", "programação"],
+    "details": {
+      "category": "Framework de programação de IA",
+      "website": "https://dspy.ai/"
+    }
+  },
+  {
+    "id": "framework-hugging-face-transformers",
+    "dictionary": "frameworks",
+    "name": "Hugging Face Transformers",
+    "aliases": ["HuggingFace Transformers", "Hugging Face Transformer"],
+    "description": "Biblioteca para treinamento e inferência com modelos de texto, visão, áudio e multimodais.",
+    "tags": ["modelos", "treinamento", "inferência"],
+    "details": {
+      "category": "Biblioteca de modelos",
+      "website": "https://huggingface.co/docs/transformers/index"
+    }
+  },
+  {
+    "id": "framework-pytorch",
+    "dictionary": "frameworks",
+    "name": "PyTorch",
+    "aliases": ["Pie Torch", "Pai Torch"],
+    "description": "Framework aberto para pesquisa, treinamento e implantação de modelos de aprendizado profundo.",
+    "tags": ["aprendizado profundo", "treinamento", "produção"],
+    "details": {
+      "category": "Framework de machine learning",
+      "website": "https://pytorch.org/projects/pytorch/"
+    }
+  },
+  {
+    "id": "framework-tensorflow",
+    "dictionary": "frameworks",
+    "name": "TensorFlow",
+    "aliases": ["Tensor Flow", "Tensor Flo"],
+    "description": "Plataforma completa para criar, treinar e implantar modelos de machine learning.",
+    "tags": ["machine learning", "treinamento", "produção"],
+    "details": {
+      "category": "Framework de machine learning",
+      "website": "https://www.tensorflow.org/"
+    }
+  },
+  {
+    "id": "framework-keras",
+    "dictionary": "frameworks",
+    "name": "Keras",
+    "aliases": ["Queras", "Keras AI"],
+    "description": "API de aprendizado profundo compatível com JAX, TensorFlow e PyTorch.",
+    "tags": ["aprendizado profundo", "API", "multibackend"],
+    "details": {
+      "category": "API de deep learning",
+      "website": "https://keras.io/"
+    }
+  },
+  {
+    "id": "framework-jax",
+    "dictionary": "frameworks",
+    "name": "JAX",
+    "aliases": ["Jacks", "JAX AI"],
+    "description": "Biblioteca para computação numérica acelerada e pesquisa de machine learning em larga escala.",
+    "tags": ["computação acelerada", "machine learning", "pesquisa"],
+    "details": {
+      "category": "Biblioteca numérica",
+      "website": "https://docs.jax.dev/en/latest/"
+    }
+  },
+  {
+    "id": "framework-scikit-learn",
+    "dictionary": "frameworks",
+    "name": "scikit-learn",
+    "aliases": ["Scikit Learn", "SK Learn"],
+    "description": "Biblioteca de machine learning para classificação, regressão, agrupamento e pré-processamento.",
+    "tags": ["machine learning", "Python", "modelagem"],
+    "details": {
+      "category": "Biblioteca de machine learning",
+      "website": "https://scikit-learn.org/stable/getting_started.html"
+    }
   }
 ]
