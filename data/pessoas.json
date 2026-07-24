@@ -169,4 +169,275 @@
       "website": "https://huggingface.co/blog/nvidia-training-cluster"
     }
   }
+,
+  {
+    "id": "person-ilya-sutskever",
+    "dictionary": "pessoas",
+    "name": "Ilya Sutskever",
+    "aliases": ["Ilya"],
+    "description": "Pesquisador de aprendizado profundo, cofundador da OpenAI e cofundador da Safe Superintelligence.",
+    "tags": ["pesquisador", "fundador", "segurança de IA"],
+    "details": { "company": "Safe Superintelligence", "role": "Cofundador", "website": "https://ssi.inc", "x": "https://x.com/ilyasut" }
+  },
+  {
+    "id": "person-jeff-dean",
+    "dictionary": "pessoas",
+    "name": "Jeff Dean",
+    "aliases": ["Jeffrey Dean"],
+    "description": "Líder de engenharia e pesquisa do Google, com contribuições centrais para sistemas distribuídos e IA.",
+    "tags": ["pesquisador", "engenharia", "executivo"],
+    "details": { "company": "Google", "role": "Chief Scientist", "website": "https://research.google/people/jeff/", "x": "https://x.com/JeffDean" }
+  },
+  {
+    "id": "person-pieter-abbeel",
+    "dictionary": "pessoas",
+    "name": "Pieter Abbeel",
+    "aliases": ["Pieter Abbeel AI"],
+    "description": "Professor e pesquisador de robótica e aprendizado por reforço, cofundador da Covariant.",
+    "tags": ["pesquisador", "robótica", "aprendizado por reforço"],
+    "details": { "company": "UC Berkeley e Covariant", "role": "Professor e cofundador", "website": "https://people.eecs.berkeley.edu/~pabbeel/", "x": "https://x.com/pabbeel" }
+  },
+  {
+    "id": "person-richard-sutton",
+    "dictionary": "pessoas",
+    "name": "Richard Sutton",
+    "aliases": ["Rich Sutton"],
+    "description": "Um dos fundadores do campo moderno de aprendizado por reforço e coautor do livro Reinforcement Learning.",
+    "tags": ["pesquisador", "aprendizado por reforço"],
+    "details": { "company": "University of Alberta", "role": "Professor e pesquisador", "website": "http://incompleteideas.net/", "x": "https://x.com/rlsutton" }
+  },
+  {
+    "id": "person-ian-goodfellow",
+    "dictionary": "pessoas",
+    "name": "Ian Goodfellow",
+    "aliases": ["Ian Goodfellow GAN"],
+    "description": "Pesquisador conhecido por propor redes generativas adversárias e por contribuições em deep learning.",
+    "tags": ["pesquisador", "modelos generativos"],
+    "details": { "role": "Pesquisador", "website": "https://www.iangoodfellow.com/", "x": "https://x.com/goodfellow_ian" }
+  },
+  {
+    "id": "person-timnit-gebru",
+    "dictionary": "pessoas",
+    "name": "Timnit Gebru",
+    "aliases": ["Timnit"],
+    "description": "Pesquisadora e fundadora do Distributed AI Research Institute, com foco em ética e impactos sociais da IA.",
+    "tags": ["pesquisadora", "ética", "governança"],
+    "details": { "company": "DAIR", "role": "Fundadora e diretora executiva", "website": "https://www.dair-institute.org/team/", "x": "https://x.com/timnitGebru" }
+  },
+  {
+    "id": "person-emily-bender",
+    "dictionary": "pessoas",
+    "name": "Emily Bender",
+    "aliases": ["Emily M. Bender"],
+    "description": "Linguista e pesquisadora de modelos de linguagem, riscos, vieses e limitações de sistemas generativos.",
+    "tags": ["pesquisadora", "linguagem", "ética"],
+    "details": { "company": "University of Washington", "role": "Professora", "website": "https://faculty.washington.edu/ebender/", "x": "https://x.com/emilymbender" }
+  },
+  {
+    "id": "person-stuart-russell",
+    "dictionary": "pessoas",
+    "name": "Stuart Russell",
+    "aliases": ["Stuart Russell AI"],
+    "description": "Professor e autor de referência em inteligência artificial, alinhamento e segurança de sistemas avançados.",
+    "tags": ["pesquisador", "segurança de IA", "alinhamento"],
+    "details": { "company": "UC Berkeley", "role": "Professor", "website": "https://people.eecs.berkeley.edu/~russell/", "x": "https://x.com/realStuartRussell" }
+  },
+  {
+    "id": "person-lilian-weng",
+    "dictionary": "pessoas",
+    "name": "Lilian Weng",
+    "aliases": ["Lil'Log", "Lilian Weng AI"],
+    "description": "Pesquisadora e autora do blog Lil'Log, conhecido por textos técnicos sobre agentes, modelos e segurança.",
+    "tags": ["pesquisadora", "educação", "agentes"],
+    "details": { "company": "Thinking Machines Lab", "role": "Cofundadora e pesquisadora", "website": "https://lilianweng.github.io/", "x": "https://x.com/lilianweng" }
+  },
+  {
+    "id": "person-ethan-mollick",
+    "dictionary": "pessoas",
+    "name": "Ethan Mollick",
+    "aliases": ["Ethan Mollick AI"],
+    "description": "Professor e autor que pesquisa o impacto da IA generativa no trabalho, educação e empreendedorismo.",
+    "tags": ["pesquisador", "educação", "empreendedorismo"],
+    "details": { "company": "Wharton", "role": "Professor", "website": "https://mgmt.wharton.upenn.edu/profile/emollick/", "x": "https://x.com/emollick" }
+  },
+  {
+    "id": "person-simon-willison",
+    "dictionary": "pessoas",
+    "name": "Simon Willison",
+    "aliases": ["Simon Willison AI"],
+    "description": "Desenvolvedor e autor do site simonwillison.net, referência em ferramentas e práticas para LLMs.",
+    "tags": ["desenvolvedor", "educação", "LLM"],
+    "details": { "role": "Desenvolvedor e escritor", "website": "https://simonwillison.net/", "x": "https://x.com/simonw" }
+  },
+  {
+    "id": "person-chip-huyen",
+    "dictionary": "pessoas",
+    "name": "Chip Huyen",
+    "aliases": ["Chip Huyen AI"],
+    "description": "Autora e engenheira especializada em sistemas de machine learning, dados e aplicações de modelos em produção.",
+    "tags": ["engenharia", "MLOps", "educação"],
+    "details": { "role": "Autora e engenheira", "website": "https://huyenchip.com/", "x": "https://x.com/chiphuyen" }
+  },
+  {
+    "id": "person-jim-fan",
+    "dictionary": "pessoas",
+    "name": "Jim Fan",
+    "aliases": ["Jim Fan NVIDIA"],
+    "description": "Pesquisador de IA incorporada, agentes e robótica, conhecido por divulgar avanços técnicos em formato acessível.",
+    "tags": ["pesquisador", "robótica", "agentes"],
+    "details": { "company": "NVIDIA", "role": "Research Scientist", "x": "https://x.com/DrJimFan" }
+  },
+  {
+    "id": "person-david-silver",
+    "dictionary": "pessoas",
+    "name": "David Silver",
+    "aliases": ["David Silver AlphaGo"],
+    "description": "Pesquisador de aprendizado por reforço e líder científico de trabalhos como AlphaGo e AlphaZero.",
+    "tags": ["pesquisador", "aprendizado por reforço", "jogos"],
+    "details": { "company": "Google DeepMind", "role": "Pesquisador", "website": "https://deepmind.google/people/david-silver/", "x": "https://x.com/davidsilver_ai" }
+  },
+  {
+    "id": "person-mira-murati",
+    "dictionary": "pessoas",
+    "name": "Mira Murati",
+    "aliases": ["Mira Murati AI"],
+    "description": "Executiva e empreendedora de tecnologia, ex-CTO da OpenAI e fundadora da Thinking Machines Lab.",
+    "tags": ["fundadora", "executiva", "pesquisa"],
+    "details": { "company": "Thinking Machines Lab", "role": "Cofundadora", "website": "https://thinkingmachines.ai", "x": "https://x.com/miramurati" }
+  },
+  {
+    "id": "person-greg-brockman",
+    "dictionary": "pessoas",
+    "name": "Greg Brockman",
+    "aliases": ["Greg Brockman OpenAI"],
+    "description": "Cofundador da OpenAI e empreendedor que atuou na construção de produtos e infraestrutura para IA.",
+    "tags": ["fundador", "empreendedor", "infraestrutura"],
+    "details": { "company": "OpenAI", "role": "Cofundador", "website": "https://openai.com/index/openai-leadership/", "x": "https://x.com/gdb" }
+  },
+  {
+    "id": "person-noam-brown",
+    "dictionary": "pessoas",
+    "name": "Noam Brown",
+    "aliases": ["Noam Brown AI"],
+    "description": "Pesquisador de raciocínio, planejamento e agentes, conhecido por trabalhos em jogos e modelos de linguagem.",
+    "tags": ["pesquisador", "agentes", "raciocínio"],
+    "details": { "company": "OpenAI", "role": "Research Scientist", "x": "https://x.com/Polynoamial" }
+  },
+  {
+    "id": "person-gary-marcus",
+    "dictionary": "pessoas",
+    "name": "Gary Marcus",
+    "aliases": ["Gary Marcus AI"],
+    "description": "Pesquisador, autor e comentarista conhecido por análises críticas sobre limitações e segurança de IA.",
+    "tags": ["pesquisador", "crítica", "segurança de IA"],
+    "details": { "role": "Pesquisador e autor", "website": "https://garymarcus.substack.com/", "x": "https://x.com/GaryMarcus" }
+  },
+  {
+    "id": "person-yannic-kilcher",
+    "dictionary": "pessoas",
+    "name": "Yannic Kilcher",
+    "aliases": ["Yannic Kilcher AI"],
+    "description": "YouTuber e pesquisador que explica papers, modelos de linguagem e novidades técnicas de IA.",
+    "tags": ["YouTube", "divulgação", "pesquisa"],
+    "details": { "role": "YouTuber e pesquisador", "youtube": "https://www.youtube.com/@YannicKilcher", "x": "https://x.com/ykilcher" }
+  },
+  {
+    "id": "person-matt-wolfe",
+    "dictionary": "pessoas",
+    "name": "Matt Wolfe",
+    "aliases": ["Matt Wolfe AI"],
+    "description": "YouTuber e comunicador que cobre ferramentas, produtos e tendências de inteligência artificial.",
+    "tags": ["YouTube", "divulgação", "ferramentas"],
+    "details": { "role": "YouTuber e comunicador", "youtube": "https://www.youtube.com/@mreflow", "x": "https://x.com/mreflow" }
+  },
+  {
+    "id": "person-wes-roth",
+    "dictionary": "pessoas",
+    "name": "Wes Roth",
+    "aliases": ["Wes Roth AI"],
+    "description": "Criador no YouTube que acompanha lançamentos, pesquisa e mudanças na indústria de IA.",
+    "tags": ["YouTube", "divulgação", "notícias"],
+    "details": { "role": "YouTuber e analista", "youtube": "https://www.youtube.com/@WesRoth", "x": "https://x.com/therealwesroth" }
+  },
+  {
+    "id": "person-philip-ai-explained",
+    "dictionary": "pessoas",
+    "name": "Philip (AI Explained)",
+    "aliases": ["AI Explained creator"],
+    "description": "Criador do canal AI Explained, conhecido por análises de modelos, papers e avanços de IA.",
+    "tags": ["YouTube", "divulgação", "pesquisa"],
+    "details": { "role": "YouTuber e analista", "youtube": "https://www.youtube.com/@aiexplained-official" }
+  },
+  {
+    "id": "person-karoly-zsolnai-feher",
+    "dictionary": "pessoas",
+    "name": "Károly Zsolnai-Fehér",
+    "aliases": ["Two Minute Papers", "Karoly Zsolnai Feher"],
+    "description": "Pesquisador e apresentador do canal Two Minute Papers, que populariza pesquisas visuais e generativas.",
+    "tags": ["YouTube", "divulgação", "visão computacional"],
+    "details": { "role": "Pesquisador e comunicador", "youtube": "https://www.youtube.com/@TwoMinutePapers", "x": "https://x.com/karoly_zsolnai" }
+  },
+  {
+    "id": "person-matthew-berman",
+    "dictionary": "pessoas",
+    "name": "Matthew Berman",
+    "aliases": ["Matthew Berman AI"],
+    "description": "YouTuber e analista de modelos generativos, produtos e ferramentas para desenvolvedores.",
+    "tags": ["YouTube", "divulgação", "modelos de linguagem"],
+    "details": { "role": "YouTuber e analista", "youtube": "https://www.youtube.com/@matthew_berman", "x": "https://x.com/matthewberman" }
+  },
+  {
+    "id": "person-santiago-valdarrama",
+    "dictionary": "pessoas",
+    "name": "Santiago Valdarrama",
+    "aliases": ["Santiago AI"],
+    "description": "Educador e criador de conteúdo que explica machine learning, dados e aplicações práticas de IA.",
+    "tags": ["educação", "divulgação", "dados"],
+    "details": { "role": "Educador e comunicador", "website": "https://santiagovaldarrama.com/", "x": "https://x.com/svpino" }
+  },
+  {
+    "id": "person-jordan-harrod",
+    "dictionary": "pessoas",
+    "name": "Jordan Harrod",
+    "aliases": ["Jordan Harrod AI"],
+    "description": "YouTuber e pesquisadora que aborda IA, neurotecnologia, ética e aplicações médicas.",
+    "tags": ["YouTube", "pesquisa", "ética", "saúde"],
+    "details": { "role": "Pesquisadora e YouTuber", "youtube": "https://www.youtube.com/@JordanHarrod", "x": "https://x.com/jordanbharrod" }
+  },
+  {
+    "id": "person-david-shapiro",
+    "dictionary": "pessoas",
+    "name": "David Shapiro",
+    "aliases": ["David Shapiro AI"],
+    "description": "Criador e pesquisador independente que discute agentes, modelos de linguagem e futuro do trabalho.",
+    "tags": ["YouTube", "agentes", "divulgação"],
+    "details": { "role": "Criador e pesquisador independente", "youtube": "https://www.youtube.com/@DaveShapiro", "x": "https://x.com/1319403" }
+  },
+  {
+    "id": "person-dwarkesh-patel",
+    "dictionary": "pessoas",
+    "name": "Dwarkesh Patel",
+    "aliases": ["Dwarkesh"],
+    "description": "Entrevistador e podcaster que conversa com pesquisadores e líderes sobre IA, ciência e tecnologia.",
+    "tags": ["podcast", "entrevistas", "divulgação"],
+    "details": { "role": "Podcaster e entrevistador", "website": "https://www.dwarkeshpatel.com/", "x": "https://x.com/dwarkesh_sp" }
+  },
+  {
+    "id": "person-swyx",
+    "dictionary": "pessoas",
+    "name": "Swyx",
+    "aliases": ["Shawn Wang", "Latent Space"],
+    "description": "Engenheiro, escritor e coapresentador do podcast Latent Space sobre IA e desenvolvimento.",
+    "tags": ["podcast", "desenvolvimento", "divulgação"],
+    "details": { "role": "Engenheiro e comunicador", "website": "https://www.latent.space/", "x": "https://x.com/swyx" }
+  },
+  {
+    "id": "person-sebastian-raschka",
+    "dictionary": "pessoas",
+    "name": "Sebastian Raschka",
+    "aliases": ["Sebastian Raschka AI"],
+    "description": "Pesquisador e autor de materiais didáticos sobre machine learning, LLMs e implementação de modelos.",
+    "tags": ["pesquisador", "educação", "LLM"],
+    "details": { "role": "Pesquisador e autor", "website": "https://sebastianraschka.com/", "x": "https://x.com/rasbt" }
+  }
 ]
