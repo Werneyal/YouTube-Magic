@@ -25,5 +25,148 @@
     "description": "Pesquisador e educador em inteligência artificial.",
     "tags": ["pesquisador", "educação"],
     "details": { "role": "Pesquisador" }
+  },
+  {
+    "id": "person-demis-hassabis",
+    "dictionary": "pessoas",
+    "name": "Demis Hassabis",
+    "aliases": ["Dennis Hassabis", "Demis Hasabis"],
+    "description": "Cofundador e líder do laboratório Google DeepMind.",
+    "tags": ["fundador", "pesquisador", "executivo"],
+    "details": {
+      "company": "Google DeepMind",
+      "role": "Cofundador e CEO",
+      "website": "https://deepmind.google/about/"
+    }
+  },
+  {
+    "id": "person-jensen-huang",
+    "dictionary": "pessoas",
+    "name": "Jensen Huang",
+    "aliases": ["Jensen Hwang", "Jansen Huang"],
+    "description": "Cofundador da NVIDIA e liderança em computação acelerada para IA.",
+    "tags": ["fundador", "executivo", "hardware"],
+    "details": {
+      "company": "NVIDIA",
+      "role": "Cofundador, presidente e CEO",
+      "website": "https://www.nvidia.com/en-us/about-nvidia/board-of-directors/jensen-huang/"
+    }
+  },
+  {
+    "id": "person-fei-fei-li",
+    "dictionary": "pessoas",
+    "name": "Fei-Fei Li",
+    "aliases": ["Fei Fei Li", "Feifei Li"],
+    "description": "Pesquisadora de visão computacional e diretora fundadora do Stanford HAI.",
+    "tags": ["pesquisadora", "visão computacional", "educação"],
+    "details": {
+      "company": "Stanford HAI",
+      "role": "Diretora fundadora e professora",
+      "website": "https://hai.stanford.edu/people/fei-fei-li"
+    }
+  },
+  {
+    "id": "person-yann-lecun",
+    "dictionary": "pessoas",
+    "name": "Yann LeCun",
+    "aliases": ["Ian LeCun", "Yan LeCun"],
+    "description": "Pesquisador pioneiro em aprendizado profundo e redes convolucionais.",
+    "tags": ["pesquisador", "aprendizado profundo", "visão computacional"],
+    "details": {
+      "company": "Meta AI e New York University",
+      "role": "Cientista-chefe de IA e professor",
+      "website": "https://ai.meta.com/people/yann-lecun/"
+    }
+  },
+  {
+    "id": "person-geoffrey-hinton",
+    "dictionary": "pessoas",
+    "name": "Geoffrey Hinton",
+    "aliases": ["Jeffrey Hinton", "Geoff Hinton"],
+    "description": "Pesquisador pioneiro em redes neurais e aprendizado profundo.",
+    "tags": ["pesquisador", "aprendizado profundo", "segurança de IA"],
+    "details": {
+      "company": "University of Toronto",
+      "role": "Professor emérito",
+      "website": "https://www.cs.utoronto.ca/~hinton/"
+    }
+  },
+  {
+    "id": "person-yoshua-bengio",
+    "dictionary": "pessoas",
+    "name": "Yoshua Bengio",
+    "aliases": ["Joshua Bengio", "Yoshua Benjio"],
+    "description": "Pesquisador pioneiro em aprendizado profundo e segurança de IA.",
+    "tags": ["pesquisador", "aprendizado profundo", "segurança de IA"],
+    "details": {
+      "company": "Mila e Université de Montréal",
+      "role": "Fundador, conselheiro científico e professor",
+      "website": "https://mila.quebec/en/directory/yoshua-bengio"
+    }
+  },
+  {
+    "id": "person-andrew-ng",
+    "dictionary": "pessoas",
+    "name": "Andrew Ng",
+    "aliases": ["Andrew N G", "André Ng"],
+    "description": "Pesquisador, empreendedor e educador amplamente reconhecido por cursos de IA.",
+    "tags": ["pesquisador", "educação", "fundador"],
+    "details": {
+      "company": "DeepLearning.AI",
+      "role": "Fundador",
+      "website": "https://www.andrewng.org/"
+    }
+  },
+  {
+    "id": "person-mustafa-suleyman",
+    "dictionary": "pessoas",
+    "name": "Mustafa Suleyman",
+    "aliases": ["Mustafa Suleiman", "Mostafa Suleyman"],
+    "description": "Cofundador da DeepMind e executivo responsável pela Microsoft AI.",
+    "tags": ["fundador", "executivo", "produtos de IA"],
+    "details": {
+      "company": "Microsoft AI",
+      "role": "CEO",
+      "website": "https://blogs.microsoft.com/blog/2024/03/19/mustafa-suleyman-deepmind-and-inflection-co-founder-joins-microsoft-to-lead-copilot/"
+    }
+  },
+  {
+    "id": "person-daniela-amodei",
+    "dictionary": "pessoas",
+    "name": "Daniela Amodei",
+    "aliases": ["Daniela Amoday", "Daniele Amodei"],
+    "description": "Cofundadora e presidente da Anthropic.",
+    "tags": ["fundadora", "executiva", "segurança de IA"],
+    "details": {
+      "company": "Anthropic",
+      "role": "Cofundadora e presidente",
+      "website": "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board"
+    }
+  },
+  {
+    "id": "person-arthur-mensch",
+    "dictionary": "pessoas",
+    "name": "Arthur Mensch",
+    "aliases": ["Arthur Mench", "Artur Mensch"],
+    "description": "Cofundador da Mistral AI e liderança europeia em modelos de linguagem.",
+    "tags": ["fundador", "executivo", "modelos de linguagem"],
+    "details": {
+      "company": "Mistral AI",
+      "role": "Cofundador e CEO",
+      "website": "https://mistral.ai/about/"
+    }
+  },
+  {
+    "id": "person-clement-delangue",
+    "dictionary": "pessoas",
+    "name": "Clément Delangue",
+    "aliases": ["Clemente Delangue", "Clement Delang"],
+    "description": "Cofundador da Hugging Face e defensor do ecossistema aberto de IA.",
+    "tags": ["fundador", "executivo", "código aberto"],
+    "details": {
+      "company": "Hugging Face",
+      "role": "Cofundador e CEO",
+      "website": "https://huggingface.co/blog/nvidia-training-cluster"
+    }
   }
 ]

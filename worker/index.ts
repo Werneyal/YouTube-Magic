@@ -38,6 +38,7 @@ interface Env {
 
 const COLLECTION_COOKIE = "video_em_foco_collection";
 const ONE_YEAR_IN_SECONDS = 60 * 60 * 24 * 365;
+const KNOWLEDGE_SEED_VERSION = "knowledge_seed_people_2026_07_24";
 
 type SavedVideoRow = {
   video_data: string;
@@ -119,7 +120,7 @@ async function initializeKnowledgeDatabase(db: D1Database) {
 
   const seedState = await db
     .prepare("SELECT value FROM knowledge_metadata WHERE key = ?")
-    .bind("initial_seed")
+    .bind(KNOWLEDGE_SEED_VERSION)
     .first<{ value: string }>();
 
   if (seedState) return;
@@ -149,7 +150,7 @@ async function initializeKnowledgeDatabase(db: D1Database) {
       .prepare(
         "INSERT OR REPLACE INTO knowledge_metadata (key, value) VALUES (?, ?)",
       )
-      .bind("initial_seed", "1"),
+      .bind(KNOWLEDGE_SEED_VERSION, "1"),
   ]);
 }
 
