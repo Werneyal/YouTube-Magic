@@ -108,12 +108,10 @@ type SavedVideo = VideoCardData & {
 function Collection({
   videos,
   isLoading,
-  onOpen,
   onDelete,
 }: {
   videos: SavedVideo[];
   isLoading: boolean;
-  onOpen: (video: SavedVideo) => void;
   onDelete: (videoId: string) => void;
 }) {
   return (
@@ -136,10 +134,9 @@ function Collection({
         <div className="collection-grid">
           {videos.map((savedVideo) => (
             <article className="collection-card" key={savedVideo.videoId}>
-              <button
+              <a
                 className="collection-card-open"
-                type="button"
-                onClick={() => onOpen(savedVideo)}
+                href={`/videos/${savedVideo.videoId}`}
                 aria-label={`Visualizar todos os detalhes de ${savedVideo.title}`}
               >
                 <span className="collection-card-media">
@@ -177,7 +174,7 @@ function Collection({
                     <span aria-hidden="true">→</span>
                   </span>
                 </span>
-              </button>
+              </a>
               <button
                 className="collection-delete"
                 type="button"
@@ -374,14 +371,6 @@ export default function Home() {
       <Collection
         videos={savedVideos}
         isLoading={isCollectionLoading}
-        onOpen={(savedVideo) => {
-          setVideo(savedVideo);
-          window.requestAnimationFrame(() => {
-            document
-              .getElementById("selected-video")
-              ?.scrollIntoView({ behavior: "smooth", block: "start" });
-          });
-        }}
         onDelete={handleDelete}
       />
 
