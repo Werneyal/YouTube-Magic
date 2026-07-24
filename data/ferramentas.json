@@ -35,4 +35,5327 @@
     "tags": ["pesquisa", "documentos"],
     "details": { "company": "Google", "category": "Assistente de pesquisa", "website": "https://notebooklm.google.com" }
   }
+,
+{
+  "id": "tool-toolify-gemini-gemini-advanced",
+  "dictionary": "ferramentas",
+  "name": "Google Gemini",
+  "aliases": [],
+  "description": "Google's personal, proactive, and powerful AI assistant.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/gemini-gemini-advanced",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-claude-2",
+  "dictionary": "ferramentas",
+  "name": "Claude",
+  "aliases": [],
+  "description": "Claude is an AI assistant from Anthropic that helps with tasks via natural language.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/claude-2",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-adobe",
+  "dictionary": "ferramentas",
+  "name": "Adobe",
+  "aliases": [],
+  "description": "Adobe provides creative, marketing, and document management solutions.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/adobe",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-t",
+  "dictionary": "ferramentas",
+  "name": "Notion",
+  "aliases": [],
+  "description": "AI-powered workspace for docs, wikis, projects, and task automation.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/t",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-dewy-chat",
+  "dictionary": "ferramentas",
+  "name": "Dewy Chat",
+  "aliases": [],
+  "description": "Chat with unique AI characters and explore or create your own worlds.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/dewy-chat",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-salesforce-einstein",
+  "dictionary": "ferramentas",
+  "name": "Salesforce Platform",
+  "aliases": [],
+  "description": "A unified platform for data, AI, CRM, development, and security.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/salesforce-einstein",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-janitorai",
+  "dictionary": "ferramentas",
+  "name": "Janitor AI",
+  "aliases": [],
+  "description": "Janitor AI allows users to create NSFW fictional chatbot characters.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/janitorai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-google-ai-studio",
+  "dictionary": "ferramentas",
+  "name": "Google AI Studio",
+  "aliases": [],
+  "description": "Platform for building with Google's Gemini AI models.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/google-ai-studio",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-deepl",
+  "dictionary": "ferramentas",
+  "name": "DeepL",
+  "aliases": [],
+  "description": "Accurate machine translation and AI-powered writing assistance for text and documents.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/deepl",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-magnific-formerly-freepik",
+  "dictionary": "ferramentas",
+  "name": "Magnific",
+  "aliases": [],
+  "description": "Unified AI creative suite for professional video, image, and audio production.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/magnific-formerly-freepik",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-suno",
+  "dictionary": "ferramentas",
+  "name": "Suno",
+  "aliases": [],
+  "description": "AI music generator for creating, editing, and sharing original songs.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/suno",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-polybuzz",
+  "dictionary": "ferramentas",
+  "name": "PolyBuzz.ai",
+  "aliases": [
+    "PolyBuzzai"
+  ],
+  "description": "Free AI chatbot platform for creating and chatting with customized AI characters.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/polybuzz",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-remove-bg",
+  "dictionary": "ferramentas",
+  "name": "remove.bg",
+  "aliases": [
+    "removebg"
+  ],
+  "description": "AI-powered background remover for images in 5 seconds.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/remove-bg",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-shutterstock-com",
+  "dictionary": "ferramentas",
+  "name": "Shutterstock",
+  "aliases": [],
+  "description": "Shutterstock provides royalty-free stock images, videos, and music with AI-powered creative tools.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/shutterstock-com",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-capcut-com",
+  "dictionary": "ferramentas",
+  "name": "CapCut",
+  "aliases": [],
+  "description": "CapCut is an AI-driven all-in-one video editor and graphic design tool.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/capcut-com",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-candy-ai",
+  "dictionary": "ferramentas",
+  "name": "Candy AI",
+  "aliases": [],
+  "description": "AI companion platform for chat, video, voice, and character creation.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/candy-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-hostinger-1-click-openclaw",
+  "dictionary": "ferramentas",
+  "name": "Hostinger 1-Click OpenClaw",
+  "aliases": [],
+  "description": "1-click managed hosting for 24/7 private AI agents and automations.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/hostinger-1-click-openclaw",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-grammarly",
+  "dictionary": "ferramentas",
+  "name": "Grammarly",
+  "aliases": [],
+  "description": "AI writing assistant for grammar, style, and tone correction and improvement.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/grammarly",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-hubspot-com",
+  "dictionary": "ferramentas",
+  "name": "HubSpot",
+  "aliases": [],
+  "description": "Customer platform with marketing, sales, service, and CRM software.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/hubspot-com",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-jotform-ai-agents",
+  "dictionary": "ferramentas",
+  "name": "Jotform AI Agents",
+  "aliases": [],
+  "description": "Platform to create AI agents for customer service across multiple channels.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/jotform-ai-agents",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-summarizer-1",
+  "dictionary": "ferramentas",
+  "name": "AI Summarizer",
+  "aliases": [],
+  "description": "A free tool that condenses long texts into clear, customizable summaries without requiring registration.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-summarizer-1",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-lovable",
+  "dictionary": "ferramentas",
+  "name": "Lovable",
+  "aliases": [],
+  "description": "Lovable: Build software products from idea to app using a chat interface.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/lovable",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-quillbot-paraphraser",
+  "dictionary": "ferramentas",
+  "name": "QuillBot",
+  "aliases": [],
+  "description": "AI-powered writing tool for paraphrasing, grammar checking, and more to improve writing.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/quillbot-paraphraser",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-elevenlabs-io",
+  "dictionary": "ferramentas",
+  "name": "ElevenLabs",
+  "aliases": [],
+  "description": "AI audio platform offering text-to-speech, voice cloning, and dubbing services.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/elevenlabs-io",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-studocu-global",
+  "dictionary": "ferramentas",
+  "name": "Studocu",
+  "aliases": [],
+  "description": "Studocu is a platform for students to share and access study materials globally.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/studocu-global",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-code-arena",
+  "dictionary": "ferramentas",
+  "name": "Code Arena",
+  "aliases": [],
+  "description": "A platform to compare AI coding models and generate multi-file apps side-by-side.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/code-arena",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-turboscribe-ai",
+  "dictionary": "ferramentas",
+  "name": "TurboScribe",
+  "aliases": [],
+  "description": "AI transcription service converting audio and video to text in 98+ languages.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/turboscribe-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-higgsfield",
+  "dictionary": "ferramentas",
+  "name": "Higgsfield",
+  "aliases": [],
+  "description": "AI-powered camera control for cinematic video generation from photos.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/higgsfield",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-airtable-ai-assistant",
+  "dictionary": "ferramentas",
+  "name": "Airtable",
+  "aliases": [],
+  "description": "Airtable is a no-code app-building platform with AI for data management and workflow automation.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/airtable-ai-assistant",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-beacons-ai-2-0",
+  "dictionary": "ferramentas",
+  "name": "Beacons",
+  "aliases": [],
+  "description": "All-in-one platform for content creators with link-in-bio, store, email marketing, and media kits.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/beacons-ai-2-0",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-meta-ai",
+  "dictionary": "ferramentas",
+  "name": "AI at Meta",
+  "aliases": [],
+  "description": "Meta AI offers an AI assistant for tasks, image generation, and answering questions using Llama 4.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/meta-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-perchance-ai",
+  "dictionary": "ferramentas",
+  "name": "Perchance",
+  "aliases": [],
+  "description": "Perchance is a platform for creating and sharing random generators using lists and simple syntax.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/perchance-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-gamma-ai-1",
+  "dictionary": "ferramentas",
+  "name": "Gamma",
+  "aliases": [],
+  "description": "AI-powered platform for creating presentations, webpages, and documents with minimal design effort.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/gamma-ai-1",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-manus",
+  "dictionary": "ferramentas",
+  "name": "Manus",
+  "aliases": [],
+  "description": "A universal AI assistant that turns ideas into action.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/manus",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-use-ai",
+  "dictionary": "ferramentas",
+  "name": "Use AI",
+  "aliases": [],
+  "description": "Multi-Model AI Chat Assistant providing unified access to 25+ LLMs like GPT-5 and Claude.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/use-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-duck-ai",
+  "dictionary": "ferramentas",
+  "name": "DuckDuckGo",
+  "aliases": [],
+  "description": "Privacy-focused search engine and browser with AI chat, protecting personal information online.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/duck-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-zerogpt",
+  "dictionary": "ferramentas",
+  "name": "ZeroGPT",
+  "aliases": [],
+  "description": "ZeroGPT is an AI content detector and offers various writing tools.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/zerogpt",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-prolific-com",
+  "dictionary": "ferramentas",
+  "name": "Prolific",
+  "aliases": [],
+  "description": "A platform connecting researchers with verified participants for high-quality data collection.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/prolific-com",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-fliphtml5-ai-ebook-generator",
+  "dictionary": "ferramentas",
+  "name": "FlipHTML5 AI Ebook Generator",
+  "aliases": [],
+  "description": "FlipHTML5 AI Ebook Generator is a free online tool that turns your ideas or uploaded files into professionally laid-out ebooks with AI-powered design, supporting 25+ book types like catalogs, magazines, and brochures.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/fliphtml5-ai-ebook-generator",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-crushon-ai",
+  "dictionary": "ferramentas",
+  "name": "CrushOn.AI",
+  "aliases": [],
+  "description": "Platform for unfiltered, unbounded emotional and NSFW AI character interactions.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/crushon-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-sfx-generator-generate-any-sound-effect-from-text",
+  "dictionary": "ferramentas",
+  "name": "SFX Generator - Generate Any Sound Effect From Text",
+  "aliases": [],
+  "description": "Need a specific sound effect? Describe it, and AI will create it for you. Generate custom sound effect for music, videos, games, podcasts, and other projects.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/sfx-generator-generate-any-sound-effect-from-text",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-flux-3-video",
+  "dictionary": "ferramentas",
+  "name": "Flux 3 Video",
+  "aliases": [],
+  "description": "FLUX 3 Video Browser-based AI video generator from text and images.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/flux-3-video",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-removefrom-video",
+  "dictionary": "ferramentas",
+  "name": "RemoveFrom.Video",
+  "aliases": [
+    "RemoveFromVideo"
+  ],
+  "description": "AI tool to remove watermarks, text, and subtitles from videos",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/removefrom-video",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-flint-ai",
+  "dictionary": "ferramentas",
+  "name": "Flint AI",
+  "aliases": [],
+  "description": "Community platform for building, sharing, and chatting with custom AI agents.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/flint-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-evalcore",
+  "dictionary": "ferramentas",
+  "name": "EvalCore",
+  "aliases": [],
+  "description": "Offline snapshot testing for AI behavior",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/evalcore",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-kit-for-ai",
+  "dictionary": "ferramentas",
+  "name": "Kit for AI",
+  "aliases": [],
+  "description": "AI platform for document conversion and persistent agent memory",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/kit-for-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-sherlock-search",
+  "dictionary": "ferramentas",
+  "name": "Sherlock Search",
+  "aliases": [],
+  "description": "One-time reverse face search for public web sources",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/sherlock-search",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-neato-prompt",
+  "dictionary": "ferramentas",
+  "name": "Neato Prompt",
+  "aliases": [],
+  "description": "Turn vague prompts into expert-level prompts",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/neato-prompt",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-flux-3",
+  "dictionary": "ferramentas",
+  "name": "Flux 3",
+  "aliases": [],
+  "description": "AI studio for generating, editing, and animating images with synchronized audio.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/flux-3",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-longtermemory-ai-study-tool",
+  "dictionary": "ferramentas",
+  "name": "LongTerMemory AI Study tool",
+  "aliases": [],
+  "description": "AI study app for quizzes, OCR, and spaced repetition",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/longtermemory-ai-study-tool",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-unibase-memory",
+  "dictionary": "ferramentas",
+  "name": "Unibase Memory",
+  "aliases": [],
+  "description": "Unibase Memory — one AI memory across ChatGPT, Claude, Gemini and the Web.  Your conversations with ChatGPT, Claude, and Gemini are scattered across tabs and lost to history. Unibase Memory captures them into a single, p",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/unibase-memory",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-animegen-1",
+  "dictionary": "ferramentas",
+  "name": "animeGen",
+  "aliases": [],
+  "description": "AI tool that turns photos into downloadable anime art.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/animegen-1",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-car-background-ai",
+  "dictionary": "ferramentas",
+  "name": "Car Background AI",
+  "aliases": [],
+  "description": "Car Background AI removes and replaces car photo backgrounds with AI trained on vehicles. Studio-quality dealership images in seconds, pay-per-credit from $0.20 per image, and a free trial.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/car-background-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ariaflow-ai",
+  "dictionary": "ferramentas",
+  "name": "Ariaflow AI",
+  "aliases": [],
+  "description": "AI platform for automated faceless videos and podcasts",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ariaflow-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-meta-image",
+  "dictionary": "ferramentas",
+  "name": "Meta Image",
+  "aliases": [],
+  "description": "Independent AI studio for images, edits, and short videos",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/meta-image",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-whisper-web",
+  "dictionary": "ferramentas",
+  "name": "Whisper Web",
+  "aliases": [],
+  "description": "Browser-based private AI speech-to-text transcription",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/whisper-web",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-beamtrace",
+  "dictionary": "ferramentas",
+  "name": "Beamtrace",
+  "aliases": [],
+  "description": "AI tool for tracking brand visibility in AI search.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/beamtrace",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-contentiq",
+  "dictionary": "ferramentas",
+  "name": "ContentIQ",
+  "aliases": [],
+  "description": "AI writer that verifies facts before writing articles with cited sources.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/contentiq",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-kimik3-ai",
+  "dictionary": "ferramentas",
+  "name": "kimik3 ai",
+  "aliases": [],
+  "description": "Unofficial Kimi K3 guide with free chat, API examples, and pricing",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/kimik3-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-funeral-program-maker",
+  "dictionary": "ferramentas",
+  "name": "AI Funeral Program Maker",
+  "aliases": [],
+  "description": "AI-powered funeral program maker with a free AI obituary writer. Turn confirmed family facts, photos, and service details into an editable program proof, then download a print-ready PDF.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-funeral-program-maker",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-headshot-ltd",
+  "dictionary": "ferramentas",
+  "name": "Headshot.ltd",
+  "aliases": [
+    "Headshotltd"
+  ],
+  "description": "Headshot.ltd turns phone selfies into professional headshots. One time pricing starting from $8. No subscription.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/headshot-ltd",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-artlist",
+  "dictionary": "ferramentas",
+  "name": "Artlist",
+  "aliases": [],
+  "description": "All-in-one AI toolkit for creating images, videos, music, and voiceovers.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/artlist",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-stat-sniper",
+  "dictionary": "ferramentas",
+  "name": "Stat Sniper",
+  "aliases": [],
+  "description": "AI-powered sports betting analytics with real-time stats, player props, predictive insights, and a community built for bettors.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/stat-sniper",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-lev8",
+  "dictionary": "ferramentas",
+  "name": "Lev8",
+  "aliases": [],
+  "description": "Find the right people faster. Reach out across multiple channels. Get replies in your inbox the same day.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/lev8",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ezeditor",
+  "dictionary": "ferramentas",
+  "name": "EzEditor",
+  "aliases": [],
+  "description": "A free AI Image Editor for creating, editing, and transforming images with easy text prompts powered by Image to Image AI.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ezeditor",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-foneclaw",
+  "dictionary": "ferramentas",
+  "name": "Foneclaw",
+  "aliases": [],
+  "description": "FoneClaw is a free AI agent for Android phones that lets you control your device by voice — check phone status, summarize messages, adjust settings, and more, with no hidden fees.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/foneclaw",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-isvisible-ai",
+  "dictionary": "ferramentas",
+  "name": "isvisible.ai",
+  "aliases": [
+    "isvisibleai"
+  ],
+  "description": "Free AI visibility audit for website crawler access",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/isvisible-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ideaape",
+  "dictionary": "ferramentas",
+  "name": "IdeaApe",
+  "aliases": [],
+  "description": "AI market research tool using Reddit data for brand strategy and validation.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ideaape",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-openai-sora",
+  "dictionary": "ferramentas",
+  "name": "Sora",
+  "aliases": [],
+  "description": "AI model creating realistic videos from text, images, or existing videos.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/openai-sora",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-leonardo-ai",
+  "dictionary": "ferramentas",
+  "name": "Leonardo.Ai",
+  "aliases": [
+    "LeonardoAi"
+  ],
+  "description": "AI platform for generating production-quality creative assets with speed and style consistency.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/leonardo-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-fliki",
+  "dictionary": "ferramentas",
+  "name": "Fliki",
+  "aliases": [],
+  "description": "AI platform to create videos from text with realistic voices and media.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/fliki",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-spicygen",
+  "dictionary": "ferramentas",
+  "name": "SpicyGen",
+  "aliases": [],
+  "description": "AI platform to turn images into spicy animated videos.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/spicygen",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-kupid-ai",
+  "dictionary": "ferramentas",
+  "name": "Kupid.ai",
+  "aliases": [
+    "Kupidai"
+  ],
+  "description": "Kupid.ai is an AI chat platform for creating and interacting with personalized AI companions.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/kupid-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-polymer",
+  "dictionary": "ferramentas",
+  "name": "Polymer DSPM",
+  "aliases": [],
+  "description": "Polymer DSPM for AI prevents data breaches with real-time risk management and monitoring.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/polymer",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-durable",
+  "dictionary": "ferramentas",
+  "name": "Durable",
+  "aliases": [],
+  "description": "AI-powered platform for solo business owners to build and grow their business online.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/durable",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-lockedin-ai",
+  "dictionary": "ferramentas",
+  "name": "LockedIn AI",
+  "aliases": [],
+  "description": "AI copilot for interview prep & professional meetings with real-time assistance.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/lockedin-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-faceplugin",
+  "dictionary": "ferramentas",
+  "name": "Faceplugin",
+  "aliases": [],
+  "description": "ID verification solution provider using face recognition, liveness detection, and ID document recognition.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/faceplugin",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-exactly-ai",
+  "dictionary": "ferramentas",
+  "name": "exactly.ai",
+  "aliases": [
+    "exactlyai"
+  ],
+  "description": "Platform to train AI models for generating brand-ready visuals at scale.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/exactly-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-vidau",
+  "dictionary": "ferramentas",
+  "name": "VidAU AI",
+  "aliases": [],
+  "description": "AI video generator for creating viral video ads with templates and AI tools.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/vidau",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-opus-clip-ai",
+  "dictionary": "ferramentas",
+  "name": "Opus Clip",
+  "aliases": [],
+  "description": "AI-powered video repurposing tool for creating viral short clips from long videos.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/opus-clip-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-saner-ai-beta-version",
+  "dictionary": "ferramentas",
+  "name": "Saner.AI",
+  "aliases": [],
+  "description": "AI-powered knowledge management app for capturing, organizing, and generating insights, especially for ADHDers.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/saner-ai-beta-version",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-rushchatai",
+  "dictionary": "ferramentas",
+  "name": "Rushchat.AI",
+  "aliases": [],
+  "description": "NSFW AI chatbot for unfiltered character chat and creation.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/rushchatai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-rolemantic-ai",
+  "dictionary": "ferramentas",
+  "name": "Rolemantic",
+  "aliases": [],
+  "description": "NSFW AI character chat platform for roleplay, sexting, and AI image generation.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/rolemantic-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-invideo",
+  "dictionary": "ferramentas",
+  "name": "InVideo",
+  "aliases": [],
+  "description": "Online video editor with 5000+ templates, AI tools, and stock media.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/invideo",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-logoai",
+  "dictionary": "ferramentas",
+  "name": "LogoAI",
+  "aliases": [],
+  "description": "AI-powered logo maker and brand automation platform for small businesses.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/logoai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-synthesia",
+  "dictionary": "ferramentas",
+  "name": "Synthesia",
+  "aliases": [],
+  "description": "AI video platform for creating professional videos from text.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/synthesia",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-kin-ai",
+  "dictionary": "ferramentas",
+  "name": "Kin",
+  "aliases": [],
+  "description": "Emotionally intelligent and private personal AI companion for support and coaching.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/kin-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-lingolette",
+  "dictionary": "ferramentas",
+  "name": "Lingolette",
+  "aliases": [],
+  "description": "Lingolette is an AI-powered language learning platform for spoken and written fluency.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/lingolette",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-midjourney",
+  "dictionary": "ferramentas",
+  "name": "Midjourney",
+  "aliases": [],
+  "description": "Midjourney is an AI research lab focused on expanding human imaginative powers.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/midjourney",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-pixverse",
+  "dictionary": "ferramentas",
+  "name": "PixVerse",
+  "aliases": [],
+  "description": "AI video generator that transforms text and photos into stunning videos.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/pixverse",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-rizzle-ai",
+  "dictionary": "ferramentas",
+  "name": "Rizzle",
+  "aliases": [],
+  "description": "AI video creation platform transforming text and URLs into engaging videos.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/rizzle-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-cvoice-ai",
+  "dictionary": "ferramentas",
+  "name": "cvoice.ai",
+  "aliases": [
+    "cvoiceai"
+  ],
+  "description": "AI text-to-speech platform with 20,000+ character and celebrity voices for professional audio.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/cvoice-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-sexy-ai",
+  "dictionary": "ferramentas",
+  "name": "Sexy AI",
+  "aliases": [],
+  "description": "AI platform for creating and exploring AI-generated porn and NSFW art.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/sexy-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-heygen",
+  "dictionary": "ferramentas",
+  "name": "HeyGen",
+  "aliases": [],
+  "description": "AI video generation platform for creating engaging business videos quickly and easily.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/heygen",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-looka",
+  "dictionary": "ferramentas",
+  "name": "Looka",
+  "aliases": [],
+  "description": "AI-powered logo maker and brand identity platform for entrepreneurs.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/looka",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-faceseek-ai-face-search",
+  "dictionary": "ferramentas",
+  "name": "FaceSeek - AI Face Search",
+  "aliases": [],
+  "description": "AI-powered platform for reverse face search, identity verification, and creative AI tools.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/faceseek-ai-face-search",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-jasper",
+  "dictionary": "ferramentas",
+  "name": "Jasper AI",
+  "aliases": [],
+  "description": "AI copywriting tool for marketers to create content faster and improve marketing ROI.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/jasper",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-character-ai",
+  "dictionary": "ferramentas",
+  "name": "character.ai",
+  "aliases": [
+    "characterai"
+  ],
+  "description": "A platform for intelligent agents, requiring JavaScript.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/character-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-poe",
+  "dictionary": "ferramentas",
+  "name": "Poe",
+  "aliases": [],
+  "description": "Poe is an AI chat platform powered by Quora, offering access to multiple AI models.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/poe",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-promptchan-ai",
+  "dictionary": "ferramentas",
+  "name": "Promptchan AI",
+  "aliases": [],
+  "description": "AI Girl Generator for creating AI girlfriends, images, videos, and chats.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/promptchan-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+}
+,
+{
+  "id": "tool-toolify-juicychat-ai",
+  "dictionary": "ferramentas",
+  "name": "JuicyChat.AI",
+  "aliases": [],
+  "description": "NSFW AI character chat platform for unfiltered and intimate conversations.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/juicychat-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-matterbase",
+  "dictionary": "ferramentas",
+  "name": "Matterbase",
+  "aliases": [],
+  "description": "AI platform for interior material sourcing and specification",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/matterbase",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-jurixa-ai",
+  "dictionary": "ferramentas",
+  "name": "Jurixa AI",
+  "aliases": [],
+  "description": "AI legal workspace for drafting, research, and matter management",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/jurixa-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-acebuilder",
+  "dictionary": "ferramentas",
+  "name": "Acebuilder",
+  "aliases": [],
+  "description": "AI landing page builder with Aceternity UI templates and code export",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/acebuilder",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-huncher",
+  "dictionary": "ferramentas",
+  "name": "Huncher",
+  "aliases": [],
+  "description": "AI website auditor that finds leaks and writes fix prompts",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/huncher",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-animater-ai",
+  "dictionary": "ferramentas",
+  "name": "Animater AI",
+  "aliases": [],
+  "description": "Animater AI motion design for real product pages",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/animater-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-inkcomet",
+  "dictionary": "ferramentas",
+  "name": "InkComet",
+  "aliases": [],
+  "description": "AI email generator for production-ready HTML and React Email templates.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/inkcomet",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-tonvio",
+  "dictionary": "ferramentas",
+  "name": "Tonvio",
+  "aliases": [],
+  "description": "AI voice platform for text-to-speech, cloning, and multilingual translation",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/tonvio",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-reclaw",
+  "dictionary": "ferramentas",
+  "name": "Reclaw",
+  "aliases": [],
+  "description": "AI assistant for busy founders handling email, meetings, reminders, and tasks.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/reclaw",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-git2docs-com-easily-gen-docs-from-code",
+  "dictionary": "ferramentas",
+  "name": "Git2Docs",
+  "aliases": [],
+  "description": "AI documentation platform that auto-generates and syncs docs with code",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/git2docs-com-easily-gen-docs-from-code",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-mantlecore-ai",
+  "dictionary": "ferramentas",
+  "name": "Mantlecore AI",
+  "aliases": [],
+  "description": "Managed cloud for open-source AI agents",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/mantlecore-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-naimi",
+  "dictionary": "ferramentas",
+  "name": "Naimi",
+  "aliases": [],
+  "description": "Interactive AI-powered web proposals with tracked client links.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/naimi",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-pet-video-generator-powered-by-seedance",
+  "dictionary": "ferramentas",
+  "name": "AI Pet Video Generator Powered BY Seedance",
+  "aliases": [],
+  "description": "AI Pet Video Generator Powered by Seedance Pet Video Generator Powered by Seedance AI is the easiest pet video maker for cat and dog owners — turn a single photo into a fun, cinematic short video in seconds. Free weekly ",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-pet-video-generator-powered-by-seedance",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ttsfree",
+  "dictionary": "ferramentas",
+  "name": "TTSFree",
+  "aliases": [],
+  "description": "Free AI text-to-speech for 140+ languages and MP3 downloads",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ttsfree",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-kidvoice",
+  "dictionary": "ferramentas",
+  "name": "KidVoice",
+  "aliases": [],
+  "description": "AI kid voice generator for natural child and teen speech",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/kidvoice",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-crop-photo-bulk-image-resizer",
+  "dictionary": "ferramentas",
+  "name": "Crop.photo - Bulk Image Resizer",
+  "aliases": [
+    "Cropphoto - Bulk Image Resizer"
+  ],
+  "description": "AI bulk image editing for cropping, resizing, and background removal.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/crop-photo-bulk-image-resizer",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-pixalice",
+  "dictionary": "ferramentas",
+  "name": "Pixalice",
+  "aliases": [],
+  "description": "AI image and video generator for fast online visual creation.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/pixalice",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-snappyit-ai-product-photography-platform-for-apparel",
+  "dictionary": "ferramentas",
+  "name": "Snappyit — AI Product Photography Platform for Apparel",
+  "aliases": [],
+  "description": "Snappyit is an AI-powered product photography platform for fashion ecommerce. Transform flat lays into ghost mannequin images, generate AI fashion models, change garment colors, create try-on photos, and produce engaging",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/snappyit-ai-product-photography-platform-for-apparel",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-you-bot",
+  "dictionary": "ferramentas",
+  "name": "you.bot",
+  "aliases": [
+    "youbot"
+  ],
+  "description": "you.bot is a multi-model AI API gateway that runs the same top AI models for up to 46% less than the official APIs — from just $0.005 per call. Integrate once and call any of 70+ models — LLMs (Claude, GPT, Gemini), imag",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/you-bot",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-shunshi-ai",
+  "dictionary": "ferramentas",
+  "name": "Shunshi AI",
+  "aliases": [],
+  "description": "AI-powered Chinese metaphysics platform — BaZi charts, compatibility readings, daily fortune and almanac, all grounded in a real calculation engine.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/shunshi-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-booklet-ai",
+  "dictionary": "ferramentas",
+  "name": "Booklet AI",
+  "aliases": [],
+  "description": "AI booklet maker that researches, writes, and illustrates pages in one chat",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/booklet-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-omnigenie",
+  "dictionary": "ferramentas",
+  "name": "Omnigenie",
+  "aliases": [],
+  "description": "OmniGenie All-in-one AI assistant for image generation, math solving, and expert writing.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/omnigenie",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-spark-ai-ai-chat-roleplay-app",
+  "dictionary": "ferramentas",
+  "name": "Spark AI AI Chat Roleplay App",
+  "aliases": [],
+  "description": "Spark AI Your emotional AI companion for immersive roleplay and deep, realistic conversations.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/spark-ai-ai-chat-roleplay-app",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-photoai-ai-art-and-face-swap-ios",
+  "dictionary": "ferramentas",
+  "name": "PhotoAI - AI Art and Face Swap (ios)",
+  "aliases": [],
+  "description": "AI-powered photo editing app for art, face swap, and style transformation.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/photoai-ai-art-and-face-swap-ios",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-that-ish-slang-dictionary",
+  "dictionary": "ferramentas",
+  "name": "That Ish: A Slang Dictionary",
+  "aliases": [],
+  "description": "AI-powered slang dictionary for cultural fluency and language translation.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/that-ish-slang-dictionary",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-chaos",
+  "dictionary": "ferramentas",
+  "name": "chaos",
+  "aliases": [],
+  "description": "A connected workspace for music creators to manage ideas, collaborations, and workflow.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/chaos",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-dreamlab",
+  "dictionary": "ferramentas",
+  "name": "Dreamlab",
+  "aliases": [],
+  "description": "AI companion for journaling and interpreting dreams, revealing insights.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/dreamlab",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-doggo-eats",
+  "dictionary": "ferramentas",
+  "name": "Doggo Eats",
+  "aliases": [],
+  "description": "AI-powered app for dog nutrition, food scanning, and custom recipes.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/doggo-eats",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-auarai-ai-outfit-planner",
+  "dictionary": "ferramentas",
+  "name": "AuarAI",
+  "aliases": [],
+  "description": "AI-powered personal stylist for outfit planning and wardrobe management.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/auarai-ai-outfit-planner",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-banter-messenger",
+  "dictionary": "ferramentas",
+  "name": "Banter Messenger",
+  "aliases": [],
+  "description": "AI-powered messaging app for meaningful family and friend connections.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/banter-messenger",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-pika-social-ai-video",
+  "dictionary": "ferramentas",
+  "name": "Pika - Social AI Video",
+  "aliases": [],
+  "description": "AI-only social app for transforming selfies into creative AI videos.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/pika-social-ai-video",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-snapsnob",
+  "dictionary": "ferramentas",
+  "name": "Snapsnob - Clean Your Gallery",
+  "aliases": [],
+  "description": "iOS app for fast, private photo gallery cleanup and organization.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/snapsnob",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-rorrim",
+  "dictionary": "ferramentas",
+  "name": "Rorrim - Smart AI Journal",
+  "aliases": [],
+  "description": "AI journal converting voice notes into insights, tracking mood, relationships, and patterns.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/rorrim",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-dubnote-capture-organise-music-ideas",
+  "dictionary": "ferramentas",
+  "name": "Dubnote",
+  "aliases": [],
+  "description": "Recording app for musicians to organize, transcribe, and process musical ideas.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/dubnote-capture-organise-music-ideas",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-icook",
+  "dictionary": "ferramentas",
+  "name": "iCook: Healthy Meal & Recipes",
+  "aliases": [],
+  "description": "AI-powered nutrition app with personalized meal plans, recipes, and coaching.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/icook",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-all-in-one-job-hunt-ai-app-for-ios",
+  "dictionary": "ferramentas",
+  "name": "CareerAI",
+  "aliases": [],
+  "description": "AI-powered mobile job search assistant for resumes, cover letters, interviews, and tracking.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/all-in-one-job-hunt-ai-app-for-ios",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-foodcoach",
+  "dictionary": "ferramentas",
+  "name": "FoodCoach - AI Food Scanner",
+  "aliases": [],
+  "description": "AI food scanner for dietary needs and instant insights.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/foodcoach",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-dancing-dogs-app",
+  "dictionary": "ferramentas",
+  "name": "Dancing Dogs App",
+  "aliases": [],
+  "description": "Dancing Dogs AI app turns dog photos into 10-second dance videos.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/dancing-dogs-app",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-magical-core",
+  "dictionary": "ferramentas",
+  "name": "Magical Core",
+  "aliases": [],
+  "description": "MagicaLCore Code-free iPad app for creating and training machine learning image classifiers.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/magical-core",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-grammar-checker-for-ios",
+  "dictionary": "ferramentas",
+  "name": "AI Grammar Checker For Ios",
+  "aliases": [],
+  "description": "AI Grammar Check - Corrector AI-powered iOS app for grammar, spelling, and writing correction, plus translation.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-grammar-checker-for-ios",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-humanify-ai-detect-ai-humanize",
+  "dictionary": "ferramentas",
+  "name": "Humanify AI Detect AI Humanize",
+  "aliases": [],
+  "description": "Humanify AI App to enhance writing, detect AI content, and humanize text.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/humanify-ai-detect-ai-humanize",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-3-things-ai-tasks-tracker",
+  "dictionary": "ferramentas",
+  "name": "3 Things - AI Tasks Tracker",
+  "aliases": [],
+  "description": "Minimalist AI task and habit tracker for focusing on 3 daily tasks and building habits.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/3-things-ai-tasks-tracker",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-notato",
+  "dictionary": "ferramentas",
+  "name": "Notato - AI Note Taker",
+  "aliases": [],
+  "description": "AI note-taker for lectures, meetings, articles, audio, video, and web links.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/notato",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-starrio",
+  "dictionary": "ferramentas",
+  "name": "Starrio",
+  "aliases": [],
+  "description": "AI-powered self-care app with astrology, mood support, and healing sounds.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/starrio",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-explain-ai-notes-study-help",
+  "dictionary": "ferramentas",
+  "name": "Explain AI",
+  "aliases": [],
+  "description": "AI study assistant simplifying complex topics with personalized learning tools.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/explain-ai-notes-study-help",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-nexa-ai-assistant",
+  "dictionary": "ferramentas",
+  "name": "Nexa - AI Assistant",
+  "aliases": [],
+  "description": "Nexa is an AI assistant for reminders, to-do lists, and voice commands.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/nexa-ai-assistant",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-flux-ai-image-video-art-ai",
+  "dictionary": "ferramentas",
+  "name": "Flux Image AI",
+  "aliases": [],
+  "description": "Fast AI image and video art generator.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/flux-ai-image-video-art-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-flair-ai-ai-art-generator",
+  "dictionary": "ferramentas",
+  "name": "Flair AI",
+  "aliases": [],
+  "description": "Flair AI: AI Art Generator for images and videos from text prompts.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/flair-ai-ai-art-generator",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-clonegen",
+  "dictionary": "ferramentas",
+  "name": "CloneGen AI",
+  "aliases": [],
+  "description": "Voice cloning and AI speech studio for creating content with custom or celebrity voices.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/clonegen",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-chatoghibli-ai-anime-art",
+  "dictionary": "ferramentas",
+  "name": "ChatoGhibli",
+  "aliases": [],
+  "description": "AI Ghibli art generator turning text into anime scenes.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/chatoghibli-ai-anime-art",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-florami-ai-plant-identifier",
+  "dictionary": "ferramentas",
+  "name": "Florami",
+  "aliases": [],
+  "description": "AI Plant Identifier that reveals poetic meanings and care tips.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/florami-ai-plant-identifier",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-image2poemclip",
+  "dictionary": "ferramentas",
+  "name": "image2poemclip",
+  "aliases": [],
+  "description": "App that creates video clips with poems and music from your photos.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/image2poemclip",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-cakemaker-name-on-cake",
+  "dictionary": "ferramentas",
+  "name": "AI CakeMaker",
+  "aliases": [],
+  "description": "AI-powered cake designer for generating custom cake images with personalized messages.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-cakemaker-name-on-cake",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-goalsai-personalized-plans-with-ai",
+  "dictionary": "ferramentas",
+  "name": "GoalsAI",
+  "aliases": [],
+  "description": "AI-powered habit and goal tracking app with personalized plans and AI support.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/goalsai-personalized-plans-with-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-vanta-ai-scheduler",
+  "dictionary": "ferramentas",
+  "name": "Vanta - AI Todo Event Calendar",
+  "aliases": [],
+  "description": "AI-powered scheduling assistant that transforms natural language into organized events.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/vanta-ai-scheduler",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-acepal",
+  "dictionary": "ferramentas",
+  "name": "Acepal: AI Study Solver",
+  "aliases": [],
+  "description": "AI-powered study tutor with scan-to-solve functionality for various subjects.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/acepal",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-bowl-smart-recipe-manager",
+  "dictionary": "ferramentas",
+  "name": "Bowl Smart Recipe Manager",
+  "aliases": [],
+  "description": "App to save recipes, discover trends, build grocery lists, and create AI recipes.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/bowl-smart-recipe-manager",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-listify-music-ai",
+  "dictionary": "ferramentas",
+  "name": "Listify Music AI",
+  "aliases": [],
+  "description": "AI-powered app for creating personalized music playlists on Apple Music.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/listify-music-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-app-finder-explore-ai",
+  "dictionary": "ferramentas",
+  "name": "AI App Finder",
+  "aliases": [],
+  "description": "An app to discover and explore AI-powered apps on the App Store.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-app-finder-explore-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-cleaner-guru-clean-storage",
+  "dictionary": "ferramentas",
+  "name": "AI Cleaner Guru",
+  "aliases": [],
+  "description": "A powerful cleaning tool to optimize phone storage and performance.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-cleaner-guru-clean-storage",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-llm-api-costs-widget",
+  "dictionary": "ferramentas",
+  "name": "LLM API Costs Widget",
+  "aliases": [],
+  "description": "An iOS widget to review and manage OpenAI API costs.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/llm-api-costs-widget",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-equalizer",
+  "dictionary": "ferramentas",
+  "name": "AI Equalizer : Music Enhancer",
+  "aliases": [],
+  "description": "Android app for ultimate audio control & bass boosting with equalizer & presets.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-equalizer",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-snap-sort",
+  "dictionary": "ferramentas",
+  "name": "AI Snap&Sort",
+  "aliases": [],
+  "description": "AI-powered app for easy and accurate waste sorting via photo recognition.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-snap-sort",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-vrse-ai",
+  "dictionary": "ferramentas",
+  "name": "VRSE - AI Bible Verse Songs",
+  "aliases": [],
+  "description": "AI-powered app that turns Bible verses into personalized Christian songs for memorization.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/vrse-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-catzy-cat-parent-companion",
+  "dictionary": "ferramentas",
+  "name": "Catzy",
+  "aliases": [],
+  "description": "AI-powered cat app for breed ID, food analysis, breed mixing, and AI portraits.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/catzy-cat-parent-companion",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-markflow-ai-format-engine",
+  "dictionary": "ferramentas",
+  "name": "MarkFlow: AI Format Engine",
+  "aliases": [],
+  "description": "Markdown conversion tool for AI outputs to various document formats.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/markflow-ai-format-engine",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-olivia-ai",
+  "dictionary": "ferramentas",
+  "name": "Olivia AI: Chat, Search, Tools",
+  "aliases": [],
+  "description": "All-in-one AI assistant with multiple models and tools.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/olivia-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-neuron-ai",
+  "dictionary": "ferramentas",
+  "name": "Neuron AI",
+  "aliases": [],
+  "description": "Private, on-device AI chat and productivity tool with no internet required.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/neuron-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-scan-ingredients-scanner",
+  "dictionary": "ferramentas",
+  "name": "AI Scan - Ingredients Scanner",
+  "aliases": [],
+  "description": "App to scan food ingredients for safety and detailed analysis.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-scan-ingredients-scanner",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-snappy-your-ai-fashion-stylist",
+  "dictionary": "ferramentas",
+  "name": "Snappy – Swipe, Match & Shop",
+  "aliases": [],
+  "description": "AI-powered fashion shopping app with personalized style recommendations and a swipe-based interface.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/snappy-your-ai-fashion-stylist",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-html-editor-pro-with-ai",
+  "dictionary": "ferramentas",
+  "name": "HTML Editor PRO with AI",
+  "aliases": [],
+  "description": "AI-powered HTML editor with cloud features for real-time collaboration and code assistance.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/html-editor-pro-with-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-paint-color-match-ai",
+  "dictionary": "ferramentas",
+  "name": "Paint Color Match AI",
+  "aliases": [],
+  "description": "AI-powered app to match, preview, and save paint colors.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/paint-color-match-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-godtok",
+  "dictionary": "ferramentas",
+  "name": "GodTok",
+  "aliases": [],
+  "description": "Faith-based app for daily inspiration, Christian meditation, and scripture guidance.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/godtok",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-roomky",
+  "dictionary": "ferramentas",
+  "name": "Roomky",
+  "aliases": [],
+  "description": "An AI-powered app for virtual interior design and home redecoration.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/roomky",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-magicso-ai-note-assistant",
+  "dictionary": "ferramentas",
+  "name": "Magicso - AI Note Assistant",
+  "aliases": [],
+  "description": "AI-powered note assistant for organizing, summarizing, and tagging information to boost productivity.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/magicso-ai-note-assistant",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-instagram-email-scraper",
+  "dictionary": "ferramentas",
+  "name": "Instagram Email Scraper",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/instagram-email-scraper",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-instagram-comments-scraper",
+  "dictionary": "ferramentas",
+  "name": "Instagram Comments Scraper",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/instagram-comments-scraper",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-telegram-video-downloader",
+  "dictionary": "ferramentas",
+  "name": "Telegram Video Downloader",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/telegram-video-downloader",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-supercut-screen-recorder-camera-capture",
+  "dictionary": "ferramentas",
+  "name": "Supercut Screen Recorder Camera Capture",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/supercut-screen-recorder-camera-capture",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-photo-stock-assistant",
+  "dictionary": "ferramentas",
+  "name": "Photo Stock Assistant",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/photo-stock-assistant",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-new-tab-widgets-embed-iframes-and-more-to-create-advanced-dashboards",
+  "dictionary": "ferramentas",
+  "name": "New Tab Widgets Embed Iframes And More TO Create Advanced Dashboards",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/new-tab-widgets-embed-iframes-and-more-to-create-advanced-dashboards",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-trupeer-ai-screen-recorder-for-stunning-product-demos-and-guides",
+  "dictionary": "ferramentas",
+  "name": "Trupeer AI Screen Recorder For Stunning Product Demos And Guides",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/trupeer-ai-screen-recorder-for-stunning-product-demos-and-guides",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-do-browser",
+  "dictionary": "ferramentas",
+  "name": "DO Browser",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/do-browser",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-factsnap",
+  "dictionary": "ferramentas",
+  "name": "Factsnap",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/factsnap",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-scribblevet-browser-companion",
+  "dictionary": "ferramentas",
+  "name": "Scribblevet Browser Companion",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/scribblevet-browser-companion",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-predictionhealth-sidekick",
+  "dictionary": "ferramentas",
+  "name": "Predictionhealth Sidekick",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/predictionhealth-sidekick",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-freed-ai-extension",
+  "dictionary": "ferramentas",
+  "name": "Freed AI Extension",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/freed-ai-extension",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-impact-com-for-chrome",
+  "dictionary": "ferramentas",
+  "name": "Impact Com For Chrome",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/impact-com-for-chrome",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-complexity-perplexity-ai-supercharged",
+  "dictionary": "ferramentas",
+  "name": "Complexity Perplexity AI Supercharged",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/complexity-perplexity-ai-supercharged",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-twitter-x-response-generator",
+  "dictionary": "ferramentas",
+  "name": "Twitter X Response Generator",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/twitter-x-response-generator",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-genii-assistant",
+  "dictionary": "ferramentas",
+  "name": "Genii Assistant",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/genii-assistant",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-engage-bot-linkedin-messaging-ai-assistant",
+  "dictionary": "ferramentas",
+  "name": "Engage Bot Linkedin Messaging AI Assistant",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/engage-bot-linkedin-messaging-ai-assistant",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-xcelsior-clipper",
+  "dictionary": "ferramentas",
+  "name": "Xcelsior Clipper",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/xcelsior-clipper",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify--e5-b0-8f-e6-bf-83-e7-b8-ae-quick-summary",
+  "dictionary": "ferramentas",
+  "name": "%E5%B0%8F%E6%BF%83%E7%B8%AE Quick Summary",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/%E5%B0%8F%E6%BF%83%E7%B8%AE-quick-summary",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-yicopy-browser-extension",
+  "dictionary": "ferramentas",
+  "name": "Yicopy Browser Extension",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/yicopy-browser-extension",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-loadzapper",
+  "dictionary": "ferramentas",
+  "name": "Loadzapper",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/loadzapper",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-flux-image-generator",
+  "dictionary": "ferramentas",
+  "name": "Flux Image Generator",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/flux-image-generator",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-anichat-extension",
+  "dictionary": "ferramentas",
+  "name": "Anichat Extension",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/anichat-extension",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-days-to-go-countdown",
+  "dictionary": "ferramentas",
+  "name": "Days TO GO Countdown",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/days-to-go-countdown",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-youtube-clickbait-decoder-video-summarizer",
+  "dictionary": "ferramentas",
+  "name": "Youtube Clickbait Decoder Video Summarizer",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/youtube-clickbait-decoder-video-summarizer",
+    "source": "https://www.toolify.ai/most-used"
+  }
+}
+,
+{
+  "id": "tool-toolify-keynote-web-youtube-pdf-ai-summarizer",
+  "dictionary": "ferramentas",
+  "name": "Keynote Web Youtube Pdf AI Summarizer",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/keynote-web-youtube-pdf-ai-summarizer",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-koko-text-improver",
+  "dictionary": "ferramentas",
+  "name": "Koko Text Improver",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/koko-text-improver",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-chatgpt-pdf-saver",
+  "dictionary": "ferramentas",
+  "name": "Chatgpt Pdf Saver",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/chatgpt-pdf-saver",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-newtabpro",
+  "dictionary": "ferramentas",
+  "name": "Newtabpro",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/newtabpro",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-noteplan-ai-meeting-notes",
+  "dictionary": "ferramentas",
+  "name": "Noteplan AI Meeting Notes",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/noteplan-ai-meeting-notes",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-converse-com-o-youtube",
+  "dictionary": "ferramentas",
+  "name": "Converse Com O Youtube",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/converse-com-o-youtube",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-stackmind-ai-intelligent-chatgpt-history-organizer-search",
+  "dictionary": "ferramentas",
+  "name": "Stackmind AI Intelligent Chatgpt History Organizer Search",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/stackmind-ai-intelligent-chatgpt-history-organizer-search",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-tabulator-ai-selected-text-to-table-row",
+  "dictionary": "ferramentas",
+  "name": "Tabulator AI Selected Text TO Table Row",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/tabulator-ai-selected-text-to-table-row",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-feedgenius",
+  "dictionary": "ferramentas",
+  "name": "Feedgenius",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/feedgenius",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-langpotato-dual-caption-youtube-for-language-learners",
+  "dictionary": "ferramentas",
+  "name": "Langpotato Dual Caption Youtube For Language Learners",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/langpotato-dual-caption-youtube-for-language-learners",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-youtldw",
+  "dictionary": "ferramentas",
+  "name": "Youtldw",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/youtldw",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-viralcontent-linkedin-ai-replies-with-custom-prompts",
+  "dictionary": "ferramentas",
+  "name": "Viralcontent Linkedin AI Replies With Custom Prompts",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/viralcontent-linkedin-ai-replies-with-custom-prompts",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-quickwhisper",
+  "dictionary": "ferramentas",
+  "name": "Quickwhisper",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/quickwhisper",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-studytool",
+  "dictionary": "ferramentas",
+  "name": "Studytool",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/studytool",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-x-search-assistant",
+  "dictionary": "ferramentas",
+  "name": "X Search Assistant",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/x-search-assistant",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-skyllsyft",
+  "dictionary": "ferramentas",
+  "name": "Skyllsyft",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/skyllsyft",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ntro-io-ai-interview-copilot",
+  "dictionary": "ferramentas",
+  "name": "Ntro IO AI Interview Copilot",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ntro-io-ai-interview-copilot",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-faceswap-ai-face-swap-photos-videos",
+  "dictionary": "ferramentas",
+  "name": "Faceswap AI Face Swap Photos Videos",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/faceswap-ai-face-swap-photos-videos",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-discord-image-gallery",
+  "dictionary": "ferramentas",
+  "name": "Discord Image Gallery",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/discord-image-gallery",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-claudefoldex-ai",
+  "dictionary": "ferramentas",
+  "name": "Claudefoldex AI",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/claudefoldex-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-title-and-content-generator-by-nconnect",
+  "dictionary": "ferramentas",
+  "name": "Title And Content Generator BY Nconnect",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/title-and-content-generator-by-nconnect",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-mentarc-ai-assitant",
+  "dictionary": "ferramentas",
+  "name": "Mentarc AI Assitant",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/mentarc-ai-assitant",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-pjeia-intelig-ncia-artificial-no-pje",
+  "dictionary": "ferramentas",
+  "name": "Pjeia Intelig Ncia Artificial NO Pje",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/pjeia-intelig-ncia-artificial-no-pje",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-wadelivery",
+  "dictionary": "ferramentas",
+  "name": "Wadelivery",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/wadelivery",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-podlabs-leap-trial",
+  "dictionary": "ferramentas",
+  "name": "Podlabs Leap Trial",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/podlabs-leap-trial",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-mv-crypto-quipster",
+  "dictionary": "ferramentas",
+  "name": "MV Crypto Quipster",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/mv-crypto-quipster",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-promptsecure",
+  "dictionary": "ferramentas",
+  "name": "Promptsecure",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/promptsecure",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-wowgency-com",
+  "dictionary": "ferramentas",
+  "name": "AI Wowgency Com",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-wowgency-com",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-agent-assist-powered-by-wizr-ai",
+  "dictionary": "ferramentas",
+  "name": "Agent Assist Powered BY Wizr AI",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/agent-assist-powered-by-wizr-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-chat-sync",
+  "dictionary": "ferramentas",
+  "name": "AI Chat Sync",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-chat-sync",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-leaf-twitter-content-template-generator",
+  "dictionary": "ferramentas",
+  "name": "Leaf Twitter Content Template Generator",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/leaf-twitter-content-template-generator",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-swift-mail-gmail-copilot",
+  "dictionary": "ferramentas",
+  "name": "Swift Mail Gmail Copilot",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/swift-mail-gmail-copilot",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-frase-your-ai-writing-superpower",
+  "dictionary": "ferramentas",
+  "name": "Frase Your AI Writing Superpower",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/frase-your-ai-writing-superpower",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-auto-continue-chatgpt",
+  "dictionary": "ferramentas",
+  "name": "Auto Continue Chatgpt",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/auto-continue-chatgpt",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-vuagain-2023-chrome-extension",
+  "dictionary": "ferramentas",
+  "name": "Vuagain 2023 Chrome Extension",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/vuagain-2023-chrome-extension",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-block-porn",
+  "dictionary": "ferramentas",
+  "name": "Block Porn",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/block-porn",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-legalese-to-english-privacy-policy-tos-simplifier",
+  "dictionary": "ferramentas",
+  "name": "Legalese TO English Privacy Policy Tos Simplifier",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/legalese-to-english-privacy-policy-tos-simplifier",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-jigso",
+  "dictionary": "ferramentas",
+  "name": "Jigso",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/jigso",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-zap",
+  "dictionary": "ferramentas",
+  "name": "Zap",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/zap",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-sensei-ai-coding-copilot",
+  "dictionary": "ferramentas",
+  "name": "Sensei AI Coding Copilot",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/sensei-ai-coding-copilot",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-custom-leads",
+  "dictionary": "ferramentas",
+  "name": "Custom Leads",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/custom-leads",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-product-description-generator",
+  "dictionary": "ferramentas",
+  "name": "AI Product Description Generator",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-product-description-generator",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-solobuilderhub",
+  "dictionary": "ferramentas",
+  "name": "Solobuilderhub",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/solobuilderhub",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-hirequotient-ai-detector",
+  "dictionary": "ferramentas",
+  "name": "Hirequotient AI Detector",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/hirequotient-ai-detector",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-aledade-ehr-overlay-silent-staging",
+  "dictionary": "ferramentas",
+  "name": "Aledade Ehr Overlay Silent Staging",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/aledade-ehr-overlay-silent-staging",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-socialboost-ad-manager",
+  "dictionary": "ferramentas",
+  "name": "Socialboost AD Manager",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/socialboost-ad-manager",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-thread-genius",
+  "dictionary": "ferramentas",
+  "name": "Thread Genius",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/thread-genius",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-chatgpt-ai-assistant-for-youtube-comments",
+  "dictionary": "ferramentas",
+  "name": "Chatgpt AI Assistant For Youtube Comments",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/chatgpt-ai-assistant-for-youtube-comments",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-chatsson-chatgpt-backgrounds-to-do-pomodoro",
+  "dictionary": "ferramentas",
+  "name": "Chatsson Chatgpt Backgrounds TO DO Pomodoro",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/chatsson-chatgpt-backgrounds-to-do-pomodoro",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-dendrite-vault",
+  "dictionary": "ferramentas",
+  "name": "Dendrite Vault",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/dendrite-vault",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-deepseek-ai",
+  "dictionary": "ferramentas",
+  "name": "Deepseek AI",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/deepseek-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-zast-ai-helper",
+  "dictionary": "ferramentas",
+  "name": "Zast AI Helper",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/zast-ai-helper",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-video2post",
+  "dictionary": "ferramentas",
+  "name": "Video2post",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/video2post",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-blacklist-ai-autofill-job-applications",
+  "dictionary": "ferramentas",
+  "name": "Blacklist AI Autofill Job Applications",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/blacklist-ai-autofill-job-applications",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-mrscraper",
+  "dictionary": "ferramentas",
+  "name": "AI Mrscraper",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-mrscraper",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-intelliscore",
+  "dictionary": "ferramentas",
+  "name": "Intelliscore",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/intelliscore",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-tomx-vpn",
+  "dictionary": "ferramentas",
+  "name": "Tomx Vpn",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/tomx-vpn",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-omni",
+  "dictionary": "ferramentas",
+  "name": "Omni",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/omni",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-flowchart-maker",
+  "dictionary": "ferramentas",
+  "name": "Flowchart Maker",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/flowchart-maker",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-dessn",
+  "dictionary": "ferramentas",
+  "name": "Dessn",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/dessn",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-cleverquips",
+  "dictionary": "ferramentas",
+  "name": "Cleverquips",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/cleverquips",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-chatgpt-journal",
+  "dictionary": "ferramentas",
+  "name": "Chatgpt Journal",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/chatgpt-journal",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-dunlin-extension",
+  "dictionary": "ferramentas",
+  "name": "Dunlin Extension",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/dunlin-extension",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-admix-your-one-stop-ai-powerhouse",
+  "dictionary": "ferramentas",
+  "name": "Admix Your One Stop AI Powerhouse",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/admix-your-one-stop-ai-powerhouse",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-podcastify",
+  "dictionary": "ferramentas",
+  "name": "Podcastify",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/podcastify",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-lucyai-by-datapinter",
+  "dictionary": "ferramentas",
+  "name": "Lucyai BY Datapinter",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/lucyai-by-datapinter",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-neoprompts",
+  "dictionary": "ferramentas",
+  "name": "Neoprompts",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/neoprompts",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-chatgpt-consolidator",
+  "dictionary": "ferramentas",
+  "name": "Chatgpt Consolidator",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/chatgpt-consolidator",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-mindfirewall-social-media-doesn-t-have-to-be-negative",
+  "dictionary": "ferramentas",
+  "name": "Mindfirewall Social Media Doesn T Have TO BE Negative",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/mindfirewall-social-media-doesn-t-have-to-be-negative",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-productivity-tracker",
+  "dictionary": "ferramentas",
+  "name": "Productivity Tracker",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/productivity-tracker",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-etenus",
+  "dictionary": "ferramentas",
+  "name": "Etenus",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/etenus",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-writesonic",
+  "dictionary": "ferramentas",
+  "name": "Writesonic",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/writesonic",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-podnotes",
+  "dictionary": "ferramentas",
+  "name": "Podnotes",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/podnotes",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-keywords-to-posts",
+  "dictionary": "ferramentas",
+  "name": "AI Keywords TO Posts",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-keywords-to-posts",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-gravity-write",
+  "dictionary": "ferramentas",
+  "name": "Gravity Write",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/gravity-write",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-getcontrast-io",
+  "dictionary": "ferramentas",
+  "name": "Getcontrast IO",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/getcontrast-io",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-blaze",
+  "dictionary": "ferramentas",
+  "name": "Blaze",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/blaze",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-junia-ai",
+  "dictionary": "ferramentas",
+  "name": "Junia AI",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/junia-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-arvow",
+  "dictionary": "ferramentas",
+  "name": "Arvow",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/arvow",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-grackerai",
+  "dictionary": "ferramentas",
+  "name": "Grackerai",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/grackerai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-right-blogger",
+  "dictionary": "ferramentas",
+  "name": "Right Blogger",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/right-blogger",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-seowriting",
+  "dictionary": "ferramentas",
+  "name": "Seowriting",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/seowriting",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-anyword",
+  "dictionary": "ferramentas",
+  "name": "Anyword",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/anyword",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-video-to-blog",
+  "dictionary": "ferramentas",
+  "name": "Video TO Blog",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/video-to-blog",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-scalenut",
+  "dictionary": "ferramentas",
+  "name": "Scalenut",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/scalenut",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-smartli",
+  "dictionary": "ferramentas",
+  "name": "Smartli",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/smartli",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-wisp-cms",
+  "dictionary": "ferramentas",
+  "name": "Wisp Cms",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/wisp-cms",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-contentbot-ai",
+  "dictionary": "ferramentas",
+  "name": "Contentbot AI",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/contentbot-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-blogseo",
+  "dictionary": "ferramentas",
+  "name": "Blogseo",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/blogseo",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-machined-ai",
+  "dictionary": "ferramentas",
+  "name": "Machined AI",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/machined-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-blog-writer",
+  "dictionary": "ferramentas",
+  "name": "AI Blog Writer",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-blog-writer",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-bookbyanyone-com",
+  "dictionary": "ferramentas",
+  "name": "Bookbyanyone Com",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/bookbyanyone-com",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-dabble-book-writing-software",
+  "dictionary": "ferramentas",
+  "name": "Dabble Book Writing Software",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/dabble-book-writing-software",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-squibler",
+  "dictionary": "ferramentas",
+  "name": "Squibler",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/squibler",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-inkfluence-ai",
+  "dictionary": "ferramentas",
+  "name": "Inkfluence AI",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/inkfluence-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-automateed",
+  "dictionary": "ferramentas",
+  "name": "Automateed",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/automateed",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ebookmaker-ai",
+  "dictionary": "ferramentas",
+  "name": "Ebookmaker AI",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ebookmaker-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-aiwritebook",
+  "dictionary": "ferramentas",
+  "name": "Aiwritebook",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/aiwritebook",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-novelistai",
+  "dictionary": "ferramentas",
+  "name": "Novelistai",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/novelistai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-youbooks",
+  "dictionary": "ferramentas",
+  "name": "Youbooks",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/youbooks",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-magical-children-s-book",
+  "dictionary": "ferramentas",
+  "name": "Magical Children S Book",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/magical-children-s-book",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-writeabookai",
+  "dictionary": "ferramentas",
+  "name": "Writeabookai",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/writeabookai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-first-book-ai",
+  "dictionary": "ferramentas",
+  "name": "First Book AI",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/first-book-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-tailoredread",
+  "dictionary": "ferramentas",
+  "name": "Tailoredread",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/tailoredread",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-storycanvas",
+  "dictionary": "ferramentas",
+  "name": "Storycanvas",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/storycanvas",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-storyloft-ai-writing-publishing-platform-for-authors",
+  "dictionary": "ferramentas",
+  "name": "Storyloft AI Writing Publishing Platform For Authors",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/storyloft-ai-writing-publishing-platform-for-authors",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-bookwiz",
+  "dictionary": "ferramentas",
+  "name": "Bookwiz",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/bookwiz",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-book-generator-ai",
+  "dictionary": "ferramentas",
+  "name": "AI Book Generator AI",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-book-generator-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-copylime-com",
+  "dictionary": "ferramentas",
+  "name": "Copylime Com",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/copylime-com",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-bookhero",
+  "dictionary": "ferramentas",
+  "name": "Bookhero",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/bookhero",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-kindredtales-net",
+  "dictionary": "ferramentas",
+  "name": "Kindredtales Net",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/kindredtales-net",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-photocaption",
+  "dictionary": "ferramentas",
+  "name": "Photocaption",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/photocaption",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-submagic",
+  "dictionary": "ferramentas",
+  "name": "Submagic",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/submagic",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-captions-app",
+  "dictionary": "ferramentas",
+  "name": "Captions App",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/captions-app",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-planable",
+  "dictionary": "ferramentas",
+  "name": "Planable",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/planable",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-choppity",
+  "dictionary": "ferramentas",
+  "name": "Choppity",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/choppity",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-zapcap",
+  "dictionary": "ferramentas",
+  "name": "Zapcap",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/zapcap",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-zeemo",
+  "dictionary": "ferramentas",
+  "name": "Zeemo",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/zeemo",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-contentstudio-io",
+  "dictionary": "ferramentas",
+  "name": "Contentstudio IO",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/contentstudio-io",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-autocut-com",
+  "dictionary": "ferramentas",
+  "name": "Autocut Com",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/autocut-com",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-autocaption",
+  "dictionary": "ferramentas",
+  "name": "Autocaption",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/autocaption",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-ai-social-post-generator",
+  "dictionary": "ferramentas",
+  "name": "AI Social Post Generator",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/ai-social-post-generator",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-firecut-ai",
+  "dictionary": "ferramentas",
+  "name": "Firecut AI",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/firecut-ai",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-postplanify",
+  "dictionary": "ferramentas",
+  "name": "Postplanify",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/postplanify",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-socialbu",
+  "dictionary": "ferramentas",
+  "name": "Socialbu",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/socialbu",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-subtitlebee-com",
+  "dictionary": "ferramentas",
+  "name": "Subtitlebee Com",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/subtitlebee-com",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-detail-ai-video-content-maker",
+  "dictionary": "ferramentas",
+  "name": "Detail AI Video Content Maker",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/detail-ai-video-content-maker",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-grum-co",
+  "dictionary": "ferramentas",
+  "name": "Grum CO",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/grum-co",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-jupitrr",
+  "dictionary": "ferramentas",
+  "name": "Jupitrr",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/jupitrr",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-syncwords-com",
+  "dictionary": "ferramentas",
+  "name": "Syncwords Com",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/syncwords-com",
+    "source": "https://www.toolify.ai/most-used"
+  }
+},
+{
+  "id": "tool-toolify-braiv",
+  "dictionary": "ferramentas",
+  "name": "Braiv",
+  "aliases": [],
+  "description": "Ferramenta de inteligência artificial listada no diretório Toolify.",
+  "tags": [
+    "IA",
+    "ferramenta"
+  ],
+  "details": {
+    "category": "Ferramenta de IA",
+    "website": "https://www.toolify.ai/tool/braiv",
+    "source": "https://www.toolify.ai/most-used"
+  }
+}
 ]
