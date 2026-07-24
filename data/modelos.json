@@ -25,5 +25,239 @@
     "description": "Família multimodal de modelos do Google.",
     "tags": ["LLM", "multimodal"],
     "details": { "company": "Google", "family": "Gemini" }
+  },
+  {
+    "id": "model-mimo-v2-5",
+    "dictionary": "modelos",
+    "name": "MiMo-V2.5",
+    "aliases": ["MiMo V2.5", "Mimo 2.5"],
+    "description": "Modelo da Xiaomi voltado a raciocínio, programação e tarefas com agentes.",
+    "tags": ["LLM", "raciocínio", "código", "agentes"],
+    "details": {
+      "company": "Xiaomi",
+      "family": "MiMo",
+      "website": "https://openrouter.ai/xiaomi/mimo-v2.5"
+    }
+  },
+  {
+    "id": "model-deepseek-v4-flash",
+    "dictionary": "modelos",
+    "name": "DeepSeek V4 Flash",
+    "aliases": ["Deep Seek V4 Flash", "DeepSeek 4 Flash"],
+    "description": "Versão rápida da família DeepSeek V4 para raciocínio e geração de código.",
+    "tags": ["LLM", "raciocínio", "código"],
+    "details": {
+      "company": "DeepSeek",
+      "family": "DeepSeek V4",
+      "website": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+    }
+  },
+  {
+    "id": "model-deepseek-v4-pro",
+    "dictionary": "modelos",
+    "name": "DeepSeek V4 Pro",
+    "aliases": ["Deep Seek V4 Pro", "DeepSeek 4 Pro"],
+    "description": "Modelo avançado da família DeepSeek V4 para tarefas complexas.",
+    "tags": ["LLM", "raciocínio", "código", "agentes"],
+    "details": {
+      "company": "DeepSeek",
+      "family": "DeepSeek V4",
+      "website": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+    }
+  },
+  {
+    "id": "model-glm-5-2",
+    "dictionary": "modelos",
+    "name": "GLM 5.2",
+    "aliases": ["G L M 5.2", "GLM cinco ponto dois"],
+    "description": "Modelo da Z.ai para raciocínio, código e fluxos de trabalho com agentes.",
+    "tags": ["LLM", "raciocínio", "código", "agentes"],
+    "details": {
+      "company": "Z.ai",
+      "family": "GLM",
+      "website": "https://openrouter.ai/z-ai/glm-5.2"
+    }
+  },
+  {
+    "id": "model-minimax-m3",
+    "dictionary": "modelos",
+    "name": "MiniMax M3",
+    "aliases": ["Mini Max M3", "MiniMax M 3"],
+    "description": "Modelo da MiniMax para tarefas gerais, raciocínio e uso de ferramentas.",
+    "tags": ["LLM", "raciocínio", "ferramentas"],
+    "details": {
+      "company": "MiniMax",
+      "family": "MiniMax",
+      "website": "https://openrouter.ai/minimax/minimax-m3"
+    }
+  },
+  {
+    "id": "model-tencent-hy3",
+    "dictionary": "modelos",
+    "name": "Tencent HY3",
+    "aliases": ["Tencent H Y 3", "Tencent High 3"],
+    "description": "Modelo da Tencent disponível para aplicações de linguagem e raciocínio.",
+    "tags": ["LLM", "raciocínio"],
+    "details": {
+      "company": "Tencent",
+      "family": "HY",
+      "website": "https://openrouter.ai/tencent/hy3"
+    }
+  },
+  {
+    "id": "model-nemotron-3-ultra",
+    "dictionary": "modelos",
+    "name": "Nemotron 3 Ultra",
+    "aliases": ["Nemo Tron 3 Ultra", "Nemotron Three Ultra"],
+    "description": "Modelo aberto da NVIDIA para raciocínio avançado e tarefas com agentes.",
+    "tags": ["LLM", "raciocínio", "agentes", "pesos abertos"],
+    "details": {
+      "company": "NVIDIA",
+      "family": "Nemotron",
+      "website": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b"
+    }
+  },
+  {
+    "id": "model-claude-opus-4-8",
+    "dictionary": "modelos",
+    "name": "Claude Opus 4.8",
+    "aliases": ["Cloud Opus 4.8", "Claude Opus Four Point Eight"],
+    "description": "Modelo da Anthropic para raciocínio exigente, programação e trabalho de longa duração.",
+    "tags": ["LLM", "raciocínio", "código", "agentes"],
+    "details": {
+      "company": "Anthropic",
+      "family": "Claude Opus",
+      "website": "https://openrouter.ai/anthropic/claude-opus-4.8"
+    }
+  },
+  {
+    "id": "model-claude-sonnet-5",
+    "dictionary": "modelos",
+    "name": "Claude Sonnet 5",
+    "aliases": ["Cloud Sonnet 5", "Claude Sonic 5"],
+    "description": "Modelo da família Claude Sonnet para tarefas gerais, código e agentes.",
+    "tags": ["LLM", "raciocínio", "código", "agentes"],
+    "details": {
+      "company": "Anthropic",
+      "family": "Claude Sonnet",
+      "website": "https://openrouter.ai/anthropic/claude-sonnet-5"
+    }
+  },
+  {
+    "id": "model-kimi-k3",
+    "dictionary": "modelos",
+    "name": "Kimi K3",
+    "aliases": ["Kimi K 3", "Kimi Key 3"],
+    "description": "Modelo multimodal da Moonshot AI para raciocínio, código e fluxos com agentes.",
+    "tags": ["LLM", "multimodal", "raciocínio", "agentes"],
+    "details": {
+      "company": "Moonshot AI",
+      "family": "Kimi",
+      "website": "https://openrouter.ai/moonshotai/kimi-k3"
+    }
+  },
+  {
+    "id": "model-gemini-3-flash-preview",
+    "dictionary": "modelos",
+    "name": "Gemini 3 Flash Preview",
+    "aliases": ["Gemini 3 Flash", "Geminy 3 Flash"],
+    "description": "Modelo multimodal rápido da família Gemini para código e tarefas com agentes.",
+    "tags": ["LLM", "multimodal", "código", "agentes"],
+    "details": {
+      "company": "Google",
+      "family": "Gemini",
+      "website": "https://openrouter.ai/google/gemini-3-flash-preview"
+    }
+  },
+  {
+    "id": "model-gpt-5-6-sol",
+    "dictionary": "modelos",
+    "name": "GPT-5.6 Sol",
+    "aliases": ["GPT 5.6 Sol", "G P T 5.6 Sol"],
+    "description": "Modelo avançado da série GPT-5.6 para raciocínio, código e tarefas com agentes.",
+    "tags": ["LLM", "raciocínio", "código", "agentes"],
+    "details": {
+      "company": "OpenAI",
+      "family": "GPT",
+      "website": "https://openrouter.ai/openai/gpt-5.6-sol"
+    }
+  },
+  {
+    "id": "model-grok-4-5",
+    "dictionary": "modelos",
+    "name": "Grok 4.5",
+    "aliases": ["Groc 4.5", "Grok Four Point Five"],
+    "description": "Modelo da xAI para raciocínio, programação, conhecimento e tarefas multimodais.",
+    "tags": ["LLM", "multimodal", "raciocínio", "código"],
+    "details": {
+      "company": "xAI",
+      "family": "Grok",
+      "website": "https://openrouter.ai/x-ai/grok-4.5"
+    }
+  },
+  {
+    "id": "model-gpt-oss-120b",
+    "dictionary": "modelos",
+    "name": "GPT-OSS 120B",
+    "aliases": ["GPT OSS 120B", "GPT Open Source 120B"],
+    "description": "Modelo de pesos abertos da OpenAI para raciocínio e aplicações de linguagem.",
+    "tags": ["LLM", "raciocínio", "pesos abertos"],
+    "details": {
+      "company": "OpenAI",
+      "family": "GPT-OSS",
+      "website": "https://openrouter.ai/openai/gpt-oss-120b"
+    }
+  },
+  {
+    "id": "model-qwen-3-7-plus",
+    "dictionary": "modelos",
+    "name": "Qwen3.7 Plus",
+    "aliases": ["Qwen 3.7 Plus", "Quen 3.7 Plus"],
+    "description": "Modelo da família Qwen para tarefas gerais, raciocínio e contextos extensos.",
+    "tags": ["LLM", "raciocínio", "contexto longo"],
+    "details": {
+      "company": "Alibaba",
+      "family": "Qwen",
+      "website": "https://openrouter.ai/qwen/qwen3.7-plus"
+    }
+  },
+  {
+    "id": "model-llama-4-maverick",
+    "dictionary": "modelos",
+    "name": "Llama 4 Maverick",
+    "aliases": ["Lama 4 Maverick", "LLaMA Four Maverick"],
+    "description": "Modelo multimodal de pesos abertos da família Llama da Meta.",
+    "tags": ["LLM", "multimodal", "pesos abertos"],
+    "details": {
+      "company": "Meta",
+      "family": "Llama",
+      "website": "https://openrouter.ai/meta-llama/llama-4-maverick"
+    }
+  },
+  {
+    "id": "model-gemma-4-31b",
+    "dictionary": "modelos",
+    "name": "Gemma 4 31B",
+    "aliases": ["Gemma Four 31B", "Gema 4 31B"],
+    "description": "Modelo aberto da família Gemma do Google com 31 bilhões de parâmetros.",
+    "tags": ["LLM", "pesos abertos"],
+    "details": {
+      "company": "Google",
+      "family": "Gemma",
+      "website": "https://openrouter.ai/google/gemma-4-31b-it"
+    }
+  },
+  {
+    "id": "model-mistral-nemo",
+    "dictionary": "modelos",
+    "name": "Mistral Nemo",
+    "aliases": ["Mistral Nemo AI", "Mistral Nimo"],
+    "description": "Modelo aberto da Mistral AI e NVIDIA para aplicações de linguagem.",
+    "tags": ["LLM", "pesos abertos"],
+    "details": {
+      "company": "Mistral AI e NVIDIA",
+      "family": "Mistral",
+      "website": "https://openrouter.ai/mistralai/mistral-nemo"
+    }
   }
 ]
