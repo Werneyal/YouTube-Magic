@@ -25,5 +25,140 @@
     "description": "Laboratório de inteligência artificial do Google.",
     "tags": ["laboratório", "pesquisa"],
     "details": { "website": "https://deepmind.google" }
+  },
+  {
+    "id": "company-microsoft",
+    "dictionary": "empresas",
+    "name": "Microsoft",
+    "aliases": ["Microsoft AI", "MSFT"],
+    "description": "Empresa de tecnologia que oferece infraestrutura, produtos e serviços de IA em nuvem.",
+    "tags": ["tecnologia", "nuvem", "IA generativa"],
+    "details": { "website": "https://www.microsoft.com/ai" }
+  },
+  {
+    "id": "company-nvidia",
+    "dictionary": "empresas",
+    "name": "NVIDIA",
+    "aliases": ["Nvidia", "NVIDIA AI"],
+    "description": "Empresa de computação acelerada, chips e software para treinamento e inferência de IA.",
+    "tags": ["hardware", "chips", "infraestrutura"],
+    "details": { "website": "https://www.nvidia.com/en-us/ai/" }
+  },
+  {
+    "id": "company-meta-ai",
+    "dictionary": "empresas",
+    "name": "Meta AI",
+    "aliases": ["Meta", "Meta Platforms AI"],
+    "description": "Divisão de pesquisa e produtos de IA da Meta, incluindo a família aberta Llama.",
+    "tags": ["laboratório", "pesos abertos", "IA generativa"],
+    "details": { "website": "https://ai.meta.com" }
+  },
+  {
+    "id": "company-amazon-aws-ai",
+    "dictionary": "empresas",
+    "name": "Amazon Web Services AI",
+    "aliases": ["AWS AI", "Amazon AI"],
+    "description": "Serviços de infraestrutura, modelos e ferramentas de inteligência artificial da AWS.",
+    "tags": ["nuvem", "infraestrutura", "enterprise"],
+    "details": { "website": "https://aws.amazon.com/ai/" }
+  },
+  {
+    "id": "company-xai",
+    "dictionary": "empresas",
+    "name": "xAI",
+    "aliases": ["X AI", "x A I"],
+    "description": "Empresa de IA responsável pela família de modelos e produtos Grok.",
+    "tags": ["laboratório", "IA generativa", "agentes"],
+    "details": { "website": "https://x.ai" }
+  },
+  {
+    "id": "company-mistral-ai",
+    "dictionary": "empresas",
+    "name": "Mistral AI",
+    "aliases": ["Mistral", "Mistral Artificial Intelligence"],
+    "description": "Empresa europeia que desenvolve modelos de linguagem e soluções de IA generativa.",
+    "tags": ["laboratório", "Europa", "pesos abertos"],
+    "details": { "website": "https://mistral.ai" }
+  },
+  {
+    "id": "company-cohere",
+    "dictionary": "empresas",
+    "name": "Cohere",
+    "aliases": ["Cohere AI", "Cohere for AI"],
+    "description": "Empresa focada em IA generativa segura e aplicações empresariais conectadas a dados.",
+    "tags": ["enterprise", "LLM", "pesquisa"],
+    "details": { "website": "https://cohere.com" }
+  },
+  {
+    "id": "company-deepseek",
+    "dictionary": "empresas",
+    "name": "DeepSeek",
+    "aliases": ["Deep Seek", "DeepSeek AI"],
+    "description": "Laboratório chinês conhecido por modelos de linguagem e raciocínio de pesos abertos.",
+    "tags": ["laboratório", "pesos abertos", "código"],
+    "details": { "website": "https://www.deepseek.com" }
+  },
+  {
+    "id": "company-alibaba-cloud-ai",
+    "dictionary": "empresas",
+    "name": "Alibaba Cloud AI",
+    "aliases": ["Alibaba AI", "Qwen"],
+    "description": "Unidade de nuvem e pesquisa da Alibaba associada à família de modelos Qwen.",
+    "tags": ["nuvem", "LLM", "pesos abertos"],
+    "details": { "website": "https://www.alibabacloud.com/solutions/generative-ai" }
+  },
+  {
+    "id": "company-baidu",
+    "dictionary": "empresas",
+    "name": "Baidu",
+    "aliases": ["Baidu AI", "ERNIE"],
+    "description": "Empresa chinesa de tecnologia com pesquisa, modelos ERNIE e serviços de IA.",
+    "tags": ["tecnologia", "China", "LLM"],
+    "details": { "website": "https://www.baidu.com" }
+  },
+  {
+    "id": "company-tencent-ai",
+    "dictionary": "empresas",
+    "name": "Tencent AI",
+    "aliases": ["Tencent", "Tencent Hunyuan"],
+    "description": "Unidade de pesquisa e produtos de IA da Tencent, incluindo a família Hunyuan.",
+    "tags": ["tecnologia", "China", "IA generativa"],
+    "details": { "website": "https://www.tencentcloud.com/products/hunyuan" }
+  },
+  {
+    "id": "company-hugging-face",
+    "dictionary": "empresas",
+    "name": "Hugging Face",
+    "aliases": ["HuggingFace", "Hugging Face Hub"],
+    "description": "Plataforma colaborativa de modelos, datasets e ferramentas abertas de aprendizado de máquina.",
+    "tags": ["plataforma", "pesos abertos", "comunidade"],
+    "details": { "website": "https://huggingface.co" }
+  },
+  {
+    "id": "company-stability-ai",
+    "dictionary": "empresas",
+    "name": "Stability AI",
+    "aliases": ["Stability", "Stable Diffusion"],
+    "description": "Empresa de IA generativa conhecida por modelos abertos de imagem, vídeo e linguagem.",
+    "tags": ["IA generativa", "imagem", "pesos abertos"],
+    "details": { "website": "https://stability.ai" }
+  },
+  {
+    "id": "company-ibm-watsonx",
+    "dictionary": "empresas",
+    "name": "IBM watsonx",
+    "aliases": ["IBM AI", "Watsonx"],
+    "description": "Plataforma empresarial da IBM para modelos, governança e aplicações de IA.",
+    "tags": ["enterprise", "governança", "nuvem"],
+    "details": { "website": "https://www.ibm.com/watsonx" }
+  },
+  {
+    "id": "company-databricks-ai",
+    "dictionary": "empresas",
+    "name": "Databricks AI",
+    "aliases": ["Databricks", "Mosaic AI"],
+    "description": "Plataforma de dados e IA para treinamento, avaliação e operação de modelos em empresas.",
+    "tags": ["dados", "MLOps", "enterprise"],
+    "details": { "website": "https://www.databricks.com/product/machine-learning" }
   }
 ]
