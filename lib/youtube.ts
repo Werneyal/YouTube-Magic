@@ -36,6 +36,9 @@ type VideoListPayload = YouTubeErrorPayload & {
     statistics?: {
       viewCount?: string;
     };
+    contentDetails?: {
+      duration?: string;
+    };
   }>;
 };
 
@@ -107,6 +110,32 @@ export function extractYouTubeVideoId(value: string): string {
   return videoId;
 }
 
+export function formatYouTubeDuration(value?: string) {
+  if (!value) return "Não informado";
+
+  const match = value.match(/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/);
+  if (!match) return "Não informado";
+
+  const [, hoursValue, minutesValue, secondsValue] = match;
+  const hours = Number(hoursValue ?? 0);
+  const minutes = Number(minutesValue ?? 0);
+  const seconds = Number(secondsValue ?? 0);
+
+  if (
+    !Number.isInteger(hours) ||
+    !Number.isInteger(minutes) ||
+    !Number.isInteger(seconds)
+  ) {
+    return "Não informado";
+  }
+
+  const formattedSeconds = String(seconds).padStart(2, "0");
+  if (hours > 0) {
+    return `${hours}:${String(minutes).padStart(2, "0")}:${formattedSeconds}`;
+  }
+
+  return `${minutes}:${formattedSeconds}`;
+}
 function unavailableTranscript(reason?: string): TranscriptData {
   return {
     status: "unavailable",
@@ -182,7 +211,7 @@ export async function getVideoCardData(
 
   const videoUrl = new URL("https://www.googleapis.com/youtube/v3/videos");
   videoUrl.search = new URLSearchParams({
-    part: "snippet,statistics",
+    part: "snippet,statistics,contentDetails",
     id: videoId,
     key: apiKey,
   }).toString();
@@ -243,6 +272,7 @@ export async function getVideoCardData(
       channelStatistics?.hiddenSubscriberCount ??
       !channelStatistics?.subscriberCount,
     viewCount: video.statistics?.viewCount ?? "0",
+    duration: formatYouTubeDuration(video.contentDetails?.duration),
     publishedAt: video.snippet.publishedAt,
     description: video.snippet.description,
     transcript,

@@ -11,6 +11,7 @@ import {
 } from "../db/schema";
 import {
   AdaptedDocumentValidationError,
+  sanitizeAdaptedDocumentContent,
   sanitizeAdaptedDocumentInput,
   type AdaptedDocument,
   type AdaptedDocumentSummary,
@@ -57,6 +58,7 @@ type AdaptedDocumentRow = {
   id: string;
   model: string;
   content_markdown: string;
+  prompt_template: string;
   created_at: string;
 };
 
@@ -95,6 +97,17 @@ async function initializeCollectionDatabase(db: D1Database) {
     db.prepare(adaptedDocumentsSchema),
     db.prepare(adaptedDocumentsIndexSchema),
   ]);
+
+  const columns = await db
+    .prepare("PRAGMA table_info(adapted_documents)")
+    .all<{ name: string }>();
+  if (!columns.results.some((column) => column.name === "prompt_template")) {
+    await db
+      .prepare(
+        "ALTER TABLE adapted_documents ADD COLUMN prompt_template TEXT NOT NULL DEFAULT ''",
+      )
+      .run();
+  }
 }
 
 function parseJsonList(value: string) {
@@ -388,6 +401,7 @@ function documentFromRow(row: AdaptedDocumentRow): AdaptedDocument {
     id: row.id,
     model: row.model,
     content: row.content_markdown,
+    prompt: row.prompt_template,
     createdAt: row.created_at,
   };
 }
@@ -441,7 +455,7 @@ async function listAdaptedDocuments(
     .all<Pick<AdaptedDocumentRow, "id" | "model" | "created_at">>();
   const latestRow = await db
     .prepare(
-      `SELECT id, model, content_markdown, created_at FROM adapted_documents
+      `SELECT id, model, content_markdown, prompt_template, created_at FROM adapted_documents
       WHERE collection_id = ? AND video_id = ?
       ORDER BY created_at DESC, id DESC LIMIT 1`,
     )
@@ -462,7 +476,7 @@ async function getAdaptedDocument(
 ) {
   const row = await db
     .prepare(
-      `SELECT id, model, content_markdown, created_at FROM adapted_documents
+      `SELECT id, model, content_markdown, prompt_template, created_at FROM adapted_documents
       WHERE id = ? AND collection_id = ? AND video_id = ?`,
     )
     .bind(documentId, collectionId, videoId)
@@ -476,15 +490,15 @@ async function createAdaptedDocument(
   videoId: string,
   input: unknown,
 ) {
-  const { model, content } = sanitizeAdaptedDocumentInput(input);
+  const { model, content, prompt } = sanitizeAdaptedDocumentInput(input);
   const id = crypto.randomUUID();
   await db
     .prepare(
       `INSERT INTO adapted_documents
-      (id, collection_id, video_id, model, content_markdown)
-      VALUES (?, ?, ?, ?, ?)`,
+      (id, collection_id, video_id, model, content_markdown, prompt_template)
+      VALUES (?, ?, ?, ?, ?, ?)`,
     )
-    .bind(id, collectionId, videoId, model, content)
+    .bind(id, collectionId, videoId, model, content, prompt)
     .run();
   const document = await getAdaptedDocument(db, collectionId, videoId, id);
   if (!document) {
@@ -496,6 +510,60 @@ async function createAdaptedDocument(
   return document;
 }
 
+async function updateAdaptedDocument(
+  db: D1Database,
+  collectionId: string,
+  videoId: string,
+  documentId: string,
+  input: unknown,
+) {
+  const content = sanitizeAdaptedDocumentContent(
+    input && typeof input === "object"
+      ? (input as Record<string, unknown>).content
+      : undefined,
+  );
+  const existing = await getAdaptedDocument(
+    db,
+    collectionId,
+    videoId,
+    documentId,
+  );
+  if (!existing) return null;
+
+  await db
+    .prepare(
+      `UPDATE adapted_documents SET content_markdown = ?
+      WHERE id = ? AND collection_id = ? AND video_id = ?`,
+    )
+    .bind(content, documentId, collectionId, videoId)
+    .run();
+
+  return getAdaptedDocument(db, collectionId, videoId, documentId);
+}
+
+async function deleteAdaptedDocument(
+  db: D1Database,
+  collectionId: string,
+  videoId: string,
+  documentId: string,
+) {
+  const existing = await getAdaptedDocument(
+    db,
+    collectionId,
+    videoId,
+    documentId,
+  );
+  if (!existing) return null;
+
+  await db
+    .prepare(
+      "DELETE FROM adapted_documents WHERE id = ? AND collection_id = ? AND video_id = ?",
+    )
+    .bind(documentId, collectionId, videoId)
+    .run();
+
+  return listAdaptedDocuments(db, collectionId, videoId);
+}
 async function handleCollectionRequest(request: Request, db: D1Database) {
   const collectionId = collectionIdFromRequest(request);
   await initializeCollectionDatabase(db);
@@ -557,6 +625,43 @@ async function handleCollectionRequest(request: Request, db: D1Database) {
           );
         }
         return collectionResponse(request, collectionId, { document });
+      }
+
+      if (request.method === "PUT" && documentId) {
+        const document = await updateAdaptedDocument(
+          db,
+          collectionId,
+          videoId,
+          documentId,
+          await request.json(),
+        );
+        if (!document) {
+          return collectionResponse(
+            request,
+            collectionId,
+            { error: { message: "Documento não encontrado." } },
+            { status: 404 },
+          );
+        }
+        return collectionResponse(request, collectionId, { document });
+      }
+
+      if (request.method === "DELETE" && documentId) {
+        const history = await deleteAdaptedDocument(
+          db,
+          collectionId,
+          videoId,
+          documentId,
+        );
+        if (!history) {
+          return collectionResponse(
+            request,
+            collectionId,
+            { error: { message: "Documento não encontrado." } },
+            { status: 404 },
+          );
+        }
+        return collectionResponse(request, collectionId, history);
       }
 
       if (request.method === "POST" && !documentId) {
@@ -675,3 +780,6 @@ const worker = {
 };
 
 export default worker;
+
+
+

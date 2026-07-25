@@ -3,14 +3,19 @@ import {
   isAdaptationModel,
   type AdaptationModelId,
 } from "../../../lib/adaptation-models";
+import { adaptationLightSystemPrompt } from "../../../lib/adaptation-light-prompt";
 import { adaptationSystemPrompt } from "../../../lib/adaptation-prompt";
+import { tutorialSystemPrompt } from "../../../lib/tutorial-prompt";
 
 const maxTranscriptLength = 240_000;
+const maxCustomPromptLength = 100_000;
 
 type AdaptationRequest = {
   transcript?: unknown;
   title?: unknown;
   model?: unknown;
+  mode?: unknown;
+  customPrompt?: unknown;
 };
 
 type OpenRouterResponse = {
@@ -62,6 +67,21 @@ export async function POST(request: Request) {
     return errorResponse("Escolha um modelo disponível para a adaptação.", 400);
   }
 
+  if (body.mode !== undefined && body.mode !== "standard" && body.mode !== "light" && body.mode !== "tutorial" && body.mode !== "custom") {
+    return errorResponse("Escolha um modo de adaptação disponível.", 400);
+  }
+
+  const customPrompt =
+    typeof body.customPrompt === "string" ? body.customPrompt.trim() : "";
+  if (
+    body.mode === "custom" &&
+    (!customPrompt || customPrompt.length > maxCustomPromptLength)
+  ) {
+    return errorResponse(
+      "Informe um prompt personalizado válido dentro do limite de tamanho.",
+      400,
+    );
+  }
   const apiKey = process.env.OPENROUTER_API_KEY;
   if (!apiKey) {
     return errorResponse(
@@ -72,6 +92,14 @@ export async function POST(request: Request) {
 
   const title = typeof body.title === "string" ? body.title.trim() : "";
   const model: AdaptationModelId = body.model;
+  const systemPrompt =
+    body.mode === "custom"
+      ? customPrompt
+      : body.mode === "tutorial"
+        ? tutorialSystemPrompt
+        : body.mode === "light"
+          ? adaptationLightSystemPrompt
+          : adaptationSystemPrompt;
 
   let response: Response;
   try {
@@ -87,7 +115,7 @@ export async function POST(request: Request) {
         model,
         temperature: 0.2,
         messages: [
-          { role: "system", content: adaptationSystemPrompt },
+          { role: "system", content: systemPrompt },
           {
             role: "user",
             content: `Título do vídeo: ${title || "Não informado"}\n\nTranscrição:\n${body.transcript}`,
@@ -119,5 +147,14 @@ export async function POST(request: Request) {
     );
   }
 
-  return NextResponse.json({ document, model });
+  return NextResponse.json({ document, model, prompt: systemPrompt });
 }
+
+
+
+
+
+
+
+
+

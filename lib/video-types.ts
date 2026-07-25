@@ -18,6 +18,7 @@ export type VideoCardData = {
   subscriberCount: string | null;
   subscriberCountHidden: boolean;
   viewCount: string;
+  duration: string;
   publishedAt: string;
   description: string;
   transcript: TranscriptData;

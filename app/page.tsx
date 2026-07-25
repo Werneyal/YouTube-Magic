@@ -2,6 +2,7 @@
 
 import { FormEvent, useCallback, useEffect, useState } from "react";
 import { decodeHtmlEntities } from "../lib/html-entities";
+import { formatVideoDate } from "../lib/video-formatters";
 import type { VideoCardData } from "../lib/video-types";
 
 const EXAMPLE_URL = "https://www.youtube.com/watch?v=474wZZHoWN4";
@@ -18,13 +19,7 @@ function formatCount(value: string | null) {
   }).format(parsed);
 }
 
-function formatDate(value: string) {
-  return new Intl.DateTimeFormat("pt-BR", {
-    day: "2-digit",
-    month: "short",
-    year: "numeric",
-  }).format(new Date(value));
-}
+
 
 function ResultCard({ video }: { video: VideoCardData }) {
   const transcriptLabel =
@@ -66,8 +61,12 @@ function ResultCard({ video }: { video: VideoCardData }) {
               <dd>{formatCount(video.viewCount)}</dd>
             </div>
             <div>
+              <dt>Duração</dt>
+              <dd>{video.duration ?? "Não informado"}</dd>
+            </div>
+            <div>
               <dt>Publicado</dt>
-              <dd>{formatDate(video.publishedAt)}</dd>
+              <dd>{formatVideoDate(video.publishedAt)}</dd>
             </div>
           </dl>
         </div>
@@ -164,8 +163,12 @@ function Collection({
                       <b>{formatCount(savedVideo.viewCount)}</b>
                     </span>
                     <span>
+                      <small>Duração</small>
+                      <b>{savedVideo.duration ?? "Não informado"}</b>
+                    </span>
+                    <span>
                       <small>Publicado</small>
-                      <b>{formatDate(savedVideo.publishedAt)}</b>
+                      <b>{formatVideoDate(savedVideo.publishedAt)}</b>
                     </span>
                   </span>
 
@@ -217,42 +220,90 @@ export default function Home() {
     void refreshCollection();
   }, [refreshCollection]);
 
+  const analyzeVideo = useCallback(
+    async (
+      submittedUrl: string,
+      importedTranscript?: string,
+      importedLanguage?: string,
+    ) => {
+      setError("");
+      setIsLoading(true);
+
+      try {
+        const response = await fetch("/api/video", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            url: submittedUrl,
+            ...(importedTranscript
+              ? {
+                  transcript: importedTranscript,
+                  transcriptLanguage: importedLanguage ?? "Importada do navegador",
+                }
+              : {}),
+          }),
+        });
+        const payload = await response.json();
+
+        if (!response.ok) {
+          throw new Error(
+            payload?.error?.message ??
+              "Não foi possível analisar o vídeo. Tente novamente.",
+          );
+        }
+
+        setVideo(payload as VideoCardData);
+        await refreshCollection();
+      } catch (requestError) {
+        setVideo(null);
+        setError(
+          requestError instanceof Error
+            ? requestError.message
+            : "Não foi possível analisar o vídeo. Tente novamente.",
+        );
+      } finally {
+        setIsLoading(false);
+      }
+    },
+    [refreshCollection],
+  );
+
+  useEffect(() => {
+    const handleExtensionImport = (event: MessageEvent) => {
+      if (event.origin !== window.location.origin) return;
+
+      const data = event.data;
+      if (
+        !data ||
+        data.source !== "video-em-foco-extension" ||
+        data.type !== "TRANSCRIPT_IMPORT" ||
+        typeof data.payload?.url !== "string" ||
+        typeof data.payload?.transcript !== "string"
+      ) {
+        return;
+      }
+
+      void analyzeVideo(
+        data.payload.url,
+        data.payload.transcript,
+        typeof data.payload.language === "string"
+          ? data.payload.language
+          : undefined,
+      );
+    };
+
+    window.addEventListener("message", handleExtensionImport);
+    window.dispatchEvent(new CustomEvent("video-em-foco-ready"));
+
+    return () => window.removeEventListener("message", handleExtensionImport);
+  }, [analyzeVideo]);
+
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const submittedUrl = url.trim();
     setUrl("");
-    setError("");
-    setIsLoading(true);
-
-    try {
-      const response = await fetch("/api/video", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ url: submittedUrl }),
-      });
-      const payload = await response.json();
-
-      if (!response.ok) {
-        throw new Error(
-          payload?.error?.message ??
-            "Não foi possível analisar o vídeo. Tente novamente.",
-        );
-      }
-
-      setVideo(payload as VideoCardData);
-      await refreshCollection();
-    } catch (requestError) {
-      setVideo(null);
-      setError(
-        requestError instanceof Error
-          ? requestError.message
-          : "Não foi possível analisar o vídeo. Tente novamente.",
-      );
-    } finally {
-      setIsLoading(false);
-    }
+    void analyzeVideo(submittedUrl);
   }
-
   async function handleDelete(videoId: string) {
     try {
       const response = await fetch(`/api/collection/${videoId}`, { method: "DELETE" });
@@ -381,3 +432,4 @@ export default function Home() {
     </main>
   );
 }
+

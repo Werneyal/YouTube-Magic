@@ -15,6 +15,7 @@ export const adaptedDocumentsSchema = `
     video_id TEXT NOT NULL,
     model TEXT NOT NULL,
     content_markdown TEXT NOT NULL,
+    prompt_template TEXT NOT NULL DEFAULT '',
     created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
   )
 `;

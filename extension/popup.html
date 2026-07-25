@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vídeo em Foco</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">VÍDEO EM FOCO</p>
+      <h1>Importar transcrição</h1>
+      <p class="intro">
+        Leia a transcrição que o YouTube mostra nesta aba e envie-a ao seu app local.
+      </p>
+
+      <label for="app-url">Endereço do app local</label>
+      <input id="app-url" type="url" value="http://localhost:3000/" />
+      <p class="hint">Use <code>127.0.0.1</code> se esse for o endereço aberto no Codex.</p>
+
+      <button id="import-button" type="button">Importar desta aba</button>
+      <p id="status" role="status" aria-live="polite"></p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

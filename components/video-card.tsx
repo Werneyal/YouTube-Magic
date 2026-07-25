@@ -1,4 +1,5 @@
 import { decodeHtmlEntities } from "../lib/html-entities";
+import { formatVideoDate } from "../lib/video-formatters";
 import type { VideoCardData } from "../lib/video-types";
 
 export function formatCount(value: string | null) {
@@ -13,13 +14,7 @@ export function formatCount(value: string | null) {
   }).format(parsed);
 }
 
-export function formatDate(value: string) {
-  return new Intl.DateTimeFormat("pt-BR", {
-    day: "2-digit",
-    month: "short",
-    year: "numeric",
-  }).format(new Date(value));
-}
+
 
 export function VideoCard({ video }: { video: VideoCardData }) {
   const transcriptLabel =
@@ -61,8 +56,12 @@ export function VideoCard({ video }: { video: VideoCardData }) {
               <dd>{formatCount(video.viewCount)}</dd>
             </div>
             <div>
+              <dt>Duração</dt>
+              <dd>{video.duration ?? "Não informado"}</dd>
+            </div>
+            <div>
               <dt>Publicado</dt>
-              <dd>{formatDate(video.publishedAt)}</dd>
+              <dd>{formatVideoDate(video.publishedAt)}</dd>
             </div>
           </dl>
         </div>
