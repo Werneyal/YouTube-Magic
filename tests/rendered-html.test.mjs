@@ -3,6 +3,10 @@ import test from "node:test";
 import {
   normalizeKnowledgeTerm,
 } from "../lib/dictionaries.ts";
+import {
+  AdaptedDocumentValidationError,
+  sanitizeAdaptedDocumentInput,
+} from "../lib/adapted-documents.ts";
 import { decodeHtmlEntities } from "../lib/html-entities.ts";
 import {
   findKnowledgeConflict,
@@ -27,6 +31,23 @@ test("converte entidades HTML presentes na transcrição", () => {
 
 test("normaliza termos da Base de Conhecimento para comparação", () => {
   assert.equal(normalizeKnowledgeTerm("  Cláude   Code "), "claude code");
+});
+
+test("valida documentos técnicos antes do salvamento", () => {
+  assert.deepEqual(
+    sanitizeAdaptedDocumentInput({
+      model: "anthropic/claude-sonnet-4.5",
+      content: "# Documento técnico",
+    }),
+    {
+      model: "anthropic/claude-sonnet-4.5",
+      content: "# Documento técnico",
+    },
+  );
+  assert.throws(
+    () => sanitizeAdaptedDocumentInput({ model: "", content: "conteúdo" }),
+    AdaptedDocumentValidationError,
+  );
 });
 
 test("valida entidades e remove aliases repetidos", () => {

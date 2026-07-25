@@ -2,11 +2,19 @@
 import { handleImageOptimization, DEFAULT_DEVICE_SIZES, DEFAULT_IMAGE_SIZES } from "vinext/server/image-optimization";
 import handler from "vinext/server/app-router-entry";
 import {
+  adaptedDocumentsIndexSchema,
+  adaptedDocumentsSchema,
   knowledgeDictionaryIndexSchema,
   knowledgeEntitiesSchema,
   knowledgeMetadataSchema,
   savedVideosSchema,
 } from "../db/schema";
+import {
+  AdaptedDocumentValidationError,
+  sanitizeAdaptedDocumentInput,
+  type AdaptedDocument,
+  type AdaptedDocumentSummary,
+} from "../lib/adapted-documents";
 import { dictionarySeeds } from "../lib/dictionary-seeds";
 import {
   dictionariesConfig,
@@ -45,6 +53,13 @@ type SavedVideoRow = {
   saved_at: string;
 };
 
+type AdaptedDocumentRow = {
+  id: string;
+  model: string;
+  content_markdown: string;
+  created_at: string;
+};
+
 type KnowledgeEntityRow = {
   id: string;
   dictionary: DictionaryKey;
@@ -75,7 +90,11 @@ function collectionCookie(request: Request, collectionId: string) {
 }
 
 async function initializeCollectionDatabase(db: D1Database) {
-  await db.prepare(savedVideosSchema).run();
+  await db.batch([
+    db.prepare(savedVideosSchema),
+    db.prepare(adaptedDocumentsSchema),
+    db.prepare(adaptedDocumentsIndexSchema),
+  ]);
 }
 
 function parseJsonList(value: string) {
@@ -364,11 +383,128 @@ async function saveVideo(db: D1Database, collectionId: string, video: unknown) {
     .run();
 }
 
+function documentFromRow(row: AdaptedDocumentRow): AdaptedDocument {
+  return {
+    id: row.id,
+    model: row.model,
+    content: row.content_markdown,
+    createdAt: row.created_at,
+  };
+}
+
+function documentSummaryFromRow(
+  row: Pick<AdaptedDocumentRow, "id" | "model" | "created_at">,
+): AdaptedDocumentSummary {
+  return {
+    id: row.id,
+    model: row.model,
+    createdAt: row.created_at,
+  };
+}
+
+function collectionResponse(
+  request: Request,
+  collectionId: string,
+  data: unknown,
+  init: ResponseInit = {},
+) {
+  const headers = new Headers(init.headers);
+  headers.set("set-cookie", collectionCookie(request, collectionId));
+  return jsonResponse(data, { ...init, headers });
+}
+
+async function collectionHasVideo(
+  db: D1Database,
+  collectionId: string,
+  videoId: string,
+) {
+  return db
+    .prepare(
+      "SELECT 1 FROM saved_videos WHERE collection_id = ? AND video_id = ?",
+    )
+    .bind(collectionId, videoId)
+    .first<{ 1: number }>();
+}
+
+async function listAdaptedDocuments(
+  db: D1Database,
+  collectionId: string,
+  videoId: string,
+) {
+  const { results } = await db
+    .prepare(
+      `SELECT id, model, created_at FROM adapted_documents
+      WHERE collection_id = ? AND video_id = ?
+      ORDER BY created_at DESC, id DESC`,
+    )
+    .bind(collectionId, videoId)
+    .all<Pick<AdaptedDocumentRow, "id" | "model" | "created_at">>();
+  const latestRow = await db
+    .prepare(
+      `SELECT id, model, content_markdown, created_at FROM adapted_documents
+      WHERE collection_id = ? AND video_id = ?
+      ORDER BY created_at DESC, id DESC LIMIT 1`,
+    )
+    .bind(collectionId, videoId)
+    .first<AdaptedDocumentRow>();
+
+  return {
+    documents: results.map(documentSummaryFromRow),
+    latestDocument: latestRow ? documentFromRow(latestRow) : null,
+  };
+}
+
+async function getAdaptedDocument(
+  db: D1Database,
+  collectionId: string,
+  videoId: string,
+  documentId: string,
+) {
+  const row = await db
+    .prepare(
+      `SELECT id, model, content_markdown, created_at FROM adapted_documents
+      WHERE id = ? AND collection_id = ? AND video_id = ?`,
+    )
+    .bind(documentId, collectionId, videoId)
+    .first<AdaptedDocumentRow>();
+  return row ? documentFromRow(row) : null;
+}
+
+async function createAdaptedDocument(
+  db: D1Database,
+  collectionId: string,
+  videoId: string,
+  input: unknown,
+) {
+  const { model, content } = sanitizeAdaptedDocumentInput(input);
+  const id = crypto.randomUUID();
+  await db
+    .prepare(
+      `INSERT INTO adapted_documents
+      (id, collection_id, video_id, model, content_markdown)
+      VALUES (?, ?, ?, ?, ?)`,
+    )
+    .bind(id, collectionId, videoId, model, content)
+    .run();
+  const document = await getAdaptedDocument(db, collectionId, videoId, id);
+  if (!document) {
+    throw new AdaptedDocumentValidationError(
+      "Não foi possível recuperar o documento salvo.",
+      500,
+    );
+  }
+  return document;
+}
+
 async function handleCollectionRequest(request: Request, db: D1Database) {
   const collectionId = collectionIdFromRequest(request);
   await initializeCollectionDatabase(db);
+  const parts = new URL(request.url).pathname.split("/").filter(Boolean);
+  const videoId = parts[2];
+  const resource = parts[3];
+  const documentId = parts[4];
 
-  if (request.method === "GET") {
+  if (!videoId && request.method === "GET") {
     const { results } = await db
       .prepare(
         "SELECT video_data, saved_at FROM saved_videos WHERE collection_id = ? ORDER BY saved_at DESC",
@@ -382,29 +518,91 @@ async function handleCollectionRequest(request: Request, db: D1Database) {
         return [];
       }
     });
-    return jsonResponse(
-      { videos },
-      { headers: { "set-cookie": collectionCookie(request, collectionId) } },
-    );
+    return collectionResponse(request, collectionId, { videos });
   }
 
-  if (request.method === "DELETE") {
-    const videoId = new URL(request.url).pathname.split("/").pop();
-    if (!videoId) {
-      return jsonResponse({ error: { message: "Vídeo não informado." } }, { status: 400 });
+  if (videoId && resource === "documents") {
+    const savedVideo = await collectionHasVideo(db, collectionId, videoId);
+    if (!savedVideo) {
+      return collectionResponse(
+        request,
+        collectionId,
+        { error: { message: "Vídeo não encontrado na coleção." } },
+        { status: 404 },
+      );
     }
 
-    await db
-      .prepare("DELETE FROM saved_videos WHERE collection_id = ? AND video_id = ?")
-      .bind(collectionId, videoId)
-      .run();
-    return jsonResponse(
-      { ok: true },
-      { headers: { "set-cookie": collectionCookie(request, collectionId) } },
-    );
+    try {
+      if (request.method === "GET" && !documentId) {
+        return collectionResponse(
+          request,
+          collectionId,
+          await listAdaptedDocuments(db, collectionId, videoId),
+        );
+      }
+
+      if (request.method === "GET" && documentId) {
+        const document = await getAdaptedDocument(
+          db,
+          collectionId,
+          videoId,
+          documentId,
+        );
+        if (!document) {
+          return collectionResponse(
+            request,
+            collectionId,
+            { error: { message: "Documento não encontrado." } },
+            { status: 404 },
+          );
+        }
+        return collectionResponse(request, collectionId, { document });
+      }
+
+      if (request.method === "POST" && !documentId) {
+        const document = await createAdaptedDocument(
+          db,
+          collectionId,
+          videoId,
+          await request.json(),
+        );
+        return collectionResponse(request, collectionId, { document }, { status: 201 });
+      }
+    } catch (error) {
+      if (error instanceof AdaptedDocumentValidationError) {
+        return collectionResponse(
+          request,
+          collectionId,
+          { error: { message: error.message } },
+          { status: error.status },
+        );
+      }
+      return collectionResponse(
+        request,
+        collectionId,
+        { error: { message: "Não foi possível salvar o documento técnico." } },
+        { status: 500 },
+      );
+    }
   }
 
-  return jsonResponse(
+  if (videoId && !resource && request.method === "DELETE") {
+    await db.batch([
+      db
+        .prepare(
+          "DELETE FROM adapted_documents WHERE collection_id = ? AND video_id = ?",
+        )
+        .bind(collectionId, videoId),
+      db
+        .prepare("DELETE FROM saved_videos WHERE collection_id = ? AND video_id = ?")
+        .bind(collectionId, videoId),
+    ]);
+    return collectionResponse(request, collectionId, { ok: true });
+  }
+
+  return collectionResponse(
+    request,
+    collectionId,
     { error: { message: "Método não permitido." } },
     { status: 405 },
   );

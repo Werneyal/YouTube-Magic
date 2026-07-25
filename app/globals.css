@@ -1070,6 +1070,80 @@ main::before {
   padding: 0 4px;
 }
 
+.document-history {
+  margin-top: 20px;
+  border: 1px solid rgba(245, 240, 231, 0.16);
+  border-radius: 20px;
+  padding: 24px 28px;
+  background: rgba(245, 240, 231, 0.04);
+}
+
+.document-history > div:first-child > span {
+  color: var(--red);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.document-history h2 {
+  margin: 7px 0 0;
+  font-family: var(--display);
+  font-size: 1.65rem;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+.document-history > p {
+  margin: 15px 0 0;
+  color: rgba(245, 240, 231, 0.58);
+  font-size: 0.86rem;
+}
+
+.document-history-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 18px;
+}
+
+.document-history-list button {
+  min-width: 190px;
+  display: grid;
+  gap: 4px;
+  border: 1px solid rgba(245, 240, 231, 0.17);
+  border-radius: 11px;
+  background: rgba(17, 17, 19, 0.36);
+  color: rgba(245, 240, 231, 0.76);
+  padding: 11px 13px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.document-history-list button:hover:not(:disabled),
+.document-history-list button.active {
+  border-color: rgba(255, 77, 79, 0.7);
+  background: rgba(255, 77, 79, 0.13);
+  color: white;
+}
+
+.document-history-list button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+.document-history-list strong {
+  overflow: hidden;
+  font-size: 0.76rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.document-history-list small {
+  color: rgba(245, 240, 231, 0.5);
+  font-size: 0.68rem;
+}
+
 .adapted-document {
   border: 1px solid var(--line);
   background: var(--paper);
@@ -1084,6 +1158,33 @@ main::before {
 
 .adapted-document-heading > span {
   color: var(--red-dark);
+}
+
+.adapted-document-heading p {
+  margin: 9px 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.retry-save-button {
+  margin-top: 26px;
+  border: 1px solid var(--red-dark);
+  border-radius: 10px;
+  background: transparent;
+  color: var(--red-dark);
+  padding: 10px 13px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.retry-save-button:hover:not(:disabled) {
+  background: rgba(216, 47, 53, 0.1);
+}
+
+.retry-save-button:disabled {
+  cursor: wait;
+  opacity: 0.55;
 }
 
 .markdown-document {
@@ -2008,6 +2109,18 @@ footer p {
 
   .adapted-document {
     padding: 22px;
+  }
+
+  .document-history {
+    padding: 22px;
+  }
+
+  .document-history-list {
+    display: grid;
+  }
+
+  .document-history-list button {
+    min-width: 0;
   }
 
   .markdown-document {
