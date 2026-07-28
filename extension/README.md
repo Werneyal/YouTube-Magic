@@ -15,7 +15,7 @@ Após uma atualização desta pasta, volte a chrome://extensions e clique no íc
 
 ## Usar
 
-1. Abra um vídeo do YouTube no Chrome e, se necessário, clique em **Mostrar transcrição** na descrição.
+1. Abra um vídeo do YouTube no Chrome e, se necessário, clique em **Mostrar transcrição** na descrição. A extensão reconhece tanto o painel clássico quanto o painel novo do YouTube.
 2. Clique no ícone da extensão e em **Importar desta aba**.
 3. A extensão abre o Vídeo em Foco e a análise é iniciada automaticamente.
 

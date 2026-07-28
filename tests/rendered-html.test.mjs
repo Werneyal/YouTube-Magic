@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import test from "node:test";
 import {
   normalizeKnowledgeTerm,
@@ -22,6 +23,18 @@ import {
   VideoServiceError,
 } from "../lib/youtube.ts";
 
+test("extensão reconhece o painel moderno de transcrição do YouTube", () => {
+  const source = readFileSync(
+    new URL("../extension/youtube-content.js", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(source, /ytd-engagement-panel-section-list-renderer/);
+  assert.match(source, /TIMESTAMP_PREFIX_PATTERN/);
+  assert.match(source, /\[role='button'\]/);
+  assert.match(source, /\[role='text'\]/);
+  assert.doesNotThrow(() => new Function(source));
+});
 test("converte entidades HTML presentes na transcrição", () => {
   assert.equal(
     decodeHtmlEntities(

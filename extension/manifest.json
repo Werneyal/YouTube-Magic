@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Vídeo em Foco — Importar transcrição",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Importa a transcrição visível de uma página do YouTube para o Vídeo em Foco local.",
   "permissions": [
     "storage",

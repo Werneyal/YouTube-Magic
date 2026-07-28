@@ -1,28 +1,79 @@
 const TRANSCRIPT_BUTTON_PATTERN = /\b(mostrar|show)\s+(a\s+)?transcri(?:ção|ption)/i;
+const TIMESTAMP_PREFIX_PATTERN = /^(?:(?:\d{1,2}:)?\d{1,2}:\d{2})\s*/;
+const SPOKEN_TIMESTAMP_PATTERN = /^\d+\s+(?:segundo|segundos|minuto|minutos|hora|horas)(?:\s+e\s+\d+\s+(?:segundo|segundos|minuto|minutos|hora|horas))?\s*/i;
 const SEGMENT_SELECTORS = [
   "ytd-transcript-segment-renderer .segment-text",
   "ytd-transcript-segment-renderer [class*='segment-text']",
   "ytd-transcript-segment-renderer yt-formatted-string",
   "ytd-transcript-segment-renderer",
 ];
+const TRANSCRIPT_PANEL_SELECTORS = [
+  "ytd-transcript-renderer",
+  "ytd-transcript-search-panel-renderer",
+  "ytd-engagement-panel-section-list-renderer",
+];
 
 function normaliseText(value) {
   return value.replace(/\s+/g, " ").trim();
 }
 
-function extractSegments() {
+function removeTimestamp(value) {
+  return normaliseText(value)
+    .replace(TIMESTAMP_PREFIX_PATTERN, "")
+    .replace(SPOKEN_TIMESTAMP_PATTERN, "")
+    .trim();
+}
+
+function uniqueSegments(segments) {
+  return Array.from(new Set(segments.filter(Boolean)));
+}
+
+function extractLegacySegments() {
   for (const selector of SEGMENT_SELECTORS) {
     const segments = Array.from(document.querySelectorAll(selector))
-      .map((element) => normaliseText(element.textContent ?? ""))
-      .map((text) => text.replace(/^\d{1,2}:\d{2}(?::\d{2})?\s*/, ""))
-      .filter(Boolean);
+      .map((element) => removeTimestamp(element.textContent ?? ""));
 
-    if (segments.length > 0) {
-      return Array.from(new Set(segments));
-    }
+    if (segments.length > 0) return uniqueSegments(segments);
   }
 
   return [];
+}
+
+function getTranscriptPanels() {
+  const headings = Array.from(
+    document.querySelectorAll("h1, h2, h3, [role='heading']"),
+  ).filter((element) => normaliseText(element.textContent ?? "").toLowerCase() === "transcrição");
+
+  const panels = headings
+    .map((heading) => heading.closest(TRANSCRIPT_PANEL_SELECTORS.join(", ")))
+    .filter(Boolean);
+
+  return Array.from(new Set(panels));
+}
+
+function extractModernSegments() {
+  for (const panel of getTranscriptPanels()) {
+    const segments = Array.from(panel.querySelectorAll("button, [role='button']"))
+      .filter((element) =>
+        TIMESTAMP_PREFIX_PATTERN.test(normaliseText(element.textContent ?? "")),
+      )
+      .map((element) => {
+        const transcriptText = normaliseText(
+          element.querySelector("[role='text']")?.textContent ?? "",
+        );
+
+        return transcriptText || removeTimestamp(element.textContent ?? "");
+      });
+
+    if (segments.length > 0) return uniqueSegments(segments);
+  }
+
+  return [];
+}
+
+function extractSegments() {
+  const legacySegments = extractLegacySegments();
+  return legacySegments.length > 0 ? legacySegments : extractModernSegments();
 }
 
 function findTranscriptButton() {
