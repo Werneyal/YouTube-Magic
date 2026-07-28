@@ -1,6 +1,6 @@
 # Extensão Chrome — Vídeo em Foco
 
-Esta extensão importa a transcrição que o YouTube já disponibiliza na aba atual e a entrega ao app local. Ela não baixa áudio nem tenta acessar legendas pelo servidor do YouTube.
+Esta extensão importa a transcrição que o YouTube já disponibiliza na aba atual e a entrega ao Vídeo em Foco. Ela não baixa áudio nem tenta acessar legendas pelo servidor do YouTube.
 
 ## Instalar no Chrome
 
@@ -11,7 +11,7 @@ Esta extensão importa a transcrição que o YouTube já disponibiliza na aba at
 5. Selecione esta pasta: `extension`.
 6. Fixe a extensão na barra do Chrome, se desejar.
 
-Após uma atualização desta pasta, volte a chrome://extensions e clique no ícone de recarregar da extensão.
+Após uma atualização desta pasta, volte a chrome://extensions e clique no ícone de recarregar da extensão. Em seguida, abra o popup para confirmar o endereço do app antes de importar.
 
 ## Usar
 
@@ -19,7 +19,9 @@ Após uma atualização desta pasta, volte a chrome://extensions e clique no íc
 2. Clique no ícone da extensão e em **Importar desta aba**.
 3. A extensão abre o Vídeo em Foco e a análise é iniciada automaticamente.
 
-O endereço padrão do app é `http://localhost:3000/`. No navegador integrado do Codex, troque-o no popup para `http://127.0.0.1:3000/`.
+Em novas instalações, o endereço padrão é o app publicado: `https://video-em-foco.werneyal.chatgpt.site/`. Assim, os vídeos importados são salvos na coleção da versão publicada. Se a extensão já estava instalada com o localhost configurado, altere o campo no popup uma vez antes de importar.
+
+Para desenvolvimento local, troque o endereço no popup para `http://localhost:3000/`. No navegador integrado do Codex, use `http://127.0.0.1:3000/`. A coleção local é separada da coleção publicada.
 
 ## Privacidade e limites
 

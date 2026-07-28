@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Vídeo em Foco — Importar transcrição",
-  "version": "1.0.3",
-  "description": "Importa a transcrição visível de uma página do YouTube para o Vídeo em Foco local.",
+  "version": "1.0.5",
+  "description": "Importa a transcrição visível de uma página do YouTube para o Vídeo em Foco.",
   "permissions": [
     "storage",
     "tabs",
@@ -29,12 +29,13 @@
     {
       "matches": [
         "http://localhost:3000/*",
-        "http://127.0.0.1:3000/*"
+        "http://127.0.0.1:3000/*",
+        "https://video-em-foco.werneyal.chatgpt.site/*"
       ],
       "js": [
         "app-bridge.js"
       ],
-      "run_at": "document_idle"
+      "run_at": "document_start"
     }
   ],
   "host_permissions": [

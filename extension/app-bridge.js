@@ -25,4 +25,3 @@ function deliverImport() {
 }
 
 window.addEventListener("video-em-foco-ready", deliverImport, { once: true });
-window.setTimeout(deliverImport, 750);

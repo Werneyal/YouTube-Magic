@@ -1,4 +1,6 @@
-const DEFAULT_APP_URL = "http://localhost:3000/";
+const DEFAULT_APP_URL = "https://video-em-foco.werneyal.chatgpt.site/";
+const PUBLISHED_APP_ORIGIN = "https://video-em-foco.werneyal.chatgpt.site";
+const LOCAL_APP_HOSTS = ["localhost", "127.0.0.1"];
 const appUrlInput = document.querySelector("#app-url");
 const importButton = document.querySelector("#import-button");
 const status = document.querySelector("#status");
@@ -10,10 +12,16 @@ function setStatus(message, isError = false) {
 
 function normaliseAppUrl(value) {
   const url = new URL(value);
-  const allowedHosts = ["localhost", "127.0.0.1"];
+  const isLocalApp =
+    url.protocol === "http:" &&
+    LOCAL_APP_HOSTS.includes(url.hostname) &&
+    Boolean(url.port);
+  const isPublishedApp = url.origin === PUBLISHED_APP_ORIGIN;
 
-  if (url.protocol !== "http:" || !allowedHosts.includes(url.hostname) || !url.port) {
-    throw new Error("Use um endereço local, como http://localhost:3000/.");
+  if (!isLocalApp && !isPublishedApp) {
+    throw new Error(
+      "Use https://video-em-foco.werneyal.chatgpt.site/ ou um endereço local, como http://localhost:3000/.",
+    );
   }
 
   return url;
