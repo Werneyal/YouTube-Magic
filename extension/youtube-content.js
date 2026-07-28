@@ -68,7 +68,18 @@ function extractModernSegments() {
     if (segments.length > 0) return uniqueSegments(segments);
   }
 
-  return [];
+  // O layout mais recente do YouTube pode manter a aba "Transcrição" em um
+  // painel separado dos botões que contêm os trechos. Nesse caso, procuramos
+  // os botões com timestamp na página inteira e ignoramos controles curtos,
+  // como a duração do player.
+  return uniqueSegments(
+    Array.from(document.querySelectorAll("button, [role='button']"))
+      .filter((element) =>
+        TIMESTAMP_PREFIX_PATTERN.test(normaliseText(element.textContent ?? "")),
+      )
+      .map((element) => removeTimestamp(element.textContent ?? ""))
+      .filter((segment) => segment.length >= 20),
+  );
 }
 
 function extractSegments() {
